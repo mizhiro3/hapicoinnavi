@@ -15,7 +15,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ホームセンター・園芸・工具"
@@ -358,7 +359,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "日本料理・料亭"
@@ -401,7 +403,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -739,7 +742,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -1233,7 +1237,8 @@
       "sabakaido-wallet",
       "obama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "obama-gift-certificate"
     ],
     "categories": [
       "車・バイク・自転車"
@@ -1577,7 +1582,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "博物館・美術館・映画館"
@@ -1689,7 +1695,8 @@
       "health-points",
       "fukutasu",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -1916,7 +1923,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "スポーツ用品"
@@ -2155,7 +2163,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "ラーメン・中華料理"
@@ -2316,7 +2325,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ラーメン・中華料理"
@@ -2610,7 +2620,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ラーメン・中華料理"
@@ -3100,7 +3111,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -3851,7 +3863,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -4184,7 +4197,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "エステ・マッサージ・ネイル"
@@ -4676,7 +4690,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "スーパー"
@@ -5323,7 +5338,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "ファストフード・喫茶店・カフェ"
@@ -5594,7 +5610,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -5985,7 +6002,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "イタリアン・フレンチ"
@@ -6108,7 +6126,8 @@
       "sabakaido-wallet",
       "obama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "obama-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -6809,7 +6828,8 @@
       "mihama-wallet",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "ファストフード・喫茶店・カフェ"
@@ -7007,7 +7027,8 @@
       "mihama-wallet",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "ファストフード・喫茶店・カフェ"
@@ -7394,7 +7415,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "ファストフード・喫茶店・カフェ"
@@ -7594,7 +7616,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "食料品・飲料"
@@ -8019,7 +8042,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "バック・時計・アクセサリー"
@@ -8280,7 +8304,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "化粧品"
@@ -8352,7 +8377,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "ファストフード・喫茶店・カフェ"
@@ -8837,7 +8863,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -8988,7 +9015,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "菓子・製菓・パン"
@@ -9215,7 +9243,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "エステ・マッサージ・ネイル"
@@ -9599,7 +9628,8 @@
       "sabakaido-wallet",
       "obama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "obama-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -9788,7 +9818,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "車・バイク・自転車"
@@ -10395,7 +10426,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "家電"
@@ -10705,7 +10737,8 @@
       "fukutasu",
       "fukutasu-small",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "ジム・スポーツ施設"
@@ -11111,7 +11144,8 @@
       "fukutasu-small",
       "mihama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -11605,7 +11639,8 @@
       "obama-wallet",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "obama-gift-certificate"
     ],
     "categories": [
       "ジム・スポーツ施設"
@@ -11951,7 +11986,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -12364,7 +12400,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -13165,7 +13202,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "書籍・文房具"
@@ -13278,7 +13316,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -13319,7 +13358,8 @@
       "mihama-wallet",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -13755,7 +13795,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -13795,7 +13836,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -13875,7 +13917,8 @@
       "sabakaido-wallet",
       "obama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "obama-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -14826,7 +14869,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "バック・時計・アクセサリー"
@@ -15248,7 +15292,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -15503,7 +15548,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -15648,7 +15694,8 @@
       "fukutasu-small",
       "mihama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -15685,7 +15732,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "ファストフード・喫茶店・カフェ"
@@ -15724,7 +15772,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -15763,7 +15812,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "ファストフード・喫茶店・カフェ"
@@ -16162,7 +16212,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ジム・スポーツ施設"
@@ -16203,7 +16254,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ジム・スポーツ施設"
@@ -16990,7 +17042,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -17440,7 +17493,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -17521,7 +17575,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "ファストフード・喫茶店・カフェ"
@@ -17559,7 +17614,8 @@
       "fukutasu-small",
       "mihama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "ジム・スポーツ施設"
@@ -17598,7 +17654,8 @@
       "fukutasu-small",
       "mihama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "ファストフード・喫茶店・カフェ"
@@ -17754,7 +17811,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "食料品・飲料"
@@ -18416,7 +18474,8 @@
       "health-points",
       "fukutasu",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "食料品・飲料"
@@ -18731,7 +18790,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ファストフード・喫茶店・カフェ"
@@ -19420,7 +19480,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -19501,7 +19562,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ファストフード・喫茶店・カフェ"
@@ -20197,7 +20259,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -20274,7 +20337,8 @@
       "fukutasu",
       "mihama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "イタリアン・フレンチ"
@@ -20313,7 +20377,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -20430,7 +20495,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -21299,7 +21365,8 @@
       "fukutasu-small",
       "mihama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "カフェバー・バー"
@@ -21371,7 +21438,8 @@
       "fukutasu-small",
       "fukutasu-resto",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "その他外国料理"
@@ -21445,7 +21513,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ファストフード・喫茶店・カフェ"
@@ -21640,7 +21709,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "その他外国料理"
@@ -21797,7 +21867,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "ファストフード・喫茶店・カフェ"
@@ -22419,7 +22490,8 @@
       "mihama-wallet",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "ファストフード・喫茶店・カフェ"
@@ -22654,7 +22726,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "眼鏡"
@@ -23488,7 +23561,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "家電"
@@ -23782,7 +23856,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "書籍・文房具"
@@ -24207,7 +24282,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -24525,7 +24601,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "酒"
@@ -24563,7 +24640,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "家具インテリア"
@@ -24754,7 +24832,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -25178,7 +25257,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "書籍・文房具"
@@ -25297,7 +25377,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ファストフード・喫茶店・カフェ"
@@ -25604,7 +25685,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -25679,7 +25761,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -25800,7 +25883,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -26166,7 +26250,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -26806,7 +26891,8 @@
       "sabakaido-wallet",
       "obama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "obama-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -27780,7 +27866,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "菓子・製菓・パン"
@@ -27931,7 +28018,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -28075,7 +28163,8 @@
       "fukutasu",
       "fukutasu-small",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -28148,7 +28237,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -28184,7 +28274,8 @@
       "health-points",
       "fukutasu",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "ファストフード・喫茶店・カフェ"
@@ -28596,7 +28687,8 @@
       "fukutasu",
       "fukutasu-small",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "医療機関"
@@ -28635,7 +28727,8 @@
       "fukutasu",
       "fukutasu-small",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -28670,7 +28763,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -28932,7 +29026,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "家電"
@@ -28968,7 +29063,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "家電"
@@ -29348,7 +29444,8 @@
       "health-points",
       "fukutasu",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -29388,7 +29485,8 @@
       "sabakaido-wallet",
       "obama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "obama-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -29509,7 +29607,8 @@
       "mihama-wallet",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "居酒屋・ダイニングバー・ビアホール"
@@ -29590,7 +29689,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -30070,7 +30170,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -30384,7 +30485,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "ショッピングセンター"
@@ -30500,7 +30602,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ショッピングセンター"
@@ -30624,7 +30727,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "スーパー"
@@ -31271,7 +31375,8 @@
       "sabakaido-wallet",
       "obama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "obama-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -31312,7 +31417,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -31701,7 +31807,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "車・バイク・自転車"
@@ -32091,7 +32198,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "イタリアン・フレンチ"
@@ -32130,7 +32238,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "イタリアン・フレンチ"
@@ -32206,7 +32315,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "イタリアン・フレンチ"
@@ -32486,7 +32596,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "食肉・鮮魚"
@@ -32526,7 +32637,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "食肉・鮮魚"
@@ -32711,7 +32823,8 @@
       "health-points",
       "fukutasu",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "カツ丼・とんかつ"
@@ -33682,7 +33795,8 @@
       "sabakaido-wallet",
       "obama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "obama-gift-certificate"
     ],
     "categories": [
       "バック・時計・アクセサリー"
@@ -33723,7 +33837,8 @@
       "obama-wallet",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "obama-gift-certificate"
     ],
     "categories": [
       "カラオケ"
@@ -33762,7 +33877,8 @@
       "obama-wallet",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "obama-gift-certificate"
     ],
     "categories": [
       "カラオケ"
@@ -33834,7 +33950,8 @@
       "mihama-wallet",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "イタリアン・フレンチ"
@@ -34017,7 +34134,8 @@
       "fukutasu",
       "mihama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "寿司・天ぷら・うなぎ"
@@ -34264,7 +34382,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "日本料理・料亭"
@@ -34425,7 +34544,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "そば・うどん"
@@ -34577,7 +34697,8 @@
       "fukutasu",
       "mihama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "車・バイク・自転車"
@@ -34723,7 +34844,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "家電"
@@ -35214,7 +35336,8 @@
       "sabakaido-wallet",
       "obama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "obama-gift-certificate"
     ],
     "categories": [
       "エステ・マッサージ・ネイル"
@@ -35288,7 +35411,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "菓子・製菓・パン"
@@ -35330,7 +35454,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "家電"
@@ -35371,7 +35496,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "家電"
@@ -35899,7 +36025,8 @@
       "sabakaido-wallet",
       "obama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "obama-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -36613,7 +36740,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -36730,7 +36858,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "焼鳥・焼肉・ステーキ"
@@ -36766,7 +36895,8 @@
       "fukutasu",
       "fukutasu-small",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "工事・修理"
@@ -36882,7 +37012,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -37035,7 +37166,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -37148,7 +37280,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -37379,7 +37512,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -37494,7 +37628,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "化粧品"
@@ -37651,7 +37786,8 @@
       "obama-wallet",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "obama-gift-certificate"
     ],
     "categories": [
       "居酒屋・ダイニングバー・ビアホール"
@@ -37694,7 +37830,8 @@
       "obama-wallet",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "obama-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -37940,7 +38077,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -38055,7 +38193,8 @@
       "sabakaido-wallet",
       "obama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "obama-gift-certificate"
     ],
     "categories": [
       "玩具・娯楽用品"
@@ -38138,7 +38277,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "化粧品"
@@ -38764,7 +38904,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "菓子・製菓・パン"
@@ -38919,7 +39060,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -39118,7 +39260,8 @@
       "fukutasu-small",
       "fukutasu-resto",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "焼鳥・焼肉・ステーキ"
@@ -39195,7 +39338,8 @@
       "health-points",
       "fukutasu",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -39432,7 +39576,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "そば・うどん"
@@ -39475,7 +39620,8 @@
       "obama-wallet",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "obama-gift-certificate"
     ],
     "categories": [
       "日本料理・料亭"
@@ -39518,7 +39664,8 @@
       "obama-wallet",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "obama-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -39602,7 +39749,8 @@
       "fukutasu",
       "fukutasu-resto",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -39681,7 +39829,8 @@
       "fukutasu-small",
       "mihama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "そば・うどん"
@@ -39954,7 +40103,8 @@
       "sabakaido-wallet",
       "obama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "obama-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -40107,7 +40257,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "居酒屋・ダイニングバー・ビアホール"
@@ -40372,7 +40523,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "エステ・マッサージ・ネイル"
@@ -40410,7 +40562,8 @@
       "childbirth-childcare-supportgifts",
       "fukutasu",
       "fukutasu-small",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "エステ・マッサージ・ネイル"
@@ -41170,7 +41323,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "食料品・飲料"
@@ -41325,7 +41479,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -41445,7 +41600,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "スーパー"
@@ -41602,7 +41758,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -41715,7 +41872,8 @@
       "mihama-wallet",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "旅館・ホテル"
@@ -41960,7 +42118,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "カツ丼・とんかつ"
@@ -42153,7 +42312,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "化粧品"
@@ -42193,7 +42353,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "家電"
@@ -42596,7 +42757,8 @@
       "ikoyo-points",
       "fukutasu",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "食肉・鮮魚"
@@ -42975,7 +43137,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "ファストフード・喫茶店・カフェ"
@@ -43403,7 +43566,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ファストフード・喫茶店・カフェ"
@@ -43868,7 +44032,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "焼鳥・焼肉・ステーキ"
@@ -44107,7 +44272,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ファストフード・喫茶店・カフェ"
@@ -44217,7 +44383,8 @@
       "sabakaido-wallet",
       "obama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "obama-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -44484,7 +44651,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "車・バイク・自転車"
@@ -44522,7 +44690,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "車・バイク・自転車"
@@ -44714,7 +44883,8 @@
       "fukutasu",
       "fukutasu-small",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -45098,7 +45268,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "イタリアン・フレンチ"
@@ -45846,7 +46017,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "ファストフード・喫茶店・カフェ"
@@ -46331,7 +46503,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -46582,7 +46755,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -46740,7 +46914,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -46781,7 +46956,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -46822,7 +46998,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -46984,7 +47161,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -47153,7 +47331,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -47194,7 +47373,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -47276,7 +47456,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -47316,7 +47497,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -47393,7 +47575,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -47434,7 +47617,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -47602,7 +47786,8 @@
       "obama-wallet",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "obama-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -47645,7 +47830,8 @@
       "obama-wallet",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "obama-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -47727,7 +47913,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -47768,7 +47955,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -48095,7 +48283,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -48379,7 +48568,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -48460,7 +48650,8 @@
       "mihama-wallet",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -48695,7 +48886,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -48939,7 +49131,8 @@
       "fukutasu",
       "fukutasu-small",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -49049,7 +49242,8 @@
       "fukutasu",
       "mihama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "菓子・製菓・パン"
@@ -50383,7 +50577,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "食料品・飲料"
@@ -50425,7 +50620,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "食料品・飲料"
@@ -50875,7 +51071,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ファストフード・喫茶店・カフェ"
@@ -50952,7 +51149,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "家電"
@@ -50995,7 +51193,8 @@
       "obama-wallet",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "obama-gift-certificate"
     ],
     "categories": [
       "家電"
@@ -51187,7 +51386,8 @@
       "obama-wallet",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "obama-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -51263,7 +51463,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -51409,7 +51610,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -51588,7 +51790,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -51693,7 +51896,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -51729,7 +51933,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -51765,7 +51970,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -51801,7 +52007,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -51836,7 +52043,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -52051,7 +52259,8 @@
       "obama-wallet",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "obama-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -52087,7 +52296,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -52160,7 +52370,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -52265,7 +52476,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -52301,7 +52513,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -52409,7 +52622,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -52694,7 +52908,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -52770,7 +52985,8 @@
       "obama-wallet",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "obama-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -52878,7 +53094,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -52983,7 +53200,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -53125,7 +53343,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -53161,7 +53380,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -53446,7 +53666,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -53481,7 +53702,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -53589,7 +53811,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -53918,7 +54141,8 @@
       "mihama-wallet",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -53954,7 +54178,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -53991,7 +54216,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -54202,7 +54428,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -54638,7 +54865,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "スーパー"
@@ -54677,7 +54905,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "スーパー"
@@ -54927,7 +55156,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -54971,7 +55201,8 @@
       "obama-wallet",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "obama-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -55133,7 +55364,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -55247,7 +55479,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "化粧品"
@@ -55564,7 +55797,8 @@
       "fukutasu",
       "fukutasu-small",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "家電"
@@ -55828,7 +56062,8 @@
       "fukutasu",
       "fukutasu-small",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "家電"
@@ -56506,7 +56741,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ファストフード・喫茶店・カフェ"
@@ -57238,7 +57474,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "食肉・鮮魚"
@@ -57354,7 +57591,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "交通機関・タクシー"
@@ -57580,7 +57818,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ファストフード・喫茶店・カフェ"
@@ -57734,7 +57973,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "ファストフード・喫茶店・カフェ"
@@ -57809,7 +58049,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "ファストフード・喫茶店・カフェ"
@@ -57957,7 +58198,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "菓子・製菓・パン"
@@ -58515,7 +58757,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "家電"
@@ -58554,7 +58797,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -58596,7 +58840,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -58974,7 +59219,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -59557,7 +59803,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "エステ・マッサージ・ネイル"
@@ -59758,7 +60005,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "焼鳥・焼肉・ステーキ"
@@ -59989,7 +60237,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -60026,7 +60275,8 @@
       "fukutasu",
       "fukutasu-small",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -60065,7 +60315,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -60296,7 +60547,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -60523,7 +60775,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "菓子・製菓・パン"
@@ -60923,7 +61176,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "ホームセンター・園芸・工具"
@@ -61042,7 +61296,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "家電"
@@ -61731,7 +61986,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -61772,7 +62028,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -62047,7 +62304,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -62125,7 +62383,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -62164,7 +62423,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ファストフード・喫茶店・カフェ"
@@ -62275,7 +62535,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "寿司・天ぷら・うなぎ"
@@ -62925,7 +63186,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "スナック・パブ・キャバレー"
@@ -63071,7 +63333,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -63421,7 +63684,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "化粧品"
@@ -63462,7 +63726,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "化粧品"
@@ -63740,7 +64005,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -65232,7 +65498,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "そば・うどん"
@@ -66359,7 +66626,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -66680,7 +66948,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "交通機関・タクシー"
@@ -66873,7 +67142,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -67164,7 +67434,8 @@
       "health-points",
       "fukutasu",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -67432,7 +67703,8 @@
       "fukutasu",
       "fukutasu-small",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -67703,7 +67975,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -67853,7 +68126,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ラーメン・中華料理"
@@ -67891,7 +68165,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -67926,7 +68201,8 @@
       "health-points",
       "fukutasu",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "その他外国料理"
@@ -68393,7 +68669,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -68711,7 +68988,8 @@
       "fukutama-wallet",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ファストフード・喫茶店・カフェ"
@@ -68930,7 +69208,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -69196,7 +69475,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "家電"
@@ -69272,7 +69552,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "家電"
@@ -69655,7 +69936,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -70039,7 +70321,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "居酒屋・ダイニングバー・ビアホール"
@@ -70150,7 +70433,8 @@
       "fukutasu",
       "fukutasu-small",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "食肉・鮮魚"
@@ -70464,7 +70748,8 @@
       "fukutasu",
       "fukutasu-small",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -70540,7 +70825,8 @@
       "fukutasu",
       "fukutasu-small",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -71215,7 +71501,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -71254,7 +71541,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -71337,7 +71625,8 @@
       "obama-wallet",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "obama-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -71378,7 +71667,8 @@
       "obama-wallet",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "obama-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -71417,7 +71707,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -71611,7 +71902,8 @@
       "obama-wallet",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "obama-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -71800,7 +72092,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "イタリアン・フレンチ"
@@ -71873,7 +72166,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "旅客業( 切符・航空券等) ・旅行業"
@@ -71991,7 +72285,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -72110,7 +72405,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -72314,7 +72610,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "居酒屋・ダイニングバー・ビアホール"
@@ -73140,7 +73437,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "レンタリース"
@@ -73176,7 +73474,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "レンタリース"
@@ -73486,7 +73785,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "家具インテリア"
@@ -73639,7 +73939,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "家具インテリア"
@@ -73751,7 +74052,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "家電"
@@ -73939,7 +74241,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "スポーツ用品"
@@ -73979,7 +74282,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "菓子・製菓・パン"
@@ -74134,7 +74438,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -74283,7 +74588,8 @@
       "health-points",
       "fukutasu",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "カフェバー・バー"
@@ -74434,7 +74740,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "スーパー"
@@ -74519,7 +74826,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "スーパー"
@@ -74563,7 +74871,8 @@
       "obama-wallet",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "obama-gift-certificate"
     ],
     "categories": [
       "スーパー"
@@ -74963,7 +75272,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "イタリアン・フレンチ"
@@ -75043,7 +75353,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "焼鳥・焼肉・ステーキ"
@@ -75264,7 +75575,8 @@
       "fukutasu-small",
       "mihama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "食料品・飲料"
@@ -75803,7 +76115,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "菓子・製菓・パン"
@@ -75918,7 +76231,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "家電"
@@ -76157,7 +76471,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "スーパー"
@@ -76197,7 +76512,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "スーパー"
@@ -76237,7 +76553,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "スーパー"
@@ -76276,7 +76593,8 @@
       "ikoyo-points",
       "fukutasu",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "スーパー"
@@ -76905,7 +77223,8 @@
       "sabakaido-wallet",
       "mihama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "ファストフード・喫茶店・カフェ"
@@ -77022,7 +77341,8 @@
       "health-points",
       "fukutasu",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "化粧品"
@@ -77516,7 +77836,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -77697,7 +78018,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "食料品・飲料"
@@ -78048,7 +78370,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "スーパー"
@@ -78279,7 +78602,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "スーパー"
@@ -78318,7 +78642,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "スーパー"
@@ -78357,7 +78682,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "スーパー"
@@ -78476,7 +78802,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "スーパー"
@@ -78745,7 +79072,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "スーパー"
@@ -78860,7 +79188,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "スーパー"
@@ -78943,7 +79272,8 @@
       "sabakaido-wallet",
       "obama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "obama-gift-certificate"
     ],
     "categories": [
       "保育・学習支援"
@@ -79242,7 +79572,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "菓子・製菓・パン"
@@ -79361,7 +79692,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "ショッピングセンター"
@@ -79979,7 +80311,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "スポーツ用品"
@@ -80129,7 +80462,8 @@
       "health-points",
       "fukutasu",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -80204,7 +80538,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -80358,7 +80693,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -80398,7 +80734,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "エステ・マッサージ・ネイル"
@@ -80478,7 +80815,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "食料品・飲料"
@@ -80942,7 +81280,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "菓子・製菓・パン"
@@ -81333,7 +81672,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -81528,7 +81868,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -81693,7 +82034,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -81918,7 +82260,8 @@
       "fukutasu",
       "fukutasu-small",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -81952,7 +82295,8 @@
       "health-points",
       "fukutasu",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "ファストフード・喫茶店・カフェ"
@@ -81987,7 +82331,8 @@
       "fukutasu",
       "fukutasu-resto",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "ラーメン・中華料理"
@@ -82101,7 +82446,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "スポーツ用品"
@@ -82330,7 +82676,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "食料品・飲料"
@@ -82669,7 +83016,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -82874,7 +83222,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "眼鏡"
@@ -83067,7 +83416,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "食料品・飲料"
@@ -83344,7 +83694,8 @@
       "obama-wallet",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "obama-gift-certificate"
     ],
     "categories": [
       "旅館・ホテル"
@@ -83777,7 +84128,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -84556,7 +84908,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -84679,7 +85032,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "旅館・ホテル"
@@ -85192,7 +85546,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "旅館・ホテル"
@@ -85412,7 +85767,8 @@
       "health-points",
       "fukutasu",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "食料品・飲料"
@@ -85451,7 +85807,8 @@
       "obama-wallet",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "obama-gift-certificate"
     ],
     "categories": [
       "スーパー"
@@ -85490,7 +85847,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "食料品・飲料"
@@ -85529,7 +85887,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "食料品・飲料"
@@ -85713,7 +86072,8 @@
       "fukutasu",
       "fukutasu-small",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "スーパー"
@@ -85937,7 +86297,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -86342,7 +86703,8 @@
       "fukutasu",
       "fukutasu-small",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -86642,7 +87004,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -86681,7 +87044,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -86946,7 +87310,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -87548,7 +87913,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -87781,7 +88147,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "ホームセンター・園芸・工具"
@@ -87898,7 +88265,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ホームセンター・園芸・工具"
@@ -87936,7 +88304,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "ホームセンター・園芸・工具"
@@ -88423,7 +88792,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "食料品・飲料"
@@ -88500,7 +88870,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "食料品・飲料"
@@ -88613,7 +88984,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "エステ・マッサージ・ネイル"
@@ -88687,7 +89059,8 @@
       "fukutasu-small",
       "mihama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "エステ・マッサージ・ネイル"
@@ -88761,7 +89134,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -89159,7 +89533,8 @@
       "obama-wallet",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "obama-gift-certificate"
     ],
     "categories": [
       "旅館・ホテル"
@@ -89476,7 +89851,8 @@
       "mihama-wallet",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "日本料理・料亭"
@@ -89713,7 +90089,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "書籍・文房具"
@@ -89864,7 +90241,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -89937,7 +90315,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -90515,7 +90894,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "菓子・製菓・パン"
@@ -91326,7 +91706,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -91486,7 +91867,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -91529,7 +91911,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "食料品・飲料"
@@ -91923,7 +92306,8 @@
       "fukutasu",
       "fukutasu-small",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "化粧品"
@@ -92309,7 +92693,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "日本料理・料亭"
@@ -92422,7 +92807,8 @@
       "fukutasu",
       "fukutasu-small",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "写真"
@@ -92459,7 +92845,8 @@
       "fukutasu",
       "fukutasu-small",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "写真"
@@ -92605,7 +92992,8 @@
       "sabakaido-wallet",
       "obama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "obama-gift-certificate"
     ],
     "categories": [
       "家電"
@@ -92722,7 +93110,8 @@
       "wakasaji-wallet",
       "obama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "obama-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -92994,7 +93383,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ファストフード・喫茶店・カフェ"
@@ -93031,7 +93421,8 @@
       "health-points",
       "fukutasu",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "クリーニング"
@@ -93066,7 +93457,8 @@
       "fukutasu",
       "mihama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "コンビニエンスストア"
@@ -93101,7 +93493,8 @@
       "fukutasu",
       "obama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "obama-gift-certificate"
     ],
     "categories": [
       "コンビニエンスストア"
@@ -93136,7 +93529,8 @@
       "fukutasu",
       "obama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "obama-gift-certificate"
     ],
     "categories": [
       "コンビニエンスストア"
@@ -93331,7 +93725,8 @@
       "mihama-wallet",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "野菜・果実"
@@ -93479,7 +93874,8 @@
       "fukutasu",
       "fukutasu-small",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "日本料理・料亭"
@@ -93594,7 +93990,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "菓子・製菓・パン"
@@ -94065,7 +94462,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "眼鏡"
@@ -94151,7 +94549,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "眼鏡"
@@ -94193,7 +94592,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "眼鏡"
@@ -94236,7 +94636,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "眼鏡"
@@ -94432,7 +94833,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "眼鏡"
@@ -94472,7 +94874,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "眼鏡"
@@ -94596,7 +94999,8 @@
       "obama-wallet",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "obama-gift-certificate"
     ],
     "categories": [
       "眼鏡"
@@ -95181,7 +95585,8 @@
       "fukutasu-small",
       "obama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "obama-gift-certificate"
     ],
     "categories": [
       "ファストフード・喫茶店・カフェ"
@@ -95292,7 +95697,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -95485,7 +95891,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "そば・うどん"
@@ -95993,7 +96400,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "居酒屋・ダイニングバー・ビアホール"
@@ -96067,7 +96475,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "エステ・マッサージ・ネイル"
@@ -96971,7 +97380,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -97121,7 +97531,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "家電"
@@ -97439,7 +97850,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -97593,7 +98005,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "家電"
@@ -97852,7 +98265,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -97890,7 +98304,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -98042,7 +98457,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "野菜・果実"
@@ -98237,7 +98653,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "家電"
@@ -98394,7 +98811,8 @@
       "sabakaido-wallet",
       "obama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "obama-gift-certificate"
     ],
     "categories": [
       "家電"
@@ -98433,7 +98851,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "日本料理・料亭"
@@ -98469,7 +98888,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "そば・うどん"
@@ -98509,7 +98929,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "そば・うどん"
@@ -99593,7 +100014,8 @@
       "health-points",
       "fukutasu",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "食料品・飲料"
@@ -99827,7 +100249,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "酒"
@@ -99998,7 +100421,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "酒"
@@ -100122,7 +100546,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "酒"
@@ -100166,7 +100591,8 @@
       "obama-wallet",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "obama-gift-certificate"
     ],
     "categories": [
       "酒"
@@ -100517,7 +100943,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "カツ丼・とんかつ"
@@ -100557,7 +100984,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "日本料理・料亭"
@@ -100704,7 +101132,8 @@
       "sabakaido-wallet",
       "obama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "obama-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -101075,7 +101504,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "エステ・マッサージ・ネイル"
@@ -101420,7 +101850,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "その他外国料理"
@@ -101625,7 +102056,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -101701,7 +102133,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -101781,7 +102214,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -101856,7 +102290,8 @@
       "fukutasu-small",
       "fukutasu-resto",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "イタリアン・フレンチ"
@@ -101931,7 +102366,8 @@
       "fukutasu",
       "fukutasu-small",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "ラーメン・中華料理"
@@ -102283,7 +102719,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -102399,7 +102836,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -102477,7 +102915,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -102516,7 +102955,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "野菜・果実"
@@ -102710,7 +103150,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -103245,7 +103686,8 @@
       "health-points",
       "fukutasu",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "菓子・製菓・パン"
@@ -103401,7 +103843,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -104362,7 +104805,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -104404,7 +104848,8 @@
       "mihama-wallet",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -104523,7 +104968,8 @@
       "machidigi-bank",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "酒"
@@ -104605,7 +105051,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -104682,7 +105129,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "工事・修理"
@@ -104759,7 +105207,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "酒"
@@ -104800,7 +105249,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "菓子・製菓・パン"
@@ -104913,7 +105363,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -105304,7 +105755,8 @@
       "fukutasu",
       "fukutasu-small",
       "hapibase-wallet",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -105848,7 +106300,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "博物館・美術館・映画館"
@@ -106125,7 +106578,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "そば・うどん"
@@ -106552,7 +107006,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "眼鏡"
@@ -106594,7 +107049,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "そば・うどん"
@@ -106637,7 +107093,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ラーメン・中華料理"
@@ -106677,7 +107134,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "日本料理・料亭"
@@ -106757,7 +107215,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "日本料理・料亭"
@@ -106794,7 +107253,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "菓子・製菓・パン"
@@ -107100,7 +107560,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -107138,7 +107599,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -107218,7 +107680,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -107335,7 +107798,8 @@
       "fukutasu",
       "fukutasu-small",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "博物館・美術館・映画館"
@@ -107413,7 +107877,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "雑貨"
@@ -107456,7 +107921,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "そば・うどん"
@@ -107603,7 +108069,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ホームセンター・園芸・工具"
@@ -108098,7 +108565,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "食料品・飲料"
@@ -108629,7 +109097,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "家電"
@@ -108744,7 +109213,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "食肉・鮮魚"
@@ -109052,7 +109522,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -109286,7 +109757,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "菓子・製菓・パン"
@@ -109324,7 +109796,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "菓子・製菓・パン"
@@ -109402,7 +109875,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -109441,7 +109915,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -109839,7 +110314,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "そば・うどん"
@@ -109952,7 +110428,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "日本料理・料亭"
@@ -109993,7 +110470,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "日本料理・料亭"
@@ -110116,7 +110594,8 @@
       "fukutasu",
       "fukutasu-resto",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "日本料理・料亭"
@@ -110367,7 +110846,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "寿司・天ぷら・うなぎ"
@@ -110532,7 +111012,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "寿司・天ぷら・うなぎ"
@@ -110924,7 +111405,8 @@
       "fukutasu-small",
       "fukutasu-resto",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "日本料理・料亭"
@@ -110961,7 +111443,8 @@
       "fukutasu-small",
       "fukutasu-resto",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "日本料理・料亭"
@@ -111156,7 +111639,8 @@
       "sabakaido-wallet",
       "mihama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "クリーニング"
@@ -111225,7 +111709,8 @@
       "health-points",
       "fukutasu",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "日本料理・料亭"
@@ -111843,7 +112328,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -111989,7 +112475,8 @@
       "fukutasu",
       "mihama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -112451,7 +112938,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -112776,7 +113264,8 @@
       "fukutasu-small",
       "mihama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -112847,7 +113336,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "工事・修理"
@@ -112958,7 +113448,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "工事・修理"
@@ -112994,7 +113485,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "食料品・飲料"
@@ -113030,7 +113522,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -113177,7 +113670,8 @@
       "health-points",
       "fukutasu",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -113506,7 +114000,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "家電"
@@ -113544,7 +114039,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -114015,7 +114511,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "工事・修理"
@@ -114162,7 +114659,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "車・バイク・自転車"
@@ -114269,7 +114767,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "旅客業( 切符・航空券等) ・旅行業"
@@ -114383,7 +114882,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "写真"
@@ -114428,7 +114928,8 @@
       "obama-wallet",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "obama-gift-certificate"
     ],
     "categories": [
       "化粧品"
@@ -114725,7 +115226,8 @@
       "health-points",
       "fukutasu",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "食肉・鮮魚"
@@ -115178,7 +115680,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "家電"
@@ -115329,7 +115832,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "旅客業( 切符・航空券等) ・旅行業"
@@ -115369,7 +115873,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -115548,7 +116053,8 @@
       "sabakaido-wallet",
       "mihama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "車・バイク・自転車"
@@ -115585,7 +116091,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "家具インテリア"
@@ -116030,7 +116537,8 @@
       "fukutasu",
       "fukutasu-small",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "食料品・飲料"
@@ -116070,7 +116578,8 @@
       "fukutasu",
       "fukutasu-small",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -116182,7 +116691,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -116294,7 +116804,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -116333,7 +116844,8 @@
       "sabakaido-wallet",
       "mihama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "工事・修理"
@@ -117159,7 +117671,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ホームセンター・園芸・工具"
@@ -117339,7 +117852,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "家電"
@@ -117377,7 +117891,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -118034,7 +118549,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "酒"
@@ -118110,7 +118626,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "車・バイク・自転車"
@@ -118182,7 +118699,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -118329,7 +118847,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "家電"
@@ -118603,7 +119122,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "菓子・製菓・パン"
@@ -118644,7 +119164,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "食料品・飲料"
@@ -118684,7 +119205,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -119095,7 +119617,8 @@
       "fukutasu",
       "mihama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "旅客業( 切符・航空券等) ・旅行業"
@@ -119402,7 +119925,8 @@
       "sabakaido-wallet",
       "obama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "obama-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -119480,7 +120004,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -119823,7 +120348,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -119861,7 +120387,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "旅館・ホテル"
@@ -119977,7 +120504,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "食料品・飲料"
@@ -120203,7 +120731,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -120274,7 +120803,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "眼鏡"
@@ -120345,7 +120875,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "眼鏡"
@@ -120568,7 +121099,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "食肉・鮮魚"
@@ -120606,7 +121138,8 @@
       "fukutasu-small",
       "mihama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -120677,7 +121210,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "食肉・鮮魚"
@@ -120715,7 +121249,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -121681,7 +122216,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "旅館・ホテル"
@@ -121873,7 +122409,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "食肉・鮮魚"
@@ -121915,7 +122452,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "書籍・文房具"
@@ -122146,7 +122684,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "居酒屋・ダイニングバー・ビアホール"
@@ -122540,7 +123079,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "居酒屋・ダイニングバー・ビアホール"
@@ -122782,7 +123322,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -123065,7 +123606,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "日本料理・料亭"
@@ -123300,7 +123842,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "日本料理・料亭"
@@ -123615,7 +124158,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "食肉・鮮魚"
@@ -123690,7 +124234,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "日本料理・料亭"
@@ -123907,7 +124452,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -123985,7 +124531,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "食料品・飲料"
@@ -124278,7 +124825,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -124507,7 +125055,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "居酒屋・ダイニングバー・ビアホール"
@@ -124584,7 +125133,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "食料品・飲料"
@@ -124814,7 +125364,8 @@
       "obama-wallet",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "obama-gift-certificate"
     ],
     "categories": [
       "居酒屋・ダイニングバー・ビアホール"
@@ -125006,7 +125557,8 @@
       "fukutasu",
       "mihama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "工事・修理"
@@ -125277,7 +125829,8 @@
       "fukutasu",
       "fukutasu-small",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "焼鳥・焼肉・ステーキ"
@@ -125316,7 +125869,8 @@
       "sabakaido-wallet",
       "mihama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -125358,7 +125912,8 @@
       "sabakaido-wallet",
       "mihama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -125521,7 +126076,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "焼鳥・焼肉・ステーキ"
@@ -126116,7 +126672,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "居酒屋・ダイニングバー・ビアホール"
@@ -126308,7 +126865,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ジム・スポーツ施設"
@@ -126713,7 +127271,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -126756,7 +127315,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "菓子・製菓・パン"
@@ -126839,7 +127399,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "ラーメン・中華料理"
@@ -127183,7 +127744,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "菓子・製菓・パン"
@@ -127417,7 +127979,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "食肉・鮮魚"
@@ -127454,7 +128017,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "日本料理・料亭"
@@ -127683,7 +128247,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -127832,7 +128397,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "寿司・天ぷら・うなぎ"
@@ -127868,7 +128434,8 @@
       "health-points",
       "fukutasu",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -127903,7 +128470,8 @@
       "fukutasu",
       "fukutasu-small",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "家電"
@@ -128021,7 +128589,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "眼鏡"
@@ -128298,7 +128867,8 @@
       "fukutasu",
       "fukutasu-small",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "酒"
@@ -128579,7 +129149,8 @@
       "sabakaido-wallet",
       "mihama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "クリーニング"
@@ -128619,7 +129190,8 @@
       "sabakaido-wallet",
       "mihama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "家電"
@@ -128833,7 +129405,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -129356,7 +129929,8 @@
       "sabakaido-wallet",
       "obama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "obama-gift-certificate"
     ],
     "categories": [
       "クリーニング"
@@ -129650,7 +130224,8 @@
       "sabakaido-wallet",
       "obama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "obama-gift-certificate"
     ],
     "categories": [
       "クリーニング"
@@ -130384,7 +130959,8 @@
       "childbirth-childcare-supportgifts",
       "fukutasu",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "クリーニング"
@@ -130826,7 +131402,8 @@
       "sabakaido-wallet",
       "obama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "obama-gift-certificate"
     ],
     "categories": [
       "クリーニング"
@@ -131160,7 +131737,8 @@
       "sabakaido-wallet",
       "mihama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "クリーニング"
@@ -132001,7 +132579,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "酒"
@@ -132080,7 +132659,8 @@
       "health-points",
       "fukutasu",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -132274,7 +132854,8 @@
       "fukutasu",
       "fukutasu-small",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "食料品・飲料"
@@ -132390,7 +132971,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "雑貨"
@@ -132608,7 +133190,8 @@
       "health-points",
       "fukutasu",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -132684,7 +133267,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -132723,7 +133307,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "旅館・ホテル"
@@ -132801,7 +133386,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "旅館・ホテル"
@@ -132882,7 +133468,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -133115,7 +133702,8 @@
       "mihama-wallet",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "酒"
@@ -133192,7 +133780,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "医療サービス"
@@ -133978,7 +134567,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "家電"
@@ -134665,7 +135255,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "焼鳥・焼肉・ステーキ"
@@ -134736,7 +135327,8 @@
       "health-points",
       "fukutasu",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -135083,7 +135675,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "家電"
@@ -135399,7 +135992,8 @@
       "fukutasu",
       "fukutasu-small",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "家具インテリア"
@@ -135757,7 +136351,8 @@
       "obama-wallet",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "obama-gift-certificate"
     ],
     "categories": [
       "野菜・果実"
@@ -136241,7 +136836,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "家電"
@@ -136281,7 +136877,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ラーメン・中華料理"
@@ -136438,7 +137035,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -136510,7 +137108,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -136735,7 +137334,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "酒"
@@ -137116,7 +137716,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "菓子・製菓・パン"
@@ -137238,7 +137839,8 @@
       "obama-wallet",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "obama-gift-certificate"
     ],
     "categories": [
       "寿司・天ぷら・うなぎ"
@@ -137280,7 +137882,8 @@
       "obama-wallet",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "obama-gift-certificate"
     ],
     "categories": [
       "寿司・天ぷら・うなぎ"
@@ -137316,7 +137919,8 @@
       "health-points",
       "fukutasu",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "ファストフード・喫茶店・カフェ"
@@ -137353,7 +137957,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "旅館・ホテル"
@@ -137775,7 +138380,8 @@
       "obama-wallet",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "obama-gift-certificate"
     ],
     "categories": [
       "焼鳥・焼肉・ステーキ"
@@ -137885,7 +138491,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "そば・うどん"
@@ -137969,7 +138576,8 @@
       "obama-wallet",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "obama-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -138123,7 +138731,8 @@
       "fukutasu-small",
       "fukutasu-resto",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -138974,7 +139583,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "食肉・鮮魚"
@@ -139079,7 +139689,8 @@
       "fukutasu",
       "fukutasu-small",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "日本料理・料亭"
@@ -139393,7 +140004,8 @@
       "sabakaido-wallet",
       "mihama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "車・バイク・自転車"
@@ -139513,7 +140125,8 @@
       "sabakaido-wallet",
       "obama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "obama-gift-certificate"
     ],
     "categories": [
       "車・バイク・自転車"
@@ -139798,7 +140411,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "家具インテリア"
@@ -139880,7 +140494,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -140909,7 +141524,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "焼鳥・焼肉・ステーキ"
@@ -141110,7 +141726,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "焼鳥・焼肉・ステーキ"
@@ -141147,7 +141764,8 @@
       "fukutasu",
       "fukutasu-small",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "焼鳥・焼肉・ステーキ"
@@ -141221,7 +141839,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "焼鳥・焼肉・ステーキ"
@@ -141341,7 +141960,8 @@
       "obama-wallet",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "obama-gift-certificate"
     ],
     "categories": [
       "焼鳥・焼肉・ステーキ"
@@ -141382,7 +142002,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "焼鳥・焼肉・ステーキ"
@@ -141768,7 +142389,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "焼鳥・焼肉・ステーキ"
@@ -142511,7 +143133,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -142623,7 +143246,8 @@
       "health-points",
       "fukutasu",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "ショッピングセンター"
@@ -143287,7 +143911,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "スーパー"
@@ -143611,7 +144236,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ファストフード・喫茶店・カフェ"
@@ -143804,7 +144430,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "菓子・製菓・パン"
@@ -143985,7 +144612,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "酒"
@@ -144023,7 +144651,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -144174,7 +144803,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -144257,7 +144887,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -144447,7 +145078,8 @@
       "obama-wallet",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "obama-gift-certificate"
     ],
     "categories": [
       "食料品・飲料"
@@ -144679,7 +145311,8 @@
       "fukutasu-small",
       "mihama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "スーパー"
@@ -144910,7 +145543,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "バック・時計・アクセサリー"
@@ -144987,7 +145621,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -145101,7 +145736,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "酒"
@@ -145136,7 +145772,8 @@
       "kikurin-points",
       "fukutasu",
       "fukutasu-resto",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "日本料理・料亭"
@@ -145415,7 +146052,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "そば・うどん"
@@ -145523,7 +146161,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "菓子・製菓・パン"
@@ -145559,7 +146198,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "菓子・製菓・パン"
@@ -146048,7 +146688,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "クリーニング"
@@ -146162,7 +146803,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "菓子・製菓・パン"
@@ -146202,7 +146844,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "菓子・製菓・パン"
@@ -146316,7 +146959,8 @@
       "fukutasu-small",
       "mihama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "ファストフード・喫茶店・カフェ"
@@ -146394,7 +147038,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "家電"
@@ -146431,7 +147076,8 @@
       "fukutasu",
       "mihama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "菓子・製菓・パン"
@@ -146467,7 +147113,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "家電"
@@ -146548,7 +147195,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "化粧品"
@@ -146664,7 +147312,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "焼鳥・焼肉・ステーキ"
@@ -147024,7 +147673,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -147188,7 +147838,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -148557,7 +149208,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "旅館・ホテル"
@@ -148747,7 +149399,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -149045,7 +149698,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "そば・うどん"
@@ -149237,7 +149891,8 @@
       "fukutasu",
       "fukutasu-resto",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "日本料理・料亭"
@@ -149277,7 +149932,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -149508,7 +150164,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "そば・うどん"
@@ -149904,7 +150561,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ラーメン・中華料理"
@@ -150103,7 +150761,8 @@
       "fukutasu",
       "fukutasu-small",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "食肉・鮮魚"
@@ -150138,7 +150797,8 @@
       "fukutasu",
       "mihama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -150215,7 +150875,8 @@
       "fukutasu-small",
       "mihama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "保育・学習支援"
@@ -150401,7 +151062,8 @@
       "fukutasu",
       "fukutasu-small",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "食料品・飲料"
@@ -150686,7 +151348,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "焼鳥・焼肉・ステーキ"
@@ -150916,7 +151579,8 @@
       "fukutasu",
       "fukutasu-resto",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "日本料理・料亭"
@@ -151122,7 +151786,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -151429,7 +152094,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "焼鳥・焼肉・ステーキ"
@@ -151696,7 +152362,8 @@
       "health-points",
       "fukutasu",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -151994,7 +152661,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ラーメン・中華料理"
@@ -152035,7 +152703,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ラーメン・中華料理"
@@ -152154,7 +152823,8 @@
       "sabakaido-wallet",
       "mihama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "菓子・製菓・パン"
@@ -152191,7 +152861,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -152572,7 +153243,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "家電"
@@ -152726,7 +153398,8 @@
       "health-points",
       "fukutasu",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "交通機関・タクシー"
@@ -152763,7 +153436,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "菓子・製菓・パン"
@@ -152875,7 +153549,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "エステ・マッサージ・ネイル"
@@ -153069,7 +153744,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -153178,7 +153854,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "家具インテリア"
@@ -153460,7 +154137,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -153499,7 +154177,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "スーパー"
@@ -153536,7 +154215,8 @@
       "fukutasu",
       "mihama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "工事・修理"
@@ -153571,7 +154251,8 @@
       "fukutasu",
       "fukutasu-small",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -154559,7 +155240,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "不動産"
@@ -154777,7 +155459,8 @@
       "fukutasu",
       "fukutasu-small",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "そば・うどん"
@@ -154857,7 +155540,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "家電"
@@ -155239,7 +155923,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "食肉・鮮魚"
@@ -155275,7 +155960,8 @@
       "fukutasu-small",
       "mihama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "工事・修理"
@@ -155542,7 +156228,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "ファストフード・喫茶店・カフェ"
@@ -155580,7 +156267,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "観光施設"
@@ -155618,7 +156306,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "旅館・ホテル"
@@ -155822,7 +156511,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "車・バイク・自転車"
@@ -155862,7 +156552,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "車・バイク・自転車"
@@ -155904,7 +156595,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "車・バイク・自転車"
@@ -155946,7 +156638,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "車・バイク・自転車"
@@ -156318,7 +157011,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -156663,7 +157357,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "食肉・鮮魚"
@@ -156871,7 +157566,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "食料品・飲料"
@@ -156954,7 +157650,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -156992,7 +157689,8 @@
       "ikoyo-points",
       "fukutasu",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -157920,7 +158618,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "居酒屋・ダイニングバー・ビアホール"
@@ -158039,7 +158738,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -158112,7 +158812,8 @@
       "fukutasu",
       "fukutasu-small",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -158149,7 +158850,8 @@
       "fukutasu",
       "obama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "obama-gift-certificate"
     ],
     "categories": [
       "その他外国料理"
@@ -158381,7 +159083,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "食肉・鮮魚"
@@ -158424,7 +159127,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "食肉・鮮魚"
@@ -158497,7 +159201,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "食肉・鮮魚"
@@ -158952,7 +159657,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "日本料理・料亭"
@@ -158991,7 +159697,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "日本料理・料亭"
@@ -159067,7 +159774,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "エステ・マッサージ・ネイル"
@@ -159332,7 +160040,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -159412,7 +160121,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "野菜・果実"
@@ -160270,7 +160980,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -160345,7 +161056,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -160653,7 +161365,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "エステ・マッサージ・ネイル"
@@ -160690,7 +161403,8 @@
       "fukutasu",
       "mihama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -160770,7 +161484,8 @@
       "sabakaido-wallet",
       "mihama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "カツ丼・とんかつ"
@@ -161045,7 +161760,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -161118,7 +161834,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -161312,7 +162029,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -161426,7 +162144,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -161541,7 +162260,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -161769,7 +162489,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -161807,7 +162528,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -161842,7 +162564,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -162032,7 +162755,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -162114,7 +162838,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -162345,7 +163070,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -162492,7 +163218,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -162644,7 +163371,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -162682,7 +163410,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -163076,7 +163805,8 @@
       "fukutama-wallet",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -163230,7 +163960,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -163685,7 +164416,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "医療サービス"
@@ -163796,7 +164528,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "野菜・果実"
@@ -164408,7 +165141,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "寿司・天ぷら・うなぎ"
@@ -164561,7 +165295,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "スポーツ用品"
@@ -164983,7 +165718,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "家具インテリア"
@@ -165694,7 +166430,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "博物館・美術館・映画館"
@@ -166403,7 +167140,8 @@
       "health-points",
       "fukutasu",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -166873,7 +167611,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -167411,7 +168150,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "菓子・製菓・パン"
@@ -167649,7 +168389,8 @@
       "health-points",
       "fukutasu",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -167769,7 +168510,8 @@
       "obama-wallet",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "obama-gift-certificate"
     ],
     "categories": [
       "日本料理・料亭"
@@ -168530,7 +169272,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "酒"
@@ -168614,7 +169357,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "菓子・製菓・パン"
@@ -168734,7 +169478,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -168774,7 +169519,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "日本料理・料亭"
@@ -168817,7 +169563,8 @@
       "mihama-wallet",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "寿司・天ぷら・うなぎ"
@@ -169262,7 +170009,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ファストフード・喫茶店・カフェ"
@@ -169684,7 +170432,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "旅館・ホテル"
@@ -169839,7 +170588,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "旅館・ホテル"
@@ -170190,7 +170940,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ファストフード・喫茶店・カフェ"
@@ -170501,7 +171252,8 @@
       "health-points",
       "fukutasu",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -170839,7 +171591,8 @@
       "sabakaido-wallet",
       "mihama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "家電"
@@ -171493,7 +172246,8 @@
       "fukutasu-small",
       "fukutasu-resto",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "ファストフード・喫茶店・カフェ"
@@ -171531,7 +172285,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "工事・修理"
@@ -171826,7 +172581,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "家電"
@@ -172132,7 +172888,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -172206,7 +172963,8 @@
       "health-points",
       "fukutasu",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -172314,7 +173072,8 @@
       "sabakaido-wallet",
       "mihama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "交通機関・タクシー"
@@ -172429,7 +173188,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -172660,7 +173420,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "バック・時計・アクセサリー"
@@ -173186,7 +173947,8 @@
       "fukutasu",
       "fukutasu-small",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "工事・修理"
@@ -173259,7 +174021,8 @@
       "fukutasu-small",
       "mihama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -173296,7 +174059,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "家電"
@@ -173977,7 +174741,8 @@
       "mihama-wallet",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -174090,7 +174855,8 @@
       "fukutasu",
       "mihama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "菓子・製菓・パン"
@@ -174913,7 +175679,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -175025,7 +175792,8 @@
       "sabakaido-wallet",
       "mihama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -175356,7 +176124,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "寿司・天ぷら・うなぎ"
@@ -175468,7 +176237,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -175844,7 +176614,8 @@
       "fukutasu",
       "fukutasu-small",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -176328,7 +177099,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -176405,7 +177177,8 @@
       "fukutasu-small",
       "mihama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -176479,7 +177252,8 @@
       "fukutasu",
       "mihama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -176814,7 +177588,8 @@
       "fukutasu",
       "fukutasu-small",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "家電"
@@ -176853,7 +177628,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -176892,7 +177668,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ドラッグストア"
@@ -177120,7 +177897,8 @@
       "fukutasu-small",
       "mihama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "書籍・文房具"
@@ -177583,7 +178361,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "食料品・飲料"
@@ -177734,7 +178513,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "寿司・天ぷら・うなぎ"
@@ -177928,7 +178708,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -177967,7 +178748,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "衣服・靴"
@@ -178390,7 +179172,8 @@
       "sabakaido-wallet",
       "obama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "obama-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -178428,7 +179211,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -178613,7 +179397,8 @@
       "health-points",
       "fukutasu",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -178653,7 +179438,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -178803,7 +179589,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -178879,7 +179666,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -178915,7 +179703,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "理容・美容"
@@ -179110,7 +179899,8 @@
       "sabakaido-wallet",
       "mihama-wallet",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "mihama-gift-certificate"
     ],
     "categories": [
       "旅館・ホテル"
@@ -179182,7 +179972,8 @@
       "fukutasu",
       "fukutasu-resto",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "日本料理・料亭"
@@ -179479,7 +180270,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "日本料理・料亭"
@@ -179585,7 +180377,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "旅館・ホテル"
@@ -179669,7 +180462,8 @@
       "obama-wallet",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "obama-gift-certificate"
     ],
     "categories": [
       "旅館・ホテル"
@@ -179784,7 +180578,8 @@
       "ikoyo-points",
       "fukutasu",
       "hapibase-wallet",
-      "machidigi-share"
+      "machidigi-share",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "観光施設"
@@ -179979,7 +180774,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "車・バイク・自転車"
@@ -180017,7 +180813,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "家電"
@@ -180088,7 +180885,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "書籍・文房具"
@@ -180205,7 +181003,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "iitoko-horidakusan"
+      "iitoko-horidakusan",
+      "echizentown-gift-certificate"
     ],
     "categories": [
       "銭湯"
@@ -180468,7 +181267,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "日本料理・料亭"
@@ -180586,7 +181386,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "居酒屋・ダイニングバー・ビアホール"
@@ -180794,7 +181595,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "その他"
@@ -180834,7 +181636,8 @@
       "fukutasu-small",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "雑貨"
@@ -181193,7 +181996,8 @@
       "hapibase-wallet",
       "machidigi-share",
       "iitoko-horidakusan",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "日本料理・料亭"
@@ -181591,7 +182395,8 @@
       "fukutasu-resto",
       "hapibase-wallet",
       "machidigi-share",
-      "echizencity-wallet"
+      "echizencity-wallet",
+      "echizencity-gift-certificate"
     ],
     "categories": [
       "ファストフード・喫茶店・カフェ"
@@ -181946,7 +182751,8 @@
       "fukutasu",
       "hapibase-wallet",
       "machidigi-share",
-      "sakai-wallet"
+      "sakai-wallet",
+      "sakai-gift-certificate"
     ],
     "categories": [
       "寿司・天ぷら・うなぎ"

@@ -129,7 +129,13 @@ const dom = typeof document === "undefined" ? null : {
   coinError: document.querySelector("#coin-error"),
   homeButton: document.querySelector("#home-button"),
   changeCoin: document.querySelector("#change-coin"),
+  stickyChangeCoin: document.querySelector("#sticky-change-coin"),
+  stickySearchBar: document.querySelector(".sticky-search-bar"),
+  stickySearchSentinel: document.querySelector("#sticky-search-sentinel"),
   selectedCoinIcon: document.querySelector("#selected-coin-icon"),
+  stickyCoinIcon: document.querySelector("#sticky-coin-icon"),
+  stickyCoinName: document.querySelector("#sticky-coin-name"),
+  selectedKindLabel: document.querySelector("#selected-kind-label"),
   storeHeading: document.querySelector("#store-heading"),
   storeDescription: document.querySelector("#store-description"),
   keyword: document.querySelector("#keyword"),
@@ -220,7 +226,14 @@ function addressText(address) {
 
 function renderCoins() {
   dom.coinGrid.replaceChildren();
-  for (const coin of state.coins.filter((item) => item.published)) {
+  const publishedCoins = state.coins.filter((item) => item.published);
+  for (const [kind, label] of [["digital", "サイフ・ポイント"], ["paper", "紙商品券"]]) {
+    const groupCoins = publishedCoins.filter(
+      (coin) => (coin.kind ?? "digital") === kind
+    );
+    if (groupCoins.length === 0) continue;
+    dom.coinGrid.append(safeTextElement("h2", "coin-group-title", label));
+    for (const coin of groupCoins) {
     const button = document.createElement("button");
     button.className = "coin-tile";
     button.type = "button";
@@ -237,6 +250,7 @@ function renderCoins() {
     button.lastElementChild.setAttribute("aria-hidden", "true");
     button.addEventListener("click", () => selectCoin(coin.id));
     dom.coinGrid.append(button);
+    }
   }
 }
 
@@ -402,7 +416,12 @@ function selectCoin(coinId) {
   state.category = "all";
   state.keyword = "";
   dom.keyword.value = "";
+  dom.stickySearchBar.classList.remove("is-stuck");
   dom.selectedCoinIcon.replaceChildren(coinIcon(coin, "selected-coin-image", ""));
+  dom.stickyCoinIcon.replaceChildren(coinIcon(coin, "sticky-coin-image", ""));
+  dom.stickyCoinName.textContent = coin.name;
+  dom.selectedKindLabel.textContent =
+    coin.kind === "paper" ? "選択中の紙商品券" : "選択中のコイン";
   dom.storeHeading.textContent = coin.name;
   dom.storeDescription.textContent = coin.description;
   dom.coinView.hidden = true;
@@ -417,6 +436,7 @@ function selectCoin(coinId) {
 
 function showCoinSelection() {
   state.coinId = null;
+  dom.stickySearchBar.classList.remove("is-stuck");
   dom.coinView.hidden = false;
   dom.storeView.hidden = true;
   dom.categoryNav.hidden = true;
@@ -467,6 +487,18 @@ function requestLocation() {
   );
 }
 
+function observeStickySearchBar() {
+  if (!("IntersectionObserver" in window)) return;
+  const observer = new IntersectionObserver(
+    ([entry]) => {
+      const stuck = !entry.isIntersecting && entry.boundingClientRect.top < 0;
+      dom.stickySearchBar.classList.toggle("is-stuck", stuck && Boolean(state.coinId));
+    },
+    { threshold: 0, rootMargin: "-8px 0px 0px" }
+  );
+  observer.observe(dom.stickySearchSentinel);
+}
+
 async function loadData() {
   try {
     const [coinResponse, storeResponse] = await Promise.all([
@@ -490,8 +522,10 @@ async function loadData() {
 
 if (dom) {
   renderStaticIcons();
+  observeStickySearchBar();
   dom.homeButton.addEventListener("click", showCoinSelection);
   dom.changeCoin.addEventListener("click", showCoinSelection);
+  dom.stickyChangeCoin.addEventListener("click", showCoinSelection);
   dom.keyword.addEventListener("input", (event) => {
     state.keyword = event.currentTarget.value;
     renderStores();

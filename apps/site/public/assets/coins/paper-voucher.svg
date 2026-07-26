@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title">
+  <title id="title">紙商品券</title>
+  <rect width="160" height="160" rx="28" fill="#fff7df"/>
+  <path d="M28 48a8 8 0 0 1 8-8h88a8 8 0 0 1 8 8v17a16 16 0 0 0 0 30v17a8 8 0 0 1-8 8H36a8 8 0 0 1-8-8V95a16 16 0 0 0 0-30V48Z" fill="#eda500"/>
+  <path d="M80 49v62" stroke="#fff7df" stroke-width="5" stroke-linecap="round" stroke-dasharray="5 9"/>
+  <path d="M48 73h20M48 87h14M92 70h20M92 84h20M92 98h14" stroke="#fff" stroke-width="6" stroke-linecap="round"/>
+</svg>

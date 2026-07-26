@@ -30,9 +30,9 @@
       <section id="coin-view" class="view hero" aria-labelledby="coin-heading" tabindex="-1">
         <div class="hero-copy">
           <p class="eyebrow">どのコインで探しますか？</p>
-          <h1 id="coin-heading">使いたいコインを<br />選んでください</h1>
+          <h1 id="coin-heading">使いたいコイン・商品券を<br />選んでください</h1>
           <p>
-            コインを選ぶと、利用できるお店をすぐに確認できます。
+            コインまたは紙商品券を選ぶと、利用できるお店をすぐに確認できます。
             このサイトのデータは端末上で検索します。
           </p>
         </div>
@@ -52,15 +52,30 @@
             <span data-icon="arrow-left" aria-hidden="true"></span>
             コインを選び直す
           </button>
-          <p class="eyebrow">選択中のコイン</p>
+          <p id="selected-kind-label" class="eyebrow">選択中のコイン</p>
           <div class="selected-coin-title">
             <span id="selected-coin-icon"></span>
             <h1 id="store-heading"></h1>
           </div>
           <p id="store-description" class="store-description"></p>
+        </div>
 
+        <span id="sticky-search-sentinel" class="sticky-search-sentinel" aria-hidden="true"></span>
+        <div class="sticky-search-bar" aria-label="現在の検索条件">
+          <button
+            id="sticky-change-coin"
+            class="sticky-coin-button"
+            type="button"
+            aria-label="コインを選び直す"
+          >
+            <span id="sticky-coin-icon"></span>
+            <span class="sticky-coin-text">
+              <small>選択中</small>
+              <strong id="sticky-coin-name"></strong>
+            </span>
+          </button>
           <div class="search-box">
-            <label for="keyword">店名・住所から探す</label>
+            <label class="visually-hidden" for="keyword">店名・住所から探す</label>
             <div class="search-input">
               <span data-icon="search" aria-hidden="true"></span>
               <input
