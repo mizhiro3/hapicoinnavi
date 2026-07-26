@@ -6,6 +6,7 @@ import {
   formatDisplayText,
   formatDistance,
   normalizeText,
+  shouldShowStickyCoin,
   storeMatchesCategory
 } from "../public/app.js";
 
@@ -100,4 +101,23 @@ test("calculates and formats approximate great-circle distance", () => {
   assert.ok(distance > 0.1 && distance < 0.2);
   assert.match(formatDistance(distance), /^約\d+m$/);
   assert.equal(formatDistance(1.24), "約1.2km");
+});
+
+test("shows the selected coin only when the search bar is stuck", () => {
+  assert.equal(
+    shouldShowStickyCoin({ sentinelTop: -1, hasCoin: true, storeViewHidden: false }),
+    true
+  );
+  assert.equal(
+    shouldShowStickyCoin({ sentinelTop: 8, hasCoin: true, storeViewHidden: false }),
+    false
+  );
+  assert.equal(
+    shouldShowStickyCoin({ sentinelTop: -1, hasCoin: false, storeViewHidden: false }),
+    false
+  );
+  assert.equal(
+    shouldShowStickyCoin({ sentinelTop: -1, hasCoin: true, storeViewHidden: true }),
+    false
+  );
 });

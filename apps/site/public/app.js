@@ -86,6 +86,10 @@ export function formatDistance(distance) {
   return `約${distance.toFixed(distance < 10 ? 1 : 0)}km`;
 }
 
+export function shouldShowStickyCoin({ sentinelTop, hasCoin, storeViewHidden }) {
+  return !storeViewHidden && hasCoin && sentinelTop < 8;
+}
+
 export function storeMatchesCategory(store, category) {
   if (category === "all") return true;
   if (category.startsWith("category:")) {
@@ -200,13 +204,13 @@ function renderStaticIcons() {
   }
 }
 
-function coinIcon(coin, className, altText = coin.name) {
+function coinIcon(coin, className, altText = coin.name, loading = "lazy") {
   const wrapper = document.createElement("span");
   wrapper.className = className;
   const image = document.createElement("img");
   image.src = coin.logo;
   image.alt = altText;
-  image.loading = "lazy";
+  image.loading = loading;
   const fallback = safeTextElement("span", "coin-icon-fallback", coin.name.slice(0, 1));
   fallback.setAttribute("aria-hidden", "true");
   fallback.hidden = true;
@@ -418,7 +422,7 @@ function selectCoin(coinId) {
   dom.keyword.value = "";
   dom.stickySearchBar.classList.remove("is-stuck");
   dom.selectedCoinIcon.replaceChildren(coinIcon(coin, "selected-coin-image", ""));
-  dom.stickyCoinIcon.replaceChildren(coinIcon(coin, "sticky-coin-image", ""));
+  dom.stickyCoinIcon.replaceChildren(coinIcon(coin, "sticky-coin-image", "", "eager"));
   dom.stickyCoinName.textContent = coin.name;
   dom.selectedKindLabel.textContent =
     coin.kind === "paper" ? "選択中の紙商品券" : "選択中のコイン";
@@ -432,6 +436,7 @@ function selectCoin(coinId) {
   window.history.replaceState(null, "", `#coin=${encodeURIComponent(coin.id)}`);
   dom.storeView.focus?.();
   window.scrollTo({ top: 0 });
+  scheduleStickySearchSync();
 }
 
 function showCoinSelection() {
@@ -443,6 +448,25 @@ function showCoinSelection() {
   window.history.replaceState(null, "", window.location.pathname + window.location.search);
   window.scrollTo({ top: 0 });
   dom.coinView.focus();
+}
+
+function syncStickySearchBar() {
+  const isStuck = shouldShowStickyCoin({
+    sentinelTop: dom.stickySearchSentinel.getBoundingClientRect().top,
+    hasCoin: Boolean(state.coinId),
+    storeViewHidden: dom.storeView.hidden
+  });
+  dom.stickySearchBar.classList.toggle("is-stuck", isStuck);
+}
+
+let stickySyncFrame = null;
+
+function scheduleStickySearchSync() {
+  if (stickySyncFrame !== null) return;
+  stickySyncFrame = window.requestAnimationFrame(() => {
+    stickySyncFrame = null;
+    syncStickySearchBar();
+  });
 }
 
 function updateLocationStatus(title, message, buttonLabel, disabled = false) {
@@ -488,15 +512,16 @@ function requestLocation() {
 }
 
 function observeStickySearchBar() {
-  if (!("IntersectionObserver" in window)) return;
-  const observer = new IntersectionObserver(
-    ([entry]) => {
-      const stuck = !entry.isIntersecting && entry.boundingClientRect.top < 0;
-      dom.stickySearchBar.classList.toggle("is-stuck", stuck && Boolean(state.coinId));
-    },
-    { threshold: 0, rootMargin: "-8px 0px 0px" }
-  );
-  observer.observe(dom.stickySearchSentinel);
+  window.addEventListener("scroll", scheduleStickySearchSync, { passive: true });
+  window.addEventListener("resize", scheduleStickySearchSync);
+  window.addEventListener("pageshow", scheduleStickySearchSync);
+  if ("IntersectionObserver" in window) {
+    const observer = new IntersectionObserver(scheduleStickySearchSync, {
+      threshold: 0,
+      rootMargin: "-8px 0px 0px"
+    });
+    observer.observe(dom.stickySearchSentinel);
+  }
 }
 
 async function loadData() {
