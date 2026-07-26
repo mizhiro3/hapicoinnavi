@@ -1086,9 +1086,12 @@ body {
 }
 
 .hero h1 {
-  max-width: none;
+  max-width: 16ch;
   margin-bottom: 1rem;
-  font-size: clamp(1rem, 5.2vw, 3.6rem);
+  font-size: clamp(2.2rem, 7vw, 4.2rem);
+}
+
+.heading-line {
   white-space: nowrap;
 }
 
@@ -1288,7 +1291,7 @@ body {
   }
 
   .hero h1 {
-    font-size: clamp(1rem, 5.2vw, 3.6rem);
+    font-size: clamp(1.35rem, 7vw, 3.25rem);
   }
 
   .coin-grid {
