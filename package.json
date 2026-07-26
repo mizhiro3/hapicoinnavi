@@ -1,0 +1,19 @@
+{
+  "name": "hapicoinnavi",
+  "private": true,
+  "version": "0.0.0",
+  "workspaces": [
+    "apps/*",
+    "tools/*"
+  ],
+  "scripts": {
+    "build:data": "npm run build --workspace=@hapicoinnavi/data-builder",
+    "crawl:stores": "npm run crawl:stores --workspace=@hapicoinnavi/data-builder --",
+    "import:coins": "npm run import:coins --workspace=@hapicoinnavi/data-builder",
+    "validate:data": "npm run validate --workspace=@hapicoinnavi/data-builder",
+    "test": "npm run test --workspaces --if-present"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

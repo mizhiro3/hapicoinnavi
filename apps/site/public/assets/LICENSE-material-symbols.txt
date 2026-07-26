@@ -1,0 +1,10 @@
+Material Symbols
+Copyright Google LLC
+
+Source: https://fonts.google.com/icons
+Documentation: https://developers.google.com/fonts/docs/material_symbols
+License: Apache License 2.0
+https://www.apache.org/licenses/LICENSE-2.0
+
+The bundled font is a Google Fonts subset containing only the icon ligatures
+used by this application.
