@@ -973,13 +973,22 @@ h2 {
   }
 
   .store-card {
-    grid-template-columns: 1fr;
+    position: relative;
+    grid-template-columns: minmax(0, 1fr);
     padding: 1rem;
   }
 
+  .store-card .category-tags {
+    min-height: 2rem;
+    padding-right: 5.5rem;
+  }
+
   .distance {
-    grid-row: 1;
-    text-align: left;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    min-width: 0;
+    text-align: right;
   }
 
   .category-button {
@@ -1077,9 +1086,10 @@ body {
 }
 
 .hero h1 {
-  max-width: 16ch;
+  max-width: none;
   margin-bottom: 1rem;
-  font-size: clamp(2.2rem, 7vw, 4.2rem);
+  font-size: clamp(1rem, 5.2vw, 3.6rem);
+  white-space: nowrap;
 }
 
 .eyebrow {
@@ -1278,7 +1288,7 @@ body {
   }
 
   .hero h1 {
-    font-size: clamp(2rem, 11vw, 3.25rem);
+    font-size: clamp(1rem, 5.2vw, 3.6rem);
   }
 
   .coin-grid {
