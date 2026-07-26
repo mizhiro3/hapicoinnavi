@@ -67,6 +67,14 @@ test("filters by broad menu groups and detailed source categories", () => {
     storeMatchesCategory(stores[0], "category:ドラッグストア"),
     false
   );
+  assert.equal(
+    storeMatchesCategory({ categories: ["ショッピングセンター"] }, "group:grocery"),
+    true
+  );
+  assert.equal(
+    storeMatchesCategory({ categories: ["ショッピングセンター"] }, "group:shopping"),
+    true
+  );
 });
 
 test("keeps source order without a position and sorts by distance with one", () => {
