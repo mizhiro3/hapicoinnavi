@@ -90,6 +90,10 @@ export function shouldShowStickyCoin({ sentinelTop, hasCoin, storeViewHidden }) 
   return !storeViewHidden && hasCoin && sentinelTop < 8;
 }
 
+export function shouldShowPageTop({ scrollY, hasCoin, storeViewHidden }) {
+  return !storeViewHidden && hasCoin && scrollY > 400;
+}
+
 export function storeMatchesCategory(store, category) {
   if (category === "all") return true;
   if (category.startsWith("category:")) {
@@ -152,6 +156,7 @@ const dom = typeof document === "undefined" ? null : {
   resultList: document.querySelector("#result-list"),
   emptyState: document.querySelector("#empty-state"),
   resetFilters: document.querySelector("#reset-filters"),
+  pageTop: document.querySelector("#page-top"),
   categoryNav: document.querySelector("#category-nav"),
   categoryMenu: document.querySelector("#category-menu"),
   categoryDialog: document.querySelector("#category-dialog"),
@@ -238,22 +243,18 @@ function renderCoins() {
     if (groupCoins.length === 0) continue;
     dom.coinGrid.append(safeTextElement("h2", "coin-group-title", label));
     for (const coin of groupCoins) {
-    const button = document.createElement("button");
-    button.className = "coin-tile";
-    button.type = "button";
-    button.dataset.coinId = coin.id;
-    button.setAttribute("aria-label", `${coin.name}でお店を探す。${coin.description}`);
+      const button = document.createElement("button");
+      button.className = "coin-tile coin-tile--compact";
+      button.type = "button";
+      button.dataset.coinId = coin.id;
+      button.setAttribute("aria-label", `${coin.name}でお店を探す`);
 
-    const symbol = coinIcon(coin, "coin-symbol");
-    button.append(
-      symbol,
-      safeTextElement("strong", "", coin.name),
-      safeTextElement("small", "", coin.description),
-      createIcon("chevron-right", "arrow")
-    );
-    button.lastElementChild.setAttribute("aria-hidden", "true");
-    button.addEventListener("click", () => selectCoin(coin.id));
-    dom.coinGrid.append(button);
+      const symbol = coinIcon(coin, "coin-symbol");
+      button.append(symbol, safeTextElement("strong", "", coin.name));
+      button.append(createIcon("chevron-right", "arrow"));
+      button.lastElementChild.setAttribute("aria-hidden", "true");
+      button.addEventListener("click", () => selectCoin(coin.id));
+      dom.coinGrid.append(button);
     }
   }
 }
@@ -442,6 +443,7 @@ function selectCoin(coinId) {
 function showCoinSelection() {
   state.coinId = null;
   dom.stickySearchBar.classList.remove("is-stuck");
+  dom.pageTop.hidden = true;
   dom.coinView.hidden = false;
   dom.storeView.hidden = true;
   dom.categoryNav.hidden = true;
@@ -457,6 +459,11 @@ function syncStickySearchBar() {
     storeViewHidden: dom.storeView.hidden
   });
   dom.stickySearchBar.classList.toggle("is-stuck", isStuck);
+  dom.pageTop.hidden = !shouldShowPageTop({
+    scrollY: window.scrollY,
+    hasCoin: Boolean(state.coinId),
+    storeViewHidden: dom.storeView.hidden
+  });
 }
 
 let stickySyncFrame = null;
@@ -551,6 +558,12 @@ if (dom) {
   dom.homeButton.addEventListener("click", showCoinSelection);
   dom.changeCoin.addEventListener("click", showCoinSelection);
   dom.stickyChangeCoin.addEventListener("click", showCoinSelection);
+  dom.pageTop.addEventListener("click", () => {
+    const behavior = window.matchMedia("(prefers-reduced-motion: reduce)").matches
+      ? "auto"
+      : "smooth";
+    window.scrollTo({ top: 0, behavior });
+  });
   dom.keyword.addEventListener("input", (event) => {
     state.keyword = event.currentTarget.value;
     renderStores();

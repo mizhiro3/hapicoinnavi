@@ -6,6 +6,7 @@ import {
   formatDisplayText,
   formatDistance,
   normalizeText,
+  shouldShowPageTop,
   shouldShowStickyCoin,
   storeMatchesCategory
 } from "../public/app.js";
@@ -118,6 +119,25 @@ test("shows the selected coin only when the search bar is stuck", () => {
   );
   assert.equal(
     shouldShowStickyCoin({ sentinelTop: -1, hasCoin: true, storeViewHidden: true }),
+    false
+  );
+});
+
+test("shows the page-top control only after scrolling the store view", () => {
+  assert.equal(
+    shouldShowPageTop({ scrollY: 401, hasCoin: true, storeViewHidden: false }),
+    true
+  );
+  assert.equal(
+    shouldShowPageTop({ scrollY: 400, hasCoin: true, storeViewHidden: false }),
+    false
+  );
+  assert.equal(
+    shouldShowPageTop({ scrollY: 800, hasCoin: false, storeViewHidden: false }),
+    false
+  );
+  assert.equal(
+    shouldShowPageTop({ scrollY: 800, hasCoin: true, storeViewHidden: true }),
     false
   );
 });

@@ -10,8 +10,8 @@
     <meta name="theme-color" content="#f6c453" />
     <title>はぴコイン使えるお店ナビ</title>
     <link rel="icon" href="data:," />
-    <link rel="stylesheet" href="./styles.css" />
-    <script type="module" src="./app.js"></script>
+    <link rel="stylesheet" href="./styles.css?v=20260728-5" />
+    <script type="module" src="./app.js?v=20260728-5"></script>
   </head>
   <body>
     <a class="skip-link" href="#main">本文へ移動</a>
@@ -34,8 +34,10 @@
             <span class="heading-line">使いたいコイン・商品券を</span><br />選んでください
           </h1>
           <p>
-            コインまたは紙商品券を選ぶと、利用できるお店をすぐに確認できます。
-            このサイトのデータは端末上で検索します。
+            コインまたは紙商品券を選ぶと、利用できるお店をすぐに<span class="no-break"
+              >確認できます。</span
+            ><br />
+            このサイトのデータは端末上で<span class="no-break">検索します。</span>
           </p>
         </div>
         <div id="coin-grid" class="coin-grid" aria-live="polite"></div>
@@ -129,6 +131,11 @@
     <nav id="category-nav" class="category-nav" aria-label="カテゴリで絞り込む" hidden>
       <div id="category-menu" class="category-menu"></div>
     </nav>
+
+    <button id="page-top" class="page-top" type="button" hidden>
+      <span aria-hidden="true">↑</span>
+      ページトップ
+    </button>
 
     <dialog id="category-dialog" class="category-dialog" aria-labelledby="category-dialog-title">
       <div class="dialog-heading">
