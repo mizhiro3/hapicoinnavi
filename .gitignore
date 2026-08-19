@@ -28,3 +28,6 @@ yarn-error.log*
 
 # Crawler caches and intermediate output
 /tools/data-builder/crawled/
+/apps/site/public/assets/coins_del_chara/
+/apps/site/public/assets/coins_original/
+/docs/

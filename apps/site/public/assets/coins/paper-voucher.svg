@@ -1,7 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title">
-  <title id="title">紙商品券</title>
-  <rect width="160" height="160" rx="28" fill="#fff7df"/>
-  <path d="M28 48a8 8 0 0 1 8-8h88a8 8 0 0 1 8 8v17a16 16 0 0 0 0 30v17a8 8 0 0 1-8 8H36a8 8 0 0 1-8-8V95a16 16 0 0 0 0-30V48Z" fill="#eda500"/>
-  <path d="M80 49v62" stroke="#fff7df" stroke-width="5" stroke-linecap="round" stroke-dasharray="5 9"/>
-  <path d="M48 73h20M48 87h14M92 70h20M92 84h20M92 98h14" stroke="#fff" stroke-width="6" stroke-linecap="round"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-labelledby="title desc" shape-rendering="crispEdges">
+  <title id="title">地域商品券</title>
+  <desc id="desc">元画像の構図と配色を保って低解像度化したドット絵アイコン</desc>
+  <defs><clipPath id="frame"><rect width="320" height="320" rx="32"/></clipPath></defs>
+  <g clip-path="url(#frame)">
+    <rect width="320" height="320" fill="#f5f0df"/>
+    <image width="320" height="320" image-rendering="pixelated" style="image-rendering:pixelated;image-rendering:crisp-edges" preserveAspectRatio="none" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAMKADAAQAAAABAAAAMAAAAAD4/042AAAEKElEQVRoBe1aTWgTQRT+drNp2rSpNFZBwT8qigdptf4roicvXkSRogdRvHlQPIs/4E0UxIMXES9KEQULHlREVFQUUauCiFiqWFRsSNukaZtmk/W9STc/bpPZXRvjQh9sdnbem/e+b/52ZjaKQYJCMdJAepiuEcBIkSZTqK1CWgUUP+AL0tVAaV8RBqWIgB4H9IH/AHQRxoIHIqM10RXK5eUJpKJU67Gc4r9O+BoBf1hAJEokXPNeAc94GStjJlHBfV50G/HsnR/GTNhVMWCrPlDd1BtNLjTZEAGabbwqhJ26EE+VHhXCToO42vP831Rehgl4W6YJVLv9NBkAXiqNvD+NZO81mrbGZOZTo/fVIrBoD4LLj0FRlLI+pV1o/OsNJD9f/nfgGS5VFMfk2DKREtAHumU+SurrV58HX27FTmxpF8Ifq20nYNTa2U7MrbY2YssJWN3azknHPtm2dWtYUQIjb0+4xWW7nHQM2PY0iWHdsiPgq5IiJaCF22grV+sKg9a8Fny5EoopYksKS7tQYOFuaDPbEXvcASMZkbgrVhup/A5PrV+E0NY7tL3NbwdNayOjI/HiIPSf90SWEmhG4+ZO+EItpknJu5QAl2RHofWXEHu4g54M+OftRMPGTiiqtbiRimPo7hpkYh8x/PJwycClFYqIZQc8+7AiKOFZC7dCm7UBev9TGKM/kI6+ov2ctTgTMGu+Zu424W38WxcyiV4M3V5awns+m2NwLLtiRVCmpBZeIQjokWeI3VtXxjKrCizsEAkmYFc4hhNxRMCJY2Fr6LkiSs1MBFddmHQMIJPC6PuTSA++y9nbTTgioEffCL9a8wYEV54r7kI0EEdeHwW3jimJ7uNmEmpwHmrm76ZxU3wwZRqM93UJAmYMM192t01Aj76l7pMFp9TNgS/cXjSIeSbh/EJR/DPoMXvwlx7sxuDNZpoR6gpNsmlqKSPZL9Icg2PZHQeKMdpbfLRodY90vMfVNBradFV4iz/ZO4nX0llTOo0mv1xHgpcEbvYCCr8nJ+pHDaB2ySEaA3SqNiGGkUGq75al7/P7ZujBdtS3ngK/h8qJtAvpUVpOuwFPUcc+XczF1sKraNyczT2biWRDCxLP95mP+TvF5Nh/TSDv0XlKH/yQK6RHniJ2fwuUgoNZbh098jxn4yYhbQE3Ts0y9e1nRHL42X5x1389MlVTdq8oAcXlItAJOzkByaa6XLDx73fLqeU6G7GlBLSmtuyJhDycxSLZc8WS5ySDY8tEuh+oWbALgcUHXO8JZAAm1fOxCsXk2DKx9SKTOammXtoC1QRnJ/Y0ATu1VEkbagEvN4JK6PkjsleFsKviC7hXCdDXeyJAn+892Y2o6xN26kK0xePP914TxkzYsyOYl7j8+d4rwlgnluX5/0oweE//2cOsfY/93eY3a6dT3FndLMYAAAAASUVORK5CYII="/>
+    <path d="M0 216h48v-8h32v8h64v-8h32v8h64v-8h32v8h48v104H0z" fill="#f5f0df"/>
+  </g>
+  <text x="160" y="282" fill="#1e3038" font-family="Hiragino Kaku Gothic ProN, Yu Gothic, Noto Sans JP, sans-serif" font-size="30" font-weight="700" letter-spacing=".4" text-anchor="middle">地域商品券</text>
 </svg>
