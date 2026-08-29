@@ -2,10 +2,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-labelledby="title desc" shape-rendering="crispEdges">
   <title id="title">ふく＋（飲食店応援）</title>
   <desc id="desc">元画像の構図と配色を保って低解像度化したドット絵アイコン</desc>
-  <defs><clipPath id="frame"><rect width="320" height="320" rx="32"/></clipPath></defs>
+  <defs>
+    <clipPath id="frame"><rect width="320" height="320" rx="32"/></clipPath>
+    <filter id="posterize" color-interpolation-filters="sRGB">
+      <feComponentTransfer>
+        <feFuncR type="discrete" tableValues="0 .2 .4 .6 .8 1"/>
+        <feFuncG type="discrete" tableValues="0 .2 .4 .6 .8 1"/>
+        <feFuncB type="discrete" tableValues="0 .2 .4 .6 .8 1"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
   <g clip-path="url(#frame)">
     <rect width="320" height="320" fill="#f5f0df"/>
-    <image width="320" height="320" image-rendering="pixelated" style="image-rendering:pixelated;image-rendering:crisp-edges" preserveAspectRatio="none" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAGKADAAQAAAABAAAAGAAAAADB/VeXAAADKElEQVRIDbVVS0wTURQ9M53+gdIylG8rv6LgB9QQjeJS1Bg/mBhi4kbXxKVL9ya6cePGPQvF+EFJcCGKAWOMn4SwACwgUAoUKJ+Wmf7GN6/2tVMgXVhfMpn7zr33nHfn3feGi0UkRZbWAHDkyedQYLKIEFTy+b6KfDJTLov7JuwtD8Dnf+XJtUZWPgMKVIHkMImnYSo5SR9r1dUUrH3zBtib7oLjjVqczXh4bhDWjMEEkpi6D3vvhadLhth6Hw1dEnSmnZ/VeeJJBnXSFNKIAlfHMJ36Pnam4b+W+/xPzL8/h1h4DoK1BnWdPsy8OYjIxhiLtdXdYnbKYBVIgWEoiSgURUFo/kXKT9+CuRpG+xGE/QOUUGewIxGXUd0xQsU0wVmTjAqApa/dpHRnVghQc9nLMPHoQxR7uhGcfIxEJAi1Mm+vjfpjYR8ESyWLVQ1WAUWVBNn5uCZAnfg+XGSYoagJnM4As3gKRsdxbM0+Y76pl1XMThmaClJg5lvtmLD/HbzPy1B67BGslReo21TShri8QnAxM3yHvauASWyH6+wQfj21wXHoHgpc16AvqKXJIV8/FZGDo/jdf3gHYTawq4AU+ISJHh41lyYJcR3NiWxOYKavMTs/53xXgWSWgunX9TkJcgVoBDa8Ow9KLoJs/0SP9qAKshxFwujJjkvPFRlcdAmcIqUxjofC26AIDoJpGzEVFNe7EY3GwYU2/OnLI7Gd8pM8M7OlLT+5epO9zsAMP8X2yOVCwam0AMvOn7F7ffnj3+MD5lGAddH30XHsr3djZW0dRYVWskExiI5iKjXuncXk9BwsZiM4joMg6FBcVIiFxQCqyksx61skOQXw+ZfR3FiLAw372BKpgCRH8OXHGGLxOKZnF3Cl4wxeDQyhva0Fte5KLAVWMTjyDRXOEuj1AnyEuLXZg3lCGFgNYmbOj3Li6307iDu3r2sE6CbHYnEaXFEmgicr3AyFYTWbYDDo6UpUgcXAGuy2QqxvbMFsMiKhXuvhbVRXOLG8EgTP8whvSyixF8FVWcYqIALTpIv+TyMpCgfeYHGSn4z29DH5fzBUTqPViT+yAwnyuy2cgwAAAABJRU5ErkJggg=="/>
+    <image width="320" height="320" filter="url(#posterize)" image-rendering="pixelated" style="image-rendering:pixelated;image-rendering:crisp-edges" preserveAspectRatio="none" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAGKADAAQAAAABAAAAGAAAAADB/VeXAAADKElEQVRIDbVVS0wTURQ9M53+gdIylG8rv6LgB9QQjeJS1Bg/mBhi4kbXxKVL9ya6cePGPQvF+EFJcCGKAWOMn4SwACwgUAoUKJ+Wmf7GN6/2tVMgXVhfMpn7zr33nHfn3feGi0UkRZbWAHDkyedQYLKIEFTy+b6KfDJTLov7JuwtD8Dnf+XJtUZWPgMKVIHkMImnYSo5SR9r1dUUrH3zBtib7oLjjVqczXh4bhDWjMEEkpi6D3vvhadLhth6Hw1dEnSmnZ/VeeJJBnXSFNKIAlfHMJ36Pnam4b+W+/xPzL8/h1h4DoK1BnWdPsy8OYjIxhiLtdXdYnbKYBVIgWEoiSgURUFo/kXKT9+CuRpG+xGE/QOUUGewIxGXUd0xQsU0wVmTjAqApa/dpHRnVghQc9nLMPHoQxR7uhGcfIxEJAi1Mm+vjfpjYR8ESyWLVQ1WAUWVBNn5uCZAnfg+XGSYoagJnM4As3gKRsdxbM0+Y76pl1XMThmaClJg5lvtmLD/HbzPy1B67BGslReo21TShri8QnAxM3yHvauASWyH6+wQfj21wXHoHgpc16AvqKXJIV8/FZGDo/jdf3gHYTawq4AU+ISJHh41lyYJcR3NiWxOYKavMTs/53xXgWSWgunX9TkJcgVoBDa8Ow9KLoJs/0SP9qAKshxFwujJjkvPFRlcdAmcIqUxjofC26AIDoJpGzEVFNe7EY3GwYU2/OnLI7Gd8pM8M7OlLT+5epO9zsAMP8X2yOVCwam0AMvOn7F7ffnj3+MD5lGAddH30XHsr3djZW0dRYVWskExiI5iKjXuncXk9BwsZiM4joMg6FBcVIiFxQCqyksx61skOQXw+ZfR3FiLAw372BKpgCRH8OXHGGLxOKZnF3Cl4wxeDQyhva0Fte5KLAVWMTjyDRXOEuj1AnyEuLXZg3lCGFgNYmbOj3Li6307iDu3r2sE6CbHYnEaXFEmgicr3AyFYTWbYDDo6UpUgcXAGuy2QqxvbMFsMiKhXuvhbVRXOLG8EgTP8whvSyixF8FVWcYqIALTpIv+TyMpCgfeYHGSn4z29DH5fzBUTqPViT+yAwnyuy2cgwAAAABJRU5ErkJggg=="/>
     <path d="M0 216h48v-8h32v8h64v-8h32v8h64v-8h32v8h48v104H0z" fill="#f5f0df"/>
   </g>
   <text x="160" y="282" fill="#1e3038" font-family="Hiragino Kaku Gothic ProN, Yu Gothic, Noto Sans JP, sans-serif" font-size="27" font-weight="700" letter-spacing=".4" text-anchor="middle">ふく＋（飲食店応援）</text>

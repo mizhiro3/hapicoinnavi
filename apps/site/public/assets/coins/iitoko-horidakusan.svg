@@ -2,10 +2,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-labelledby="title desc" shape-rendering="crispEdges">
   <title id="title">いいとこ、掘りだくさんサイフ</title>
   <desc id="desc">元画像の構図と配色を保って低解像度化したドット絵アイコン</desc>
-  <defs><clipPath id="frame"><rect width="320" height="320" rx="32"/></clipPath></defs>
+  <defs>
+    <clipPath id="frame"><rect width="320" height="320" rx="32"/></clipPath>
+    <filter id="posterize" color-interpolation-filters="sRGB">
+      <feComponentTransfer>
+        <feFuncR type="discrete" tableValues="0 .2 .4 .6 .8 1"/>
+        <feFuncG type="discrete" tableValues="0 .2 .4 .6 .8 1"/>
+        <feFuncB type="discrete" tableValues="0 .2 .4 .6 .8 1"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
   <g clip-path="url(#frame)">
     <rect width="320" height="320" fill="#f5f0df"/>
-    <image width="320" height="320" image-rendering="pixelated" style="image-rendering:pixelated;image-rendering:crisp-edges" preserveAspectRatio="none" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAGKADAAQAAAABAAAAGAAAAADB/VeXAAADb0lEQVRIDa1VW0gUURj+Zpxd11kv7aqbhmVokWEXhKCoh8iKinqIKOhCVyh8KIKyhxCql5IgLQqi20s9+GIFGXRRolJIRLtRWdjFTVfNS67urq27Mzunc47tOuOu0sMemDn/+f/zf99//v+fM4IaHCWBUTcAgT7xHAQWOQMSA5dTsuKJzLGU4AgC/kGIsSKvefUdJ669xEM6d/Z5QQjhTsLqStyp/fRfwSQkmMf8Rjy/qP/4qGtxRhaapnH55M0GPs/ecZMcqqiN2KcSQmqQMGxMJNADVFa3kCOXn5GOXg/51uWeCi/KNinBwQtjETZ+6iKhkEYGPf4o58kUNK0RU5hAipVQugtFcxxQ1BDkRAltLjdy0q34Sevx4r0LSWYJ+9YXRrlaLdFwtMjRY8vpGtQ0/kDp9Xo0t/Wi6XMPB8/LTkOqbObgu8sfGxy3nnmIsVYwqBFVA5ai+vedpLbZSZ6/7YgcmQm+P0HS6hwgzV96uJ7V5359Gym5WEeCikrC6WXGSVMk0O/t0r03PBXbV81DR58He88/RbbdihvH1sBqMaG49C4+3tqDGRnJ2Hn2EfxPjqL4eDUqSlZOCB/sOzCOAxsWoLPfi6qyDdi4LA8+v8I3BJQQ3N4AvHRdMNOG27WtyLJZMUr16ZuvomCWDUVzHUYwtprYpux47Oj9QyNMJMsPVxHT2otcZi+WDhRXkO4BL2lq7Sa9gz6y5dSDiD0shFMUkyC8iRExsD3lj8MqPjMde6YaYYLovtIdcuXiHDhsMsp2LdVpgf3rCtE14DPoJlsI7gEXSZTtMe0CrTh7TCYTRNFYLkVRoIZUxO5NQNNUaIoPkpl+NET1jBFo/nEiMSniG/ATSMLouI1J1G4YE3zZ5S+KAiToDXoPnV6K9avQ2fVuXP5n4yRRxjgrjImNMziDi0lA289ARW9VWjSN65hNLxs2xljwNmVOdQ3NSJaTkOWw4+OXH8jJdiDdlorcnGycu3IbebkzYEtLxbDHh4Xz83l3Nb7+gIL8XEzPsOFl0zusWLIIgWAQX9td2LapmNMJI0PtPFx6WVEnwCRJcLp6KFgKFHoNpKZY0dXTh2SrDClBhBKiV7glkf4Ogd9Dw8i0T+O/Rra2yhYwHFVV+X4GTAmcdGZi/AehFRDNsoNGIMSVgoVLiIhEORN/AVxnDG9Nne0iAAAAAElFTkSuQmCC"/>
+    <image width="320" height="320" filter="url(#posterize)" image-rendering="pixelated" style="image-rendering:pixelated;image-rendering:crisp-edges" preserveAspectRatio="none" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAGKADAAQAAAABAAAAGAAAAADB/VeXAAADb0lEQVRIDa1VW0gUURj+Zpxd11kv7aqbhmVokWEXhKCoh8iKinqIKOhCVyh8KIKyhxCql5IgLQqi20s9+GIFGXRRolJIRLtRWdjFTVfNS67urq27Mzunc47tOuOu0sMemDn/+f/zf99//v+fM4IaHCWBUTcAgT7xHAQWOQMSA5dTsuKJzLGU4AgC/kGIsSKvefUdJ669xEM6d/Z5QQjhTsLqStyp/fRfwSQkmMf8Rjy/qP/4qGtxRhaapnH55M0GPs/ecZMcqqiN2KcSQmqQMGxMJNADVFa3kCOXn5GOXg/51uWeCi/KNinBwQtjETZ+6iKhkEYGPf4o58kUNK0RU5hAipVQugtFcxxQ1BDkRAltLjdy0q34Sevx4r0LSWYJ+9YXRrlaLdFwtMjRY8vpGtQ0/kDp9Xo0t/Wi6XMPB8/LTkOqbObgu8sfGxy3nnmIsVYwqBFVA5ai+vedpLbZSZ6/7YgcmQm+P0HS6hwgzV96uJ7V5359Gym5WEeCikrC6WXGSVMk0O/t0r03PBXbV81DR58He88/RbbdihvH1sBqMaG49C4+3tqDGRnJ2Hn2EfxPjqL4eDUqSlZOCB/sOzCOAxsWoLPfi6qyDdi4LA8+v8I3BJQQ3N4AvHRdMNOG27WtyLJZMUr16ZuvomCWDUVzHUYwtprYpux47Oj9QyNMJMsPVxHT2otcZi+WDhRXkO4BL2lq7Sa9gz6y5dSDiD0shFMUkyC8iRExsD3lj8MqPjMde6YaYYLovtIdcuXiHDhsMsp2LdVpgf3rCtE14DPoJlsI7gEXSZTtMe0CrTh7TCYTRNFYLkVRoIZUxO5NQNNUaIoPkpl+NET1jBFo/nEiMSniG/ATSMLouI1J1G4YE3zZ5S+KAiToDXoPnV6K9avQ2fVuXP5n4yRRxjgrjImNMziDi0lA289ARW9VWjSN65hNLxs2xljwNmVOdQ3NSJaTkOWw4+OXH8jJdiDdlorcnGycu3IbebkzYEtLxbDHh4Xz83l3Nb7+gIL8XEzPsOFl0zusWLIIgWAQX9td2LapmNMJI0PtPFx6WVEnwCRJcLp6KFgKFHoNpKZY0dXTh2SrDClBhBKiV7glkf4Ogd9Dw8i0T+O/Rra2yhYwHFVV+X4GTAmcdGZi/AehFRDNsoNGIMSVgoVLiIhEORN/AVxnDG9Nne0iAAAAAElFTkSuQmCC"/>
     <path d="M0 216h48v-8h32v8h64v-8h32v8h64v-8h32v8h48v104H0z" fill="#f5f0df"/>
   </g>
   <text x="160" y="282" fill="#1e3038" font-family="Hiragino Kaku Gothic ProN, Yu Gothic, Noto Sans JP, sans-serif" font-size="19" font-weight="700" letter-spacing=".4" text-anchor="middle">いいとこ、掘りだくさんサイフ</text>

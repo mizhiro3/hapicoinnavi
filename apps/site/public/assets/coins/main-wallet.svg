@@ -2,10 +2,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-labelledby="title desc" shape-rendering="crispEdges">
   <title id="title">メインのサイフ</title>
   <desc id="desc">元画像の構図と配色を保って低解像度化したドット絵アイコン</desc>
-  <defs><clipPath id="frame"><rect width="320" height="320" rx="32"/></clipPath></defs>
+  <defs>
+    <clipPath id="frame"><rect width="320" height="320" rx="32"/></clipPath>
+    <filter id="posterize" color-interpolation-filters="sRGB">
+      <feComponentTransfer>
+        <feFuncR type="discrete" tableValues="0 .2 .4 .6 .8 1"/>
+        <feFuncG type="discrete" tableValues="0 .2 .4 .6 .8 1"/>
+        <feFuncB type="discrete" tableValues="0 .2 .4 .6 .8 1"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
   <g clip-path="url(#frame)">
     <rect width="320" height="320" fill="#f5f0df"/>
-    <image width="320" height="320" image-rendering="pixelated" style="image-rendering:pixelated;image-rendering:crisp-edges" preserveAspectRatio="none" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAGKADAAQAAAABAAAAGAAAAADB/VeXAAACcklEQVRIDbWVS2gTURSG/5k8zDud2sRY29hFFYOgITRk4WPhwo0UxEd1E7vWQjfSgq5EdOGirnQnqLgKgl25EalgNSC1UrWFUPKobUxiTJPJq42hSbwzYYZoJnYsyYHhnjn3nv87987hDrVVLtVKm2kAFHnaaTVo9RYoOfFD05PtVOa1RgY8uO26ALr9lddrnUuFgRo4gHxT0QpcPXwGalopO+m/AGHvE9wcuoyQ9zGsWrMsiGzAq+G7mI0tYvjlLbifj2N+5AEOmHu3hcgC2HQMHN12JDdZLKRCSGxkeOGZs/fQp+/5J0QWwH/+Pi+iplX86Dt9QxQV5sTAX44swOjrKT5NrVBikByLRqkWZXzBt6Iv5WwL4DpmNr4Ip28MDqYfdzxX4LIM8lqZUh4T/kdSumJMEuC2HsTa6DMYVBpMui7i/bkpLFx6CLvRinJli08OZNZwxHdNFGrlSDb0XHIZ/U+9eEeE9xNRziK5BE5OT7TSaRmXBAirj7+4Lrg7HiWPaMdqEokdB1CFbJxcSXWjaiXBRY3SiP7n9CqcTP1bCMHGeS7WKpcqshERICS3c+z4EXUc0NSm8eQ6ovEk3Ecd+PglAPteK36mWfTu6UHw23dUKhXkChvIF4o4dWwICbJer9MgvBqDgqZxwuP844SbdhBaieLDpyUsLUfwNRACw5j45NiPFN745xGMRDHQZ4OS3EtsNo8ZErPvs8Go10GlaqoXVIF85MbfPZsroMtk4KtYz2RhNhrwq1wmVWpRrVaRZnNk3kh2UUR3lwncmt2MGRkSZ8h7o3HdQwArBNCpRqJB79JZiXx7EfVyaah1FvwGy8XGYH+N8fUAAAAASUVORK5CYII="/>
+    <image width="320" height="320" filter="url(#posterize)" image-rendering="pixelated" style="image-rendering:pixelated;image-rendering:crisp-edges" preserveAspectRatio="none" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAGKADAAQAAAABAAAAGAAAAADB/VeXAAACcklEQVRIDbWVS2gTURSG/5k8zDud2sRY29hFFYOgITRk4WPhwo0UxEd1E7vWQjfSgq5EdOGirnQnqLgKgl25EalgNSC1UrWFUPKobUxiTJPJq42hSbwzYYZoJnYsyYHhnjn3nv87987hDrVVLtVKm2kAFHnaaTVo9RYoOfFD05PtVOa1RgY8uO26ALr9lddrnUuFgRo4gHxT0QpcPXwGalopO+m/AGHvE9wcuoyQ9zGsWrMsiGzAq+G7mI0tYvjlLbifj2N+5AEOmHu3hcgC2HQMHN12JDdZLKRCSGxkeOGZs/fQp+/5J0QWwH/+Pi+iplX86Dt9QxQV5sTAX44swOjrKT5NrVBikByLRqkWZXzBt6Iv5WwL4DpmNr4Ip28MDqYfdzxX4LIM8lqZUh4T/kdSumJMEuC2HsTa6DMYVBpMui7i/bkpLFx6CLvRinJli08OZNZwxHdNFGrlSDb0XHIZ/U+9eEeE9xNRziK5BE5OT7TSaRmXBAirj7+4Lrg7HiWPaMdqEokdB1CFbJxcSXWjaiXBRY3SiP7n9CqcTP1bCMHGeS7WKpcqshERICS3c+z4EXUc0NSm8eQ6ovEk3Ecd+PglAPteK36mWfTu6UHw23dUKhXkChvIF4o4dWwICbJer9MgvBqDgqZxwuP844SbdhBaieLDpyUsLUfwNRACw5j45NiPFN745xGMRDHQZ4OS3EtsNo8ZErPvs8Go10GlaqoXVIF85MbfPZsroMtk4KtYz2RhNhrwq1wmVWpRrVaRZnNk3kh2UUR3lwncmt2MGRkSZ8h7o3HdQwArBNCpRqJB79JZiXx7EfVyaah1FvwGy8XGYH+N8fUAAAAASUVORK5CYII="/>
     <path d="M0 216h48v-8h32v8h64v-8h32v8h64v-8h32v8h48v104H0z" fill="#f5f0df"/>
   </g>
   <text x="160" y="282" fill="#1e3038" font-family="Hiragino Kaku Gothic ProN, Yu Gothic, Noto Sans JP, sans-serif" font-size="30" font-weight="700" letter-spacing=".4" text-anchor="middle">メインのサイフ</text>

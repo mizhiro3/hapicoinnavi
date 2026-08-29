@@ -2,10 +2,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-labelledby="title desc" shape-rendering="crispEdges">
   <title id="title">ふく＋（小規模事業者応援）</title>
   <desc id="desc">元画像の構図と配色を保って低解像度化したドット絵アイコン</desc>
-  <defs><clipPath id="frame"><rect width="320" height="320" rx="32"/></clipPath></defs>
+  <defs>
+    <clipPath id="frame"><rect width="320" height="320" rx="32"/></clipPath>
+    <filter id="posterize" color-interpolation-filters="sRGB">
+      <feComponentTransfer>
+        <feFuncR type="discrete" tableValues="0 .2 .4 .6 .8 1"/>
+        <feFuncG type="discrete" tableValues="0 .2 .4 .6 .8 1"/>
+        <feFuncB type="discrete" tableValues="0 .2 .4 .6 .8 1"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
   <g clip-path="url(#frame)">
     <rect width="320" height="320" fill="#f5f0df"/>
-    <image width="320" height="320" image-rendering="pixelated" style="image-rendering:pixelated;image-rendering:crisp-edges" preserveAspectRatio="none" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAGKADAAQAAAABAAAAGAAAAADB/VeXAAAC0UlEQVRIDbVWXUhTYRh+zjnbztmPurZm6UrTqZFEkoiFiVGDbjKo0IsuBIvs50Kp7rotqMu6q+imKMLoB0GpLpTEi0yFVIgFZv4g/cy5ucam55xtru87tlPIGZ1kvjDel+/73udne/m+MQlZTEniIgCGfLIZKQiWzTBQ8PyDndlEVrDamipwo6MGbPaVr2p9Px5AKpWiBPrDZORwubUGNOuN/yIIDbXjekc9aM53WHRxGHSdIodGnreg8cILfPVHUVZsx1TvOVSffIiJGTogmUOXg6KCXOwqdaJ/eA6fZxfhtJuxLCYw8PgU3FtsmdHJji4HH7tPqyA3rzTgbNMe3O0cgxRPYuRZCwob7qj7awtdDk60d6l9lWVOmAUDDlS7sW9PAZ70fFL3tIp/OhB4Dn2Dsyjx3sOtq4fg3V+s4NQScP9CDMcuvtTCVdc0HdTtLUT0wyXkWE24RqbG13MG033n0dZchdcDU0rzqM8Pz5H7KlCmQtPBu9FvsFXfxnhXKzxFdqXX9yWI2uZHmXAyrmsSpE9XHX+QLtedNb+idaNpNBokKQ7PNqvG1uoSmUTMB0WIMil+B8cwsOcakZdjzHgHu10CEokkmFjkRyrdiJVltQRrVuvvgRgKnGvM/rWvHNTopZcdEwtP/yFQIbNXrJGVPeA00oYTqGMqSjIE3gSJZJ5kGrElERzHwsBxCP2MwMzzkGQZyeQKLGZax8m1wYNjWXIvxZWeJdLjsOeqGArB/EIIb/qHUF6yHTs9RXj1dhBHD9dhcmYOE1NzBEzA0+5e7K4ohRxPYHjMh0ZvHcZ8k9iUlwPPDjcCwTBsVrMi0Ftfg6rKcoVQ+ZFloiQYjmCry4FINEZUCeTVMiAciUImim1WC/yBEEwmo+KGYckfBDIaMlHNkJElbyMSxBUdS5Y4djnylB46PYRghuSNGST6IrMmSz4RwGSVgsql4LzFhV8z3+8HVF/ZEQAAAABJRU5ErkJggg=="/>
+    <image width="320" height="320" filter="url(#posterize)" image-rendering="pixelated" style="image-rendering:pixelated;image-rendering:crisp-edges" preserveAspectRatio="none" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAGKADAAQAAAABAAAAGAAAAADB/VeXAAAC0UlEQVRIDbVWXUhTYRh+zjnbztmPurZm6UrTqZFEkoiFiVGDbjKo0IsuBIvs50Kp7rotqMu6q+imKMLoB0GpLpTEi0yFVIgFZv4g/cy5ucam55xtru87tlPIGZ1kvjDel+/73udne/m+MQlZTEniIgCGfLIZKQiWzTBQ8PyDndlEVrDamipwo6MGbPaVr2p9Px5AKpWiBPrDZORwubUGNOuN/yIIDbXjekc9aM53WHRxGHSdIodGnreg8cILfPVHUVZsx1TvOVSffIiJGTogmUOXg6KCXOwqdaJ/eA6fZxfhtJuxLCYw8PgU3FtsmdHJji4HH7tPqyA3rzTgbNMe3O0cgxRPYuRZCwob7qj7awtdDk60d6l9lWVOmAUDDlS7sW9PAZ70fFL3tIp/OhB4Dn2Dsyjx3sOtq4fg3V+s4NQScP9CDMcuvtTCVdc0HdTtLUT0wyXkWE24RqbG13MG033n0dZchdcDU0rzqM8Pz5H7KlCmQtPBu9FvsFXfxnhXKzxFdqXX9yWI2uZHmXAyrmsSpE9XHX+QLtedNb+idaNpNBokKQ7PNqvG1uoSmUTMB0WIMil+B8cwsOcakZdjzHgHu10CEokkmFjkRyrdiJVltQRrVuvvgRgKnGvM/rWvHNTopZcdEwtP/yFQIbNXrJGVPeA00oYTqGMqSjIE3gSJZJ5kGrElERzHwsBxCP2MwMzzkGQZyeQKLGZax8m1wYNjWXIvxZWeJdLjsOeqGArB/EIIb/qHUF6yHTs9RXj1dhBHD9dhcmYOE1NzBEzA0+5e7K4ohRxPYHjMh0ZvHcZ8k9iUlwPPDjcCwTBsVrMi0Ftfg6rKcoVQ+ZFloiQYjmCry4FINEZUCeTVMiAciUImim1WC/yBEEwmo+KGYckfBDIaMlHNkJElbyMSxBUdS5Y4djnylB46PYRghuSNGST6IrMmSz4RwGSVgsql4LzFhV8z3+8HVF/ZEQAAAABJRU5ErkJggg=="/>
     <path d="M0 216h48v-8h32v8h64v-8h32v8h64v-8h32v8h48v104H0z" fill="#f5f0df"/>
   </g>
   <text x="160" y="282" fill="#1e3038" font-family="Hiragino Kaku Gothic ProN, Yu Gothic, Noto Sans JP, sans-serif" font-size="21" font-weight="700" letter-spacing=".4" text-anchor="middle">ふく＋（小規模事業者応援）</text>

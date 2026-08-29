@@ -2,10 +2,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-labelledby="title desc" shape-rendering="crispEdges">
   <title id="title">越前市サイフ</title>
   <desc id="desc">元画像の構図と配色を保って低解像度化したドット絵アイコン</desc>
-  <defs><clipPath id="frame"><rect width="320" height="320" rx="32"/></clipPath></defs>
+  <defs>
+    <clipPath id="frame"><rect width="320" height="320" rx="32"/></clipPath>
+    <filter id="posterize" color-interpolation-filters="sRGB">
+      <feComponentTransfer>
+        <feFuncR type="discrete" tableValues="0 .2 .4 .6 .8 1"/>
+        <feFuncG type="discrete" tableValues="0 .2 .4 .6 .8 1"/>
+        <feFuncB type="discrete" tableValues="0 .2 .4 .6 .8 1"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
   <g clip-path="url(#frame)">
     <rect width="320" height="320" fill="#f5f0df"/>
-    <image width="320" height="320" image-rendering="pixelated" style="image-rendering:pixelated;image-rendering:crisp-edges" preserveAspectRatio="none" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAGKADAAQAAAABAAAAGAAAAADB/VeXAAADV0lEQVRIDbVVW2sTQRT+djf3NEmTNL3XtqbBtGBFUBAvCApKfRAqCAp96KO/wwd/gQ+++i4+qvhQb+ClaqnUXjQtSenF2DRpYpJms9nNenaTzHbbgiDpwDJnzpz5vjNnvp3hZElUxVIGAEdfM5sKpzsEiwbuTt5tJrKOVXGNQeQmwTc/81quvLQIVVVh2Z/61Ps8+nutcNoAWaFt2i3gKY2tjILhIcf+8H+OTQQao52Aw8ccePelgJBfQFtA0EHKkqT3+aKCjWQFBertdh42C4dgwIK1TQluJ4+SqOLUiJMRmwg4joOnpQaY2pbhdvBw0aKv33fhq/s9bgHRcC2GoZDR5jdBsakD3tGoC4+fpHFrrBXzP4qIr5VxmjLieUNlT19kYaGVz6byePSgDx9ming7XQBU4N5EG3weIwGqrrllsjIig3ZsUhm8XhsBcSZwLTqxLmG3VMVIpHYm+YICK8X1dFqxlZZNgKYdpNISCiWq4bALbpfBXS5X9Xo3VtJRYajfjshAwwP4fQImxgOIJcqGkyxGoB3wzHwJJwYdJnAtOk4ZR8OGgvp7bBCEWslkWcXlcy0kyRru8T5SyZ7GCLYzMinGio6QVZ8WKetcXsbzVzlM3g6xJQsxEa8/5uljrgPGw/t9zMcIrFYOHUEB87ES+rpsep1bnBzu3AyyYM3Q6j5+vRUkOD3rk1EHZhdKyP1RUNytUjLmeEbQ6rVQaQQCLiOZkknfwHDErJ4G09ULnoap99cu1XZtctYHjEAba0q4eNZ7WNx/+yyiWEFViRwKoP14HEQ4+RRdWiUWU1UFSGoQMnzscNlk3VC5TqiyAq6Q+1U/f7r2VJHFqZyhmko5C5vNGGtBe+e18WFrNWVyxWycEWiBzW7G39Rs5DrekROYVNTYxMs3n/B7O0PvQhcWYwmMDoexup5EeKAXya00pEoFN66cx9ziCnq72xGLr5HEnTgzGm1AsP7QHXz+toSZuZ9YTqxjcTmhK2V6dgHL8XUi6aE3w6bPLa2sorujDaJYphvUzUD3GlyBDtm4iGtTG8kUPSopusA8OphAT5qsKOgMBaiv6kFulwPpnRyCfh92sn/gbz34/6hVUlEhmyCCoxGSKMrg7a52KkFzKbSbVcP0BnrwFxyIMpckKio3AAAAAElFTkSuQmCC"/>
+    <image width="320" height="320" filter="url(#posterize)" image-rendering="pixelated" style="image-rendering:pixelated;image-rendering:crisp-edges" preserveAspectRatio="none" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAGKADAAQAAAABAAAAGAAAAADB/VeXAAADV0lEQVRIDbVVW2sTQRT+djf3NEmTNL3XtqbBtGBFUBAvCApKfRAqCAp96KO/wwd/gQ+++i4+qvhQb+ClaqnUXjQtSenF2DRpYpJms9nNenaTzHbbgiDpwDJnzpz5vjNnvp3hZElUxVIGAEdfM5sKpzsEiwbuTt5tJrKOVXGNQeQmwTc/81quvLQIVVVh2Z/61Ps8+nutcNoAWaFt2i3gKY2tjILhIcf+8H+OTQQao52Aw8ccePelgJBfQFtA0EHKkqT3+aKCjWQFBertdh42C4dgwIK1TQluJ4+SqOLUiJMRmwg4joOnpQaY2pbhdvBw0aKv33fhq/s9bgHRcC2GoZDR5jdBsakD3tGoC4+fpHFrrBXzP4qIr5VxmjLieUNlT19kYaGVz6byePSgDx9ming7XQBU4N5EG3weIwGqrrllsjIig3ZsUhm8XhsBcSZwLTqxLmG3VMVIpHYm+YICK8X1dFqxlZZNgKYdpNISCiWq4bALbpfBXS5X9Xo3VtJRYajfjshAwwP4fQImxgOIJcqGkyxGoB3wzHwJJwYdJnAtOk4ZR8OGgvp7bBCEWslkWcXlcy0kyRru8T5SyZ7GCLYzMinGio6QVZ8WKetcXsbzVzlM3g6xJQsxEa8/5uljrgPGw/t9zMcIrFYOHUEB87ES+rpsep1bnBzu3AyyYM3Q6j5+vRUkOD3rk1EHZhdKyP1RUNytUjLmeEbQ6rVQaQQCLiOZkknfwHDErJ4G09ULnoap99cu1XZtctYHjEAba0q4eNZ7WNx/+yyiWEFViRwKoP14HEQ4+RRdWiUWU1UFSGoQMnzscNlk3VC5TqiyAq6Q+1U/f7r2VJHFqZyhmko5C5vNGGtBe+e18WFrNWVyxWycEWiBzW7G39Rs5DrekROYVNTYxMs3n/B7O0PvQhcWYwmMDoexup5EeKAXya00pEoFN66cx9ziCnq72xGLr5HEnTgzGm1AsP7QHXz+toSZuZ9YTqxjcTmhK2V6dgHL8XUi6aE3w6bPLa2sorujDaJYphvUzUD3GlyBDtm4iGtTG8kUPSopusA8OphAT5qsKOgMBaiv6kFulwPpnRyCfh92sn/gbz34/6hVUlEhmyCCoxGSKMrg7a52KkFzKbSbVcP0BnrwFxyIMpckKio3AAAAAElFTkSuQmCC"/>
     <path d="M0 216h48v-8h32v8h64v-8h32v8h64v-8h32v8h48v104H0z" fill="#f5f0df"/>
   </g>
   <text x="160" y="282" fill="#1e3038" font-family="Hiragino Kaku Gothic ProN, Yu Gothic, Noto Sans JP, sans-serif" font-size="30" font-weight="700" letter-spacing=".4" text-anchor="middle">越前市サイフ</text>

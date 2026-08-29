@@ -2,10 +2,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-labelledby="title desc" shape-rendering="crispEdges">
   <title id="title">若狭路サイフ</title>
   <desc id="desc">元画像の構図と配色を保って低解像度化したドット絵アイコン</desc>
-  <defs><clipPath id="frame"><rect width="320" height="320" rx="32"/></clipPath></defs>
+  <defs>
+    <clipPath id="frame"><rect width="320" height="320" rx="32"/></clipPath>
+    <filter id="posterize" color-interpolation-filters="sRGB">
+      <feComponentTransfer>
+        <feFuncR type="discrete" tableValues="0 .2 .4 .6 .8 1"/>
+        <feFuncG type="discrete" tableValues="0 .2 .4 .6 .8 1"/>
+        <feFuncB type="discrete" tableValues="0 .2 .4 .6 .8 1"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
   <g clip-path="url(#frame)">
     <rect width="320" height="320" fill="#f5f0df"/>
-    <image width="320" height="320" image-rendering="pixelated" style="image-rendering:pixelated;image-rendering:crisp-edges" preserveAspectRatio="none" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAGKADAAQAAAABAAAAGAAAAADB/VeXAAADZklEQVRIDbVVW08TQRT+dilld2u5FEpF8RJJkGCiJvoi0Rf1wfim8YFfwauXmGiMJsYYY3wxRP+D72qMMRAQJEaIUtFakTtSSgvtbruX8cwsvSwUNRFPsrszZ7/5zjk735mVrLzBckYSgETXdhqDojXBx8lzwZ3bySy45HwW0BPwbZX5eApI5IGT4cqxb79+jgf9r8XLi52H8fRCtwfIqvwAI/ZMep7lghEMJwCbHMdCQLUMzOmATF+tiq6mGs9adPU+RHRp0eNUfD7MXr5V9Em2BX82AaJyzeLRaDiyTJnngBYViCjAzfH7uPT2KkzHEsDWezeK5NVy1fpqwLAshO5cA2NEVGbFCsp8xWH30HVYzEYQOlah4tXLkhAkSofxb1BmMvkc8n3quYIWTfNWUIaDwxyRdQtbEO7lvJecOzeScx8n59b56C4Gp+JiLCpIKGGkTYZVy8GsvoYn8ReUiwqJKUindfS9GxTgrW4RrQELWS5110Iqw/kOGb2neriKgMfRBUTXSjup4qxARuMDGI//npwDy8kPhBjOtQMpQ1C4AQrkR2oNTKz5oTsyBkafYX4pBh9tpOXYLvoP9zNtDAc3yFpUgC/uyg8g2azbCfUCsKcw+8sn9c3cjIuVZNI9WVGmfBJSLeyuNfmwaHWKTf3gVQt/qficIqbSQK5uFG63gnXEsk5TarBySxmu1nf4bWTyMunElapheXIrX+IZewIU3vBmMemzG6QqgzrQoQJ0UplJe+FQ4iY5bLpMGvNwfM77i+P4UyJnQOFvquDL5y2MzdDBtIVlTAk/dZk2ugTgBJqPYWfAEQFqSg1dBAXonHHsGkjZzAJbPwVI96VATNIE2Ca2N99yOL3fPSoKDEkriPpqHpVSJtu8VoJtmXTYrcRdhIBt/+3vduof4v73ABVV1Dc8ionYD+xrjWDi2xSOHmpHP/nCjfUI1dcib5o4f7oLY+MxtO5qxpf4FAKaiuOHOzbVWrGCofcfMbu4JKQ4MvYZ03OLiE3O4Pv0HNr270aN34+v36cRjU1iV6QJhpFDXTCwiZw7Km7yz8QKJmfm0UwZ27YDWZZh0g9ldS2L9gN7BVFAU5BIptDYUIfkShoNVNlGEz2RSU1Sl5SJfCPqn+YyZL8apu7jf6ftM87F6Jjza2H8ArgNaFEuJSZ0AAAAAElFTkSuQmCC"/>
+    <image width="320" height="320" filter="url(#posterize)" image-rendering="pixelated" style="image-rendering:pixelated;image-rendering:crisp-edges" preserveAspectRatio="none" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAGKADAAQAAAABAAAAGAAAAADB/VeXAAADZklEQVRIDbVVW08TQRT+dilld2u5FEpF8RJJkGCiJvoi0Rf1wfim8YFfwauXmGiMJsYYY3wxRP+D72qMMRAQJEaIUtFakTtSSgvtbruX8cwsvSwUNRFPsrszZ7/5zjk735mVrLzBckYSgETXdhqDojXBx8lzwZ3bySy45HwW0BPwbZX5eApI5IGT4cqxb79+jgf9r8XLi52H8fRCtwfIqvwAI/ZMep7lghEMJwCbHMdCQLUMzOmATF+tiq6mGs9adPU+RHRp0eNUfD7MXr5V9Em2BX82AaJyzeLRaDiyTJnngBYViCjAzfH7uPT2KkzHEsDWezeK5NVy1fpqwLAshO5cA2NEVGbFCsp8xWH30HVYzEYQOlah4tXLkhAkSofxb1BmMvkc8n3quYIWTfNWUIaDwxyRdQtbEO7lvJecOzeScx8n59b56C4Gp+JiLCpIKGGkTYZVy8GsvoYn8ReUiwqJKUindfS9GxTgrW4RrQELWS5110Iqw/kOGb2neriKgMfRBUTXSjup4qxARuMDGI//npwDy8kPhBjOtQMpQ1C4AQrkR2oNTKz5oTsyBkafYX4pBh9tpOXYLvoP9zNtDAc3yFpUgC/uyg8g2azbCfUCsKcw+8sn9c3cjIuVZNI9WVGmfBJSLeyuNfmwaHWKTf3gVQt/qficIqbSQK5uFG63gnXEsk5TarBySxmu1nf4bWTyMunElapheXIrX+IZewIU3vBmMemzG6QqgzrQoQJ0UplJe+FQ4iY5bLpMGvNwfM77i+P4UyJnQOFvquDL5y2MzdDBtIVlTAk/dZk2ugTgBJqPYWfAEQFqSg1dBAXonHHsGkjZzAJbPwVI96VATNIE2Ca2N99yOL3fPSoKDEkriPpqHpVSJtu8VoJtmXTYrcRdhIBt/+3vduof4v73ABVV1Dc8ionYD+xrjWDi2xSOHmpHP/nCjfUI1dcib5o4f7oLY+MxtO5qxpf4FAKaiuOHOzbVWrGCofcfMbu4JKQ4MvYZ03OLiE3O4Pv0HNr270aN34+v36cRjU1iV6QJhpFDXTCwiZw7Km7yz8QKJmfm0UwZ27YDWZZh0g9ldS2L9gN7BVFAU5BIptDYUIfkShoNVNlGEz2RSU1Sl5SJfCPqn+YyZL8apu7jf6ftM87F6Jjza2H8ArgNaFEuJSZ0AAAAAElFTkSuQmCC"/>
     <path d="M0 216h48v-8h32v8h64v-8h32v8h64v-8h32v8h48v104H0z" fill="#f5f0df"/>
   </g>
   <text x="160" y="282" fill="#1e3038" font-family="Hiragino Kaku Gothic ProN, Yu Gothic, Noto Sans JP, sans-serif" font-size="30" font-weight="700" letter-spacing=".4" text-anchor="middle">若狭路サイフ</text>

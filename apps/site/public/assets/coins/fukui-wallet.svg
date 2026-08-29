@@ -2,10 +2,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-labelledby="title desc" shape-rendering="crispEdges">
   <title id="title">福いいネ！サイフ</title>
   <desc id="desc">元画像の構図と配色を保って低解像度化したドット絵アイコン</desc>
-  <defs><clipPath id="frame"><rect width="320" height="320" rx="32"/></clipPath></defs>
+  <defs>
+    <clipPath id="frame"><rect width="320" height="320" rx="32"/></clipPath>
+    <filter id="posterize" color-interpolation-filters="sRGB">
+      <feComponentTransfer>
+        <feFuncR type="discrete" tableValues="0 .2 .4 .6 .8 1"/>
+        <feFuncG type="discrete" tableValues="0 .2 .4 .6 .8 1"/>
+        <feFuncB type="discrete" tableValues="0 .2 .4 .6 .8 1"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
   <g clip-path="url(#frame)">
     <rect width="320" height="320" fill="#f5f0df"/>
-    <image width="320" height="320" image-rendering="pixelated" style="image-rendering:pixelated;image-rendering:crisp-edges" preserveAspectRatio="none" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAGKADAAQAAAABAAAAGAAAAADB/VeXAAADaUlEQVRIDbVVSUwTYRT+ppRCMUChiIAJAgFEPKhxQ4NKjCgFAxI8eDF4gJMc9GbkiBejiXoxqCcTjRfjkiBRY4wmkoZoQCk0FChbG7bSjVK72On4/j9hkDjWauAl07753/vf9/YRIuGgFAq6AQj0rCdJSE7JgpoZn61tWE/L3FZqUxOElgtQxeN546AFzSEJc6Fw3I6EBkyQJIkBxKZXiy6cvXQZ51tb8XB2PraygvSvAE/nHdhWUICB/n4c0aUrmIh99EeAD24POu0zGFz2o7m5GcMWCw7r0mJbU5CqFc7QNjyG6+/eQ2+1otTh4Cq9PZ+A/buV1GOeKUZg8vlht9thqKtDjcGA27duoaC4hBuaDARhC4ZQ3vOZvzd+HcK5AbMM0jJkkXnGKEaQv6MMeXl5OFJZCbPZDI/XC9/yMvC2C5csYxjxB3A6S48ZAjJRCpmXX7w+PJlboJR+R8f4FDpKSjnQbxH4IiJO1TeguroaUjQKlUoFtVoNrVbLL7C2Lt2UgmeORQRJzkiixxOJIEDvWzSJ6Ha4+Dn74RG4fkQQImFukgYiqXd2dsJAqamkCIxGI1e+f+8eGnMy8WL3TvkyY8YqD8jvJ/QZMr/C8AjYkjD0mXBtfBrHv3xDEnl8sa0NViry1fZ2dHd340wktHLnn/4F/9KcNFtbj9c0UIXaZGyn8BlNUDGnKcddDid/+g7thZbSFS9pqAb6OzdXJ7kmK1M2zowwsGMZ6bhRWoSeA3tQ0duPz1TIu7aZeDG4njocjkAsKqLSKW/TaCiITJcbTyn3V0bG8aCcuoMikVLTIKbroFInKAJGcvMQpsLzFMka0YDMQrXSNUDQ5UGyLmlVxrhf5FygcJctO8HvmWBdtmEUf9X+04UNB1izKu4/folw+AdOVR1EKrWrn1o1N1uPMA3iR2M/CvNzUVZcgNEJG9f7Zh5FTVUFRDEKL62SJdphS7QqTh5dHT45AqZksU7B2DeIsUk7bLMLsE7ZYRq2wjw6AdvMPOYWnEigDvJ/D2BrThYEgXpPJeDR8zcoLylENk2yKIprkrmmyAzA5fFh364yJNI0M2LeaxLVcDg92KzX8c+gj7xMS92EBaebG3W6vdDTzLg9S8j45ZvBuocAJul/YxqJmhQqTUo2eSWsKwRzl33uk8j2T6/tZpT4PO77AAAAAElFTkSuQmCC"/>
+    <image width="320" height="320" filter="url(#posterize)" image-rendering="pixelated" style="image-rendering:pixelated;image-rendering:crisp-edges" preserveAspectRatio="none" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAGKADAAQAAAABAAAAGAAAAADB/VeXAAADaUlEQVRIDbVVSUwTYRT+ppRCMUChiIAJAgFEPKhxQ4NKjCgFAxI8eDF4gJMc9GbkiBejiXoxqCcTjRfjkiBRY4wmkoZoQCk0FChbG7bSjVK72On4/j9hkDjWauAl07753/vf9/YRIuGgFAq6AQj0rCdJSE7JgpoZn61tWE/L3FZqUxOElgtQxeN546AFzSEJc6Fw3I6EBkyQJIkBxKZXiy6cvXQZ51tb8XB2PraygvSvAE/nHdhWUICB/n4c0aUrmIh99EeAD24POu0zGFz2o7m5GcMWCw7r0mJbU5CqFc7QNjyG6+/eQ2+1otTh4Cq9PZ+A/buV1GOeKUZg8vlht9thqKtDjcGA27duoaC4hBuaDARhC4ZQ3vOZvzd+HcK5AbMM0jJkkXnGKEaQv6MMeXl5OFJZCbPZDI/XC9/yMvC2C5csYxjxB3A6S48ZAjJRCpmXX7w+PJlboJR+R8f4FDpKSjnQbxH4IiJO1TeguroaUjQKlUoFtVoNrVbLL7C2Lt2UgmeORQRJzkiixxOJIEDvWzSJ6Ha4+Dn74RG4fkQQImFukgYiqXd2dsJAqamkCIxGI1e+f+8eGnMy8WL3TvkyY8YqD8jvJ/QZMr/C8AjYkjD0mXBtfBrHv3xDEnl8sa0NViry1fZ2dHd340wktHLnn/4F/9KcNFtbj9c0UIXaZGyn8BlNUDGnKcddDid/+g7thZbSFS9pqAb6OzdXJ7kmK1M2zowwsGMZ6bhRWoSeA3tQ0duPz1TIu7aZeDG4njocjkAsKqLSKW/TaCiITJcbTyn3V0bG8aCcuoMikVLTIKbroFInKAJGcvMQpsLzFMka0YDMQrXSNUDQ5UGyLmlVxrhf5FygcJctO8HvmWBdtmEUf9X+04UNB1izKu4/folw+AdOVR1EKrWrn1o1N1uPMA3iR2M/CvNzUVZcgNEJG9f7Zh5FTVUFRDEKL62SJdphS7QqTh5dHT45AqZksU7B2DeIsUk7bLMLsE7ZYRq2wjw6AdvMPOYWnEigDvJ/D2BrThYEgXpPJeDR8zcoLylENk2yKIprkrmmyAzA5fFh364yJNI0M2LeaxLVcDg92KzX8c+gj7xMS92EBaebG3W6vdDTzLg9S8j45ZvBuocAJul/YxqJmhQqTUo2eSWsKwRzl33uk8j2T6/tZpT4PO77AAAAAElFTkSuQmCC"/>
     <path d="M0 216h48v-8h32v8h64v-8h32v8h64v-8h32v8h48v104H0z" fill="#f5f0df"/>
   </g>
   <text x="160" y="282" fill="#1e3038" font-family="Hiragino Kaku Gothic ProN, Yu Gothic, Noto Sans JP, sans-serif" font-size="30" font-weight="700" letter-spacing=".4" text-anchor="middle">福いいネ！サイフ</text>

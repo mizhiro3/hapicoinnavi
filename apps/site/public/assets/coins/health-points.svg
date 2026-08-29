@@ -2,10 +2,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-labelledby="title desc" shape-rendering="crispEdges">
   <title id="title">健康ポイント</title>
   <desc id="desc">元画像の構図と配色を保って低解像度化したドット絵アイコン</desc>
-  <defs><clipPath id="frame"><rect width="320" height="320" rx="32"/></clipPath></defs>
+  <defs>
+    <clipPath id="frame"><rect width="320" height="320" rx="32"/></clipPath>
+    <filter id="posterize" color-interpolation-filters="sRGB">
+      <feComponentTransfer>
+        <feFuncR type="discrete" tableValues="0 .2 .4 .6 .8 1"/>
+        <feFuncG type="discrete" tableValues="0 .2 .4 .6 .8 1"/>
+        <feFuncB type="discrete" tableValues="0 .2 .4 .6 .8 1"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
   <g clip-path="url(#frame)">
     <rect width="320" height="320" fill="#f5f0df"/>
-    <image width="320" height="320" image-rendering="pixelated" style="image-rendering:pixelated;image-rendering:crisp-edges" preserveAspectRatio="none" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAGKADAAQAAAABAAAAGAAAAADB/VeXAAACN0lEQVRIDbWVzU/TYBzHv63bWPfGgJXLJDOLRgRCFk9eJHLQgDEx0fgvGA8c/E+MiTfixZh4wJh4wURIFkVD5CWwMBBkuIEDEbZuk+G6wazPU9JmjtJ2pPyS9nn9fj+/5yUtc1gRJbEkAGDIY2VI4Nw8bNT8zvi+lc6y10DQhqGuDFjrMz/KNZ6rAhJgazT1J9eDiPCcLBt8uwaxSlx0gqygsVDMqeppX9BQ3DCg1rHVabwBhoDHER7RexfR4bHL3rFMSWW839hT6ydVdAEDIS/uhptl7YtbIbkcjmexVyEHSGJ4MSuXei9dwM0O7zHtsxvn8WGziP43iWNjWh26gJmdP1oa9RZpDtZ16p7Sq295POwJ/Ccxm7ki0gXQSS+XBbxO5NEb4NDO2bBTOlS0pkpDwPMlASODFxAg5is5EY+iaVPGyiRDAJ344F0KV1qa8DVXVnSmS91DrnU5jTnVM8XCT/Vjwkii6ikxTrW+Uqii03egtmmldpy2T9Iy+/mkCqATrQ7TW3Ra8JkDNG/R2MQU4svf0XM5jNhSAteudmPrVwaSJOH+7X58/DKHcCiIZo+bbD6D9fQ2It2XNBepuYL5xVV8nlnA9q6AT9MxrK1vIpFKg2/zY2JqHuXKATwuDqPRSZxjWUzOLiC5saUJYIrkkOt/96vJHyiXK3A47HLWfp8Xf0n2bX6f3JfNFeCw2+F2OcESgJD/jVYyVh/09hBAigDO6iKxYJtc7cTeWsRRuiwcLh7/AGJ5s3Rm2lm7AAAAAElFTkSuQmCC"/>
+    <image width="320" height="320" filter="url(#posterize)" image-rendering="pixelated" style="image-rendering:pixelated;image-rendering:crisp-edges" preserveAspectRatio="none" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAGKADAAQAAAABAAAAGAAAAADB/VeXAAACN0lEQVRIDbWVzU/TYBzHv63bWPfGgJXLJDOLRgRCFk9eJHLQgDEx0fgvGA8c/E+MiTfixZh4wJh4wURIFkVD5CWwMBBkuIEDEbZuk+G6wazPU9JmjtJ2pPyS9nn9fj+/5yUtc1gRJbEkAGDIY2VI4Nw8bNT8zvi+lc6y10DQhqGuDFjrMz/KNZ6rAhJgazT1J9eDiPCcLBt8uwaxSlx0gqygsVDMqeppX9BQ3DCg1rHVabwBhoDHER7RexfR4bHL3rFMSWW839hT6ydVdAEDIS/uhptl7YtbIbkcjmexVyEHSGJ4MSuXei9dwM0O7zHtsxvn8WGziP43iWNjWh26gJmdP1oa9RZpDtZ16p7Sq295POwJ/Ccxm7ki0gXQSS+XBbxO5NEb4NDO2bBTOlS0pkpDwPMlASODFxAg5is5EY+iaVPGyiRDAJ344F0KV1qa8DVXVnSmS91DrnU5jTnVM8XCT/Vjwkii6ikxTrW+Uqii03egtmmldpy2T9Iy+/mkCqATrQ7TW3Ra8JkDNG/R2MQU4svf0XM5jNhSAteudmPrVwaSJOH+7X58/DKHcCiIZo+bbD6D9fQ2It2XNBepuYL5xVV8nlnA9q6AT9MxrK1vIpFKg2/zY2JqHuXKATwuDqPRSZxjWUzOLiC5saUJYIrkkOt/96vJHyiXK3A47HLWfp8Xf0n2bX6f3JfNFeCw2+F2OcESgJD/jVYyVh/09hBAigDO6iKxYJtc7cTeWsRRuiwcLh7/AGJ5s3Rm2lm7AAAAAElFTkSuQmCC"/>
     <path d="M0 216h48v-8h32v8h64v-8h32v8h64v-8h32v8h48v104H0z" fill="#f5f0df"/>
   </g>
   <text x="160" y="282" fill="#1e3038" font-family="Hiragino Kaku Gothic ProN, Yu Gothic, Noto Sans JP, sans-serif" font-size="30" font-weight="700" letter-spacing=".4" text-anchor="middle">健康ポイント</text>

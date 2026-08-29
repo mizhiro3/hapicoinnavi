@@ -2,10 +2,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-labelledby="title desc" shape-rendering="crispEdges">
   <title id="title">ふく育ポイント</title>
   <desc id="desc">元画像の構図と配色を保って低解像度化したドット絵アイコン</desc>
-  <defs><clipPath id="frame"><rect width="320" height="320" rx="32"/></clipPath></defs>
+  <defs>
+    <clipPath id="frame"><rect width="320" height="320" rx="32"/></clipPath>
+    <filter id="posterize" color-interpolation-filters="sRGB">
+      <feComponentTransfer>
+        <feFuncR type="discrete" tableValues="0 .2 .4 .6 .8 1"/>
+        <feFuncG type="discrete" tableValues="0 .2 .4 .6 .8 1"/>
+        <feFuncB type="discrete" tableValues="0 .2 .4 .6 .8 1"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
   <g clip-path="url(#frame)">
     <rect width="320" height="320" fill="#f5f0df"/>
-    <image width="320" height="320" image-rendering="pixelated" style="image-rendering:pixelated;image-rendering:crisp-edges" preserveAspectRatio="none" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAGKADAAQAAAABAAAAGAAAAADB/VeXAAACkElEQVRIDbVVS0wTURQ9M0zbmVJqqQyJRlKNlGIAY0xcyMK4kqWaYNTEBVEWbty5NHHhxrg1pvGzMXFncOFGjSbsICwoSaVqA7WAYrED/dnSaTsf35tawJTOdNHeZKb3vXvuOe/edzNllLKsy8UUAIY8rTQdQqcIjpIXXp5sJbPBxQ2MA6P3wbb+5NWzqhvzgA4qYG2MIILtPGQN3AfRUMB1/pEBZ+xdECe/oOdmGGzXkX0ozLcaCvCBK/BcmiJlarsMmmr4vXckuC8Ed/dNvIYCm0+Pwd53Dt3XpyG9GIL0PACtkABj6zTo+MA48V2gYmbGmQWTj0WDQJyMGDB5+S1y725BetYPYXgC4u04kkGfGQVMBWjm9kIQpZWP0Es5eK99gnLmLvTyH7hG7yH5hFy8ppgKNGxRLUuvbIMfvArG4YaSWoJNHIEwMlENW5BTkGUFFMT7L6LDdRic1w81G6dbqGyEjF+rl2UFhbmHkIJ9KMXfG1z5mQeQo1NIvx6z4jbiTVVAkWVyD9l8AmomhvI/sWYUmhagram1R9lcbIbbwFi2qGmmBkAmn02QT1LVGF2uudAZfsdXpTC4noGdNXX2xum6US5TyMR3BCiw1db2FrVdoG6KNpJbiK2t4+zpYUzPhDDY78OrNx8weNwH3mHDj0QSNy6PYTYUwQn/UVQqFbicAlbXf+PUkL+uw3UVfI7GMEeSY6s/UZRL6D7QhUj0O7aLMtZ+JcF1dGAhsoR0JkeIeczOL5JYCeGvy1j8FqsTYPLkkvf+3adIoqIo6PF6sJnK4GC3B9JWGqqmwck7yLgwhuhWOguBrDmOg93GgeZ5Pe7/BOj0EIEVItCuQWLBOpy9hL61EtXjsrA7RfwFKYzmtDdJVAMAAAAASUVORK5CYII="/>
+    <image width="320" height="320" filter="url(#posterize)" image-rendering="pixelated" style="image-rendering:pixelated;image-rendering:crisp-edges" preserveAspectRatio="none" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAGKADAAQAAAABAAAAGAAAAADB/VeXAAACkElEQVRIDbVVS0wTURQ9M0zbmVJqqQyJRlKNlGIAY0xcyMK4kqWaYNTEBVEWbty5NHHhxrg1pvGzMXFncOFGjSbsICwoSaVqA7WAYrED/dnSaTsf35tawJTOdNHeZKb3vXvuOe/edzNllLKsy8UUAIY8rTQdQqcIjpIXXp5sJbPBxQ2MA6P3wbb+5NWzqhvzgA4qYG2MIILtPGQN3AfRUMB1/pEBZ+xdECe/oOdmGGzXkX0ozLcaCvCBK/BcmiJlarsMmmr4vXckuC8Ed/dNvIYCm0+Pwd53Dt3XpyG9GIL0PACtkABj6zTo+MA48V2gYmbGmQWTj0WDQJyMGDB5+S1y725BetYPYXgC4u04kkGfGQVMBWjm9kIQpZWP0Es5eK99gnLmLvTyH7hG7yH5hFy8ppgKNGxRLUuvbIMfvArG4YaSWoJNHIEwMlENW5BTkGUFFMT7L6LDdRic1w81G6dbqGyEjF+rl2UFhbmHkIJ9KMXfG1z5mQeQo1NIvx6z4jbiTVVAkWVyD9l8AmomhvI/sWYUmhagram1R9lcbIbbwFi2qGmmBkAmn02QT1LVGF2uudAZfsdXpTC4noGdNXX2xum6US5TyMR3BCiw1db2FrVdoG6KNpJbiK2t4+zpYUzPhDDY78OrNx8weNwH3mHDj0QSNy6PYTYUwQn/UVQqFbicAlbXf+PUkL+uw3UVfI7GMEeSY6s/UZRL6D7QhUj0O7aLMtZ+JcF1dGAhsoR0JkeIeczOL5JYCeGvy1j8FqsTYPLkkvf+3adIoqIo6PF6sJnK4GC3B9JWGqqmwck7yLgwhuhWOguBrDmOg93GgeZ5Pe7/BOj0EIEVItCuQWLBOpy9hL61EtXjsrA7RfwFKYzmtDdJVAMAAAAASUVORK5CYII="/>
     <path d="M0 216h48v-8h32v8h64v-8h32v8h64v-8h32v8h48v104H0z" fill="#f5f0df"/>
   </g>
   <text x="160" y="282" fill="#1e3038" font-family="Hiragino Kaku Gothic ProN, Yu Gothic, Noto Sans JP, sans-serif" font-size="30" font-weight="700" letter-spacing=".4" text-anchor="middle">ふく育ポイント</text>

@@ -2,10 +2,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-labelledby="title desc" shape-rendering="crispEdges">
   <title id="title">高浜町</title>
   <desc id="desc">元画像の構図と配色を保って低解像度化したドット絵アイコン</desc>
-  <defs><clipPath id="frame"><rect width="320" height="320" rx="32"/></clipPath></defs>
+  <defs>
+    <clipPath id="frame"><rect width="320" height="320" rx="32"/></clipPath>
+    <filter id="posterize" color-interpolation-filters="sRGB">
+      <feComponentTransfer>
+        <feFuncR type="discrete" tableValues="0 .2 .4 .6 .8 1"/>
+        <feFuncG type="discrete" tableValues="0 .2 .4 .6 .8 1"/>
+        <feFuncB type="discrete" tableValues="0 .2 .4 .6 .8 1"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
   <g clip-path="url(#frame)">
     <rect width="320" height="320" fill="#f5f0df"/>
-    <image width="320" height="320" image-rendering="pixelated" style="image-rendering:pixelated;image-rendering:crisp-edges" preserveAspectRatio="none" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAGKADAAQAAAABAAAAGAAAAADB/VeXAAADCElEQVRIDbVWSU9TURg9HelEfWWwBQQnIBIUMJAag65AHBcuJVEUFrJQo3FnIrjzDxAjRmMcEoPGwELDShODbozKjCFFhTKUqTNDS/va530XfFbofSwMN2nfyfd955x3b7/7pQo+EhZWwj4ACvJhL78/gOFhB/IL9iAa5ZFls7KLaUaAzpABtShubJliFqsf1KO1+Tqs1lXB/sFftNZeeRzeG2+ZvIZiI1qqFFDKvbny1W103LuLRZ8Hk84xKuaen8PI90E8ffwQ3IurTINPrhVAIOpLwRnB2DK5sZCPotXahzMmLzijnub7R6dQsjuH4p/TbnQGTLgVP7aRSyKFFjV6ztvEHTCWWgOTySSJi1V/xEW8NysD2dnZIpRdbANCczqdlMzHYhib9UhCA2Muirt7eqQYC8ga9L57Q3lqlQp5mRZJIzttG8W1uzRSjAVkDRpr7JQXjkQx7QtiYl5sZ+DbyDh9Oqbc9Cn3JWtQvXSWcnVaDXLSOaSbjZj1L6CmvIjG67grcto0p2ZVKL92oP2AG/VPprE/NYYTFcXIzeSwGArj+fvPoMdkPcqiS3GmQZFmAdUH98FiMqC8IE8imA16XKg6BCuXistdpAkydkq5ZIB5REOldWho+0LF3cHFf7gD5D44puY2FRdJzB2IyXadHb1t4+g+l4sh5zT6Bn8AER65Bblo6iLjpVSskl+yBnzhETgI//7LJpSV5OP0ow9YJvc/q6MZJ4XD8sprWXUoHIE9nVGrUGCZF9BYewrKOI+LNj3uNF+CoFDi5kQrPpZfIzOYDJwka4dZgQiZunQWSfl4SIJQrs4fMRBaWIDeuG6zCXlKYnAVS/7R5K/w1+q/ELOL/ks1gbzlBusONsF6DfrJHXj2uhNlxYXweAOIC3GaWSHzqaqyAtbMtI2khMimBnNuL7oHHEjRauGadYMzmxAKr0CvS4FOp02QSg43/ZE9vgBlev1BxGJxamDhzHDNzCMvxwaVSv6UicEY6aKtaSSB3BKl1rAdgiD/lyX55uWjongK0f4NAgf75FaJCF0AAAAASUVORK5CYII="/>
+    <image width="320" height="320" filter="url(#posterize)" image-rendering="pixelated" style="image-rendering:pixelated;image-rendering:crisp-edges" preserveAspectRatio="none" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAGKADAAQAAAABAAAAGAAAAADB/VeXAAADCElEQVRIDbVWSU9TURg9HelEfWWwBQQnIBIUMJAag65AHBcuJVEUFrJQo3FnIrjzDxAjRmMcEoPGwELDShODbozKjCFFhTKUqTNDS/va530XfFbofSwMN2nfyfd955x3b7/7pQo+EhZWwj4ACvJhL78/gOFhB/IL9iAa5ZFls7KLaUaAzpABtShubJliFqsf1KO1+Tqs1lXB/sFftNZeeRzeG2+ZvIZiI1qqFFDKvbny1W103LuLRZ8Hk84xKuaen8PI90E8ffwQ3IurTINPrhVAIOpLwRnB2DK5sZCPotXahzMmLzijnub7R6dQsjuH4p/TbnQGTLgVP7aRSyKFFjV6ztvEHTCWWgOTySSJi1V/xEW8NysD2dnZIpRdbANCczqdlMzHYhib9UhCA2Muirt7eqQYC8ga9L57Q3lqlQp5mRZJIzttG8W1uzRSjAVkDRpr7JQXjkQx7QtiYl5sZ+DbyDh9Oqbc9Cn3JWtQvXSWcnVaDXLSOaSbjZj1L6CmvIjG67grcto0p2ZVKL92oP2AG/VPprE/NYYTFcXIzeSwGArj+fvPoMdkPcqiS3GmQZFmAdUH98FiMqC8IE8imA16XKg6BCuXistdpAkydkq5ZIB5REOldWho+0LF3cHFf7gD5D44puY2FRdJzB2IyXadHb1t4+g+l4sh5zT6Bn8AER65Bblo6iLjpVSskl+yBnzhETgI//7LJpSV5OP0ow9YJvc/q6MZJ4XD8sprWXUoHIE9nVGrUGCZF9BYewrKOI+LNj3uNF+CoFDi5kQrPpZfIzOYDJwka4dZgQiZunQWSfl4SIJQrs4fMRBaWIDeuG6zCXlKYnAVS/7R5K/w1+q/ELOL/ks1gbzlBusONsF6DfrJHXj2uhNlxYXweAOIC3GaWSHzqaqyAtbMtI2khMimBnNuL7oHHEjRauGadYMzmxAKr0CvS4FOp02QSg43/ZE9vgBlev1BxGJxamDhzHDNzCMvxwaVSv6UicEY6aKtaSSB3BKl1rAdgiD/lyX55uWjongK0f4NAgf75FaJCF0AAAAASUVORK5CYII="/>
     <path d="M0 216h48v-8h32v8h64v-8h32v8h64v-8h32v8h48v104H0z" fill="#f5f0df"/>
   </g>
   <text x="160" y="282" fill="#1e3038" font-family="Hiragino Kaku Gothic ProN, Yu Gothic, Noto Sans JP, sans-serif" font-size="30" font-weight="700" letter-spacing=".4" text-anchor="middle">高浜町</text>

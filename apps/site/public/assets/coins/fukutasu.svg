@@ -2,10 +2,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-labelledby="title desc" shape-rendering="crispEdges">
   <title id="title">ふく＋（全店舗応援）</title>
   <desc id="desc">元画像の構図と配色を保って低解像度化したドット絵アイコン</desc>
-  <defs><clipPath id="frame"><rect width="320" height="320" rx="32"/></clipPath></defs>
+  <defs>
+    <clipPath id="frame"><rect width="320" height="320" rx="32"/></clipPath>
+    <filter id="posterize" color-interpolation-filters="sRGB">
+      <feComponentTransfer>
+        <feFuncR type="discrete" tableValues="0 .2 .4 .6 .8 1"/>
+        <feFuncG type="discrete" tableValues="0 .2 .4 .6 .8 1"/>
+        <feFuncB type="discrete" tableValues="0 .2 .4 .6 .8 1"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
   <g clip-path="url(#frame)">
     <rect width="320" height="320" fill="#f5f0df"/>
-    <image width="320" height="320" image-rendering="pixelated" style="image-rendering:pixelated;image-rendering:crisp-edges" preserveAspectRatio="none" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAGKADAAQAAAABAAAAGAAAAADB/VeXAAACmUlEQVRIDbWV3UsUYRTGfzP7ke6m1Lp+rJFiVooFXVU3dRGRdBGoWVGE9F0Y1F1Q0D/RReBFXRT0QSBRlBd2USEEiVaUWQilppvarrm77up+zO72zo7rWE66ynpgZh7OO+d5znnPmXckJRpORsITgCSubFqSHJsTs0puazyWTeYUl7JvL+Hmc8jZz1zLVe79AklUgSWY2QxHjoLFknHQ0gTaXsDZC/C8HRyOjEREShlayy24dgU8HigugYetQuwk/BhckCCzCpxO2FAJ3V0aYV4eRKNw46YQK15QILMK7j7QSc43Q10DPHsCwSC03IaGA/r6PyizCq5f1cPKyrUm12yFTVXQ8VpfM0CLV6BOzLtuMT0i64uXYMdOjaaqGgJ+OFRvQKu7jCvYIrJrfwk2G5w6A3fuw6PHUH8QOt9q0f39i5KrLxpX8LkHavcI4nvgKtUI3cNCrEnDS7gbC6QJThxPo2U/jbdo2XTzA82RSAzJ5Zq/MuMxKXEsfh+SOvczJo4YFLuduPgekpLxKZxwFqLE4kihwKj6vmaJ6TQSp1TuLI55x7E4RMPn2pz1lPs/sVLI168LzCXIEl7xHqy4wOyYvu/po6qyjPEJP/l5dmIxBadjTWqj+r4PkUgkkGWJqekI/skgimi+LzBJ9cZy3CMeEbOan6MeajZXpHzpHU4JhCNROj/0osTjDAyNUFe7m6ftHezavo2KslJ+eX/z6es37LZcrBYzY94JgqFp3nR9pKlxP4PDo5QUFdDa9orLpw//JZBqspqNW6i7ip3IYuwmQ1PYc3OwWrU/lyrgHvNiNplYJXzRaAyTwDFFYV1JIZ5xn6hOFtWFKVibz/pS/QgXAgNiilZmkBJJCdlqKyIpQLZN5cyxF/EHbnzWkPqml58AAAAASUVORK5CYII="/>
+    <image width="320" height="320" filter="url(#posterize)" image-rendering="pixelated" style="image-rendering:pixelated;image-rendering:crisp-edges" preserveAspectRatio="none" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAGKADAAQAAAABAAAAGAAAAADB/VeXAAACmUlEQVRIDbWV3UsUYRTGfzP7ke6m1Lp+rJFiVooFXVU3dRGRdBGoWVGE9F0Y1F1Q0D/RReBFXRT0QSBRlBd2USEEiVaUWQilppvarrm77up+zO72zo7rWE66ynpgZh7OO+d5znnPmXckJRpORsITgCSubFqSHJsTs0puazyWTeYUl7JvL+Hmc8jZz1zLVe79AklUgSWY2QxHjoLFknHQ0gTaXsDZC/C8HRyOjEREShlayy24dgU8HigugYetQuwk/BhckCCzCpxO2FAJ3V0aYV4eRKNw46YQK15QILMK7j7QSc43Q10DPHsCwSC03IaGA/r6PyizCq5f1cPKyrUm12yFTVXQ8VpfM0CLV6BOzLtuMT0i64uXYMdOjaaqGgJ+OFRvQKu7jCvYIrJrfwk2G5w6A3fuw6PHUH8QOt9q0f39i5KrLxpX8LkHavcI4nvgKtUI3cNCrEnDS7gbC6QJThxPo2U/jbdo2XTzA82RSAzJ5Zq/MuMxKXEsfh+SOvczJo4YFLuduPgekpLxKZxwFqLE4kihwKj6vmaJ6TQSp1TuLI55x7E4RMPn2pz1lPs/sVLI168LzCXIEl7xHqy4wOyYvu/po6qyjPEJP/l5dmIxBadjTWqj+r4PkUgkkGWJqekI/skgimi+LzBJ9cZy3CMeEbOan6MeajZXpHzpHU4JhCNROj/0osTjDAyNUFe7m6ftHezavo2KslJ+eX/z6es37LZcrBYzY94JgqFp3nR9pKlxP4PDo5QUFdDa9orLpw//JZBqspqNW6i7ip3IYuwmQ1PYc3OwWrU/lyrgHvNiNplYJXzRaAyTwDFFYV1JIZ5xn6hOFtWFKVibz/pS/QgXAgNiilZmkBJJCdlqKyIpQLZN5cyxF/EHbnzWkPqml58AAAAASUVORK5CYII="/>
     <path d="M0 216h48v-8h32v8h64v-8h32v8h64v-8h32v8h48v104H0z" fill="#f5f0df"/>
   </g>
   <text x="160" y="282" fill="#1e3038" font-family="Hiragino Kaku Gothic ProN, Yu Gothic, Noto Sans JP, sans-serif" font-size="27" font-weight="700" letter-spacing=".4" text-anchor="middle">ふく＋（全店舗応援）</text>

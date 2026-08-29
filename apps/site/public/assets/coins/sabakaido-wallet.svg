@@ -2,10 +2,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-labelledby="title desc" shape-rendering="crispEdges">
   <title id="title">鯖街道サイフ</title>
   <desc id="desc">元画像の構図と配色を保って低解像度化したドット絵アイコン</desc>
-  <defs><clipPath id="frame"><rect width="320" height="320" rx="32"/></clipPath></defs>
+  <defs>
+    <clipPath id="frame"><rect width="320" height="320" rx="32"/></clipPath>
+    <filter id="posterize" color-interpolation-filters="sRGB">
+      <feComponentTransfer>
+        <feFuncR type="discrete" tableValues="0 .2 .4 .6 .8 1"/>
+        <feFuncG type="discrete" tableValues="0 .2 .4 .6 .8 1"/>
+        <feFuncB type="discrete" tableValues="0 .2 .4 .6 .8 1"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
   <g clip-path="url(#frame)">
     <rect width="320" height="320" fill="#f5f0df"/>
-    <image width="320" height="320" image-rendering="pixelated" style="image-rendering:pixelated;image-rendering:crisp-edges" preserveAspectRatio="none" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAGKADAAQAAAABAAAAGAAAAADB/VeXAAADlElEQVRIDbWW709bZRTHPy2V9rZQYG3AbYD8cIR1cZo5DdsydUaXzeBYlmBm49AoGk3csr9ARtAYXyz6wmzqC9DgEgf+SDYxuiWLi9NAdBh1G4PJ2tEqpdi1FFoKbe/13tvcwmWMFxs8Se/znPN9zvf7nHuee1JDajYhzSTCgEH+LeeQsFidmBRyV2/ecjKrXI3FSVqrQxgXnnxLzztsPNaEkIzdlehv0RyQUATmhjMWJL5+G0ONrZR2tVHVtnsOvMOVTqB64CxPxwZxe7u42XcGv30t1tdcd0idCTPNjx7csIuTe+5jaMRL+U4XR8LPkjrRhqmpiof37MdgMiGVu+jbtH9+2JJrXQYRwUFgdJSa8gqqrC6Ez9/CcPEskjGHi6e+4P3nf0Yc6FuScCGoE1DA5gNu2j/+iK01G9hhn8a07xDSI5labG/0cLg+spBDZ29qf11n3yIwerCDpleaEUURKTrO7vgf3DPcT+rIN0hmKy8ePM+WC59Q9+3bOqL8xASHf3mVPFuuzm+IRQOSq9emc9a+W8/3537M+k7/dI4TnSfpE9Zh/PIoBjFNYVkl99e7GXxwL46pAEeL3sNhD7Fj8muSJjOVFpGeh6ZZVMAoE2z+0E3X6Z6sSHRqktbWFq5cvsJswyG8x1owBG9kCp9Ksa2unEnLevpfPq7GLCmg7Lg36qe84w2Of9qNw+nMCsViU9hsefh9I+TbC/j3Hz97dz7Fm02FPPGYiwZDO6J8KTSBW2qgMQXspThW2Xjuh+s0v+AmODamQgq5MgRBYNfj2zkwJDDTcY3zJS2MBMw0fPWSimuPRV+RBpZGPPgLKzVTnet+7aTMd4bufZ0UxUOErQ4d/oDnAmKOiXjNo5kahMZ9kvuSoNukGXIrISFCUMxlWprrtjlyk1mVk6bAmMSk7zZaKKvNIh/UJjNFznrF6ewS45zoWDxNiWV2DlNW83AVuE2sIRbxKAddsXHbIi+X4ooL6LqpdurPur8jEp3Cta6SsfEQFWWr8fpGSaXTOIoKmE0meebJrfw1MEzpmmKueXzYrAKbN9ZqFNl50QwCwRC9/Ze4OnyDP68Oq2K/Xx7iv5sTVFesxZyby99ev4qvKXGSSMxQkK9vN5rCokUeuu5Tm51gscj7JJJyK1BOHYsn1KyUYJvVQig8oWYUjkQpKrRrnLpZFvDKt2hlLpIk/1Mx5lqLkeZ9RDr5uzAUTrPM/T8JolvT0DfSNwAAAABJRU5ErkJggg=="/>
+    <image width="320" height="320" filter="url(#posterize)" image-rendering="pixelated" style="image-rendering:pixelated;image-rendering:crisp-edges" preserveAspectRatio="none" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAGKADAAQAAAABAAAAGAAAAADB/VeXAAADlElEQVRIDbWW709bZRTHPy2V9rZQYG3AbYD8cIR1cZo5DdsydUaXzeBYlmBm49AoGk3csr9ARtAYXyz6wmzqC9DgEgf+SDYxuiWLi9NAdBh1G4PJ2tEqpdi1FFoKbe/13tvcwmWMFxs8Se/znPN9zvf7nHuee1JDajYhzSTCgEH+LeeQsFidmBRyV2/ecjKrXI3FSVqrQxgXnnxLzztsPNaEkIzdlehv0RyQUATmhjMWJL5+G0ONrZR2tVHVtnsOvMOVTqB64CxPxwZxe7u42XcGv30t1tdcd0idCTPNjx7csIuTe+5jaMRL+U4XR8LPkjrRhqmpiof37MdgMiGVu+jbtH9+2JJrXQYRwUFgdJSa8gqqrC6Ez9/CcPEskjGHi6e+4P3nf0Yc6FuScCGoE1DA5gNu2j/+iK01G9hhn8a07xDSI5labG/0cLg+spBDZ29qf11n3yIwerCDpleaEUURKTrO7vgf3DPcT+rIN0hmKy8ePM+WC59Q9+3bOqL8xASHf3mVPFuuzm+IRQOSq9emc9a+W8/3537M+k7/dI4TnSfpE9Zh/PIoBjFNYVkl99e7GXxwL46pAEeL3sNhD7Fj8muSJjOVFpGeh6ZZVMAoE2z+0E3X6Z6sSHRqktbWFq5cvsJswyG8x1owBG9kCp9Ksa2unEnLevpfPq7GLCmg7Lg36qe84w2Of9qNw+nMCsViU9hsefh9I+TbC/j3Hz97dz7Fm02FPPGYiwZDO6J8KTSBW2qgMQXspThW2Xjuh+s0v+AmODamQgq5MgRBYNfj2zkwJDDTcY3zJS2MBMw0fPWSimuPRV+RBpZGPPgLKzVTnet+7aTMd4bufZ0UxUOErQ4d/oDnAmKOiXjNo5kahMZ9kvuSoNukGXIrISFCUMxlWprrtjlyk1mVk6bAmMSk7zZaKKvNIh/UJjNFznrF6ewS45zoWDxNiWV2DlNW83AVuE2sIRbxKAddsXHbIi+X4ooL6LqpdurPur8jEp3Cta6SsfEQFWWr8fpGSaXTOIoKmE0meebJrfw1MEzpmmKueXzYrAKbN9ZqFNl50QwCwRC9/Ze4OnyDP68Oq2K/Xx7iv5sTVFesxZyby99ev4qvKXGSSMxQkK9vN5rCokUeuu5Tm51gscj7JJJyK1BOHYsn1KyUYJvVQig8oWYUjkQpKrRrnLpZFvDKt2hlLpIk/1Mx5lqLkeZ9RDr5uzAUTrPM/T8JolvT0DfSNwAAAABJRU5ErkJggg=="/>
     <path d="M0 216h48v-8h32v8h64v-8h32v8h64v-8h32v8h48v104H0z" fill="#f5f0df"/>
   </g>
   <text x="160" y="282" fill="#1e3038" font-family="Hiragino Kaku Gothic ProN, Yu Gothic, Noto Sans JP, sans-serif" font-size="30" font-weight="700" letter-spacing=".4" text-anchor="middle">鯖街道サイフ</text>

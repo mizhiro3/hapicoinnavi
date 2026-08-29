@@ -2,10 +2,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-labelledby="title desc" shape-rendering="crispEdges">
   <title id="title">カツヤマポケット</title>
   <desc id="desc">元画像の構図と配色を保って低解像度化したドット絵アイコン</desc>
-  <defs><clipPath id="frame"><rect width="320" height="320" rx="32"/></clipPath></defs>
+  <defs>
+    <clipPath id="frame"><rect width="320" height="320" rx="32"/></clipPath>
+    <filter id="posterize" color-interpolation-filters="sRGB">
+      <feComponentTransfer>
+        <feFuncR type="discrete" tableValues="0 .2 .4 .6 .8 1"/>
+        <feFuncG type="discrete" tableValues="0 .2 .4 .6 .8 1"/>
+        <feFuncB type="discrete" tableValues="0 .2 .4 .6 .8 1"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
   <g clip-path="url(#frame)">
     <rect width="320" height="320" fill="#f5f0df"/>
-    <image width="320" height="320" image-rendering="pixelated" style="image-rendering:pixelated;image-rendering:crisp-edges" preserveAspectRatio="none" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAGKADAAQAAAABAAAAGAAAAADB/VeXAAADJ0lEQVRIDbWVS0iUURTHfzOOrxkfaT5SUYoyeqEWYUGPRbVpY7QoKKSCKHrTLqhVi3ZFRG1rEZELFwrSQ4nQkhLL8sWUkWSPMafGHHWcmeb1dT7Hz/FTx0fogeG75957/udx/+eMIeDzKn+9A4BBfnOTtvZOios2zHJZIcGcgWFk6KdiduXMcll/bMiFgjwwJ8KHF/ozTQuYyvElXsc4n8g1Y3s7fLPBpbNQdlTb1X+NwSZQwKTfnlkLhSBTKpO5FEpL4PwVePRgZhvJYO5ilNv9Vqi6B4EguNxw7RbU1UfHmJcDDWZtIbTUQvNjAW+A1Su1k6nf/3KgwVRUQbIFludrO1O/c36Dmjo4JzUvXie0EEZ398BfHxSJPpPMmsHzRth3DA6fCT+s+tDDLvjlgMQEOHpgJnhUmkaXbWWw+yD8tENQgNV6P3sJWzZBSjJcPAEnyqPbqyfTlsjvh5I9EBsbNv7eC7UP4dXbMEXPXhYnG8V4Wmu9wykZuIV6ycISu5SgzQonJcK+32FKrlkFhSvA9g4GBsMUvV+pB5ysjTtw9EPDa7AISKxEpjbTlQtQ/QSyZL13F2wuDpt3fIRTR6CrEXKyJkPqdaOiKOzcDxXV8Kkb7t6AmvuRGXPzKiwbA8mTkbVjK/T2wemxEbG9FO5I4w0OwaHTenBVM3Vau6itlJpMEk9AHlBA3rT6+dH3S07d4zeM0tL+YBpBJU3SNXBcsglJZ9+7DaqdKiEKCPiD6jTtk5E0JiGPthJ+yagcE7/PLmVL0dTwd8L56EYUW8OI80vEgR5iQbTxR14QtGlAFt2BEDIiT+ubpP3jyRfu2R0DZKSn0txqZW3hclwjHnw+P2mpybR0dMlMKqTX/lv+F9ZJQ5owi93nHhsl6/WE0WXgdntxDrpIsiRik+7Kzc4kTto5OyNdaOgifUkKjj9OabLh0TshGUy52RkyQpr5arOLgx80v7dGIpaV7pGHhkdwe7ykpiTJxDSQEB9Hv7Ts0rRUVDCP10dMjFGCGMYiQZhiYkYz1u78cQ6NBjHRgzjoERYtDpEUxYAxzpyFulhoCQlmvCWLf6l0DJBF4VeHAAAAAElFTkSuQmCC"/>
+    <image width="320" height="320" filter="url(#posterize)" image-rendering="pixelated" style="image-rendering:pixelated;image-rendering:crisp-edges" preserveAspectRatio="none" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAGKADAAQAAAABAAAAGAAAAADB/VeXAAADJ0lEQVRIDbWVS0iUURTHfzOOrxkfaT5SUYoyeqEWYUGPRbVpY7QoKKSCKHrTLqhVi3ZFRG1rEZELFwrSQ4nQkhLL8sWUkWSPMafGHHWcmeb1dT7Hz/FTx0fogeG75957/udx/+eMIeDzKn+9A4BBfnOTtvZOios2zHJZIcGcgWFk6KdiduXMcll/bMiFgjwwJ8KHF/ozTQuYyvElXsc4n8g1Y3s7fLPBpbNQdlTb1X+NwSZQwKTfnlkLhSBTKpO5FEpL4PwVePRgZhvJYO5ilNv9Vqi6B4EguNxw7RbU1UfHmJcDDWZtIbTUQvNjAW+A1Su1k6nf/3KgwVRUQbIFludrO1O/c36Dmjo4JzUvXie0EEZ398BfHxSJPpPMmsHzRth3DA6fCT+s+tDDLvjlgMQEOHpgJnhUmkaXbWWw+yD8tENQgNV6P3sJWzZBSjJcPAEnyqPbqyfTlsjvh5I9EBsbNv7eC7UP4dXbMEXPXhYnG8V4Wmu9wykZuIV6ycISu5SgzQonJcK+32FKrlkFhSvA9g4GBsMUvV+pB5ysjTtw9EPDa7AISKxEpjbTlQtQ/QSyZL13F2wuDpt3fIRTR6CrEXKyJkPqdaOiKOzcDxXV8Kkb7t6AmvuRGXPzKiwbA8mTkbVjK/T2wemxEbG9FO5I4w0OwaHTenBVM3Vau6itlJpMEk9AHlBA3rT6+dH3S07d4zeM0tL+YBpBJU3SNXBcsglJZ9+7DaqdKiEKCPiD6jTtk5E0JiGPthJ+yagcE7/PLmVL0dTwd8L56EYUW8OI80vEgR5iQbTxR14QtGlAFt2BEDIiT+ubpP3jyRfu2R0DZKSn0txqZW3hclwjHnw+P2mpybR0dMlMKqTX/lv+F9ZJQ5owi93nHhsl6/WE0WXgdntxDrpIsiRik+7Kzc4kTto5OyNdaOgifUkKjj9OabLh0TshGUy52RkyQpr5arOLgx80v7dGIpaV7pGHhkdwe7ykpiTJxDSQEB9Hv7Ts0rRUVDCP10dMjFGCGMYiQZhiYkYz1u78cQ6NBjHRgzjoERYtDpEUxYAxzpyFulhoCQlmvCWLf6l0DJBF4VeHAAAAAElFTkSuQmCC"/>
     <path d="M0 216h48v-8h32v8h64v-8h32v8h64v-8h32v8h48v104H0z" fill="#f5f0df"/>
   </g>
   <text x="160" y="282" fill="#1e3038" font-family="Hiragino Kaku Gothic ProN, Yu Gothic, Noto Sans JP, sans-serif" font-size="30" font-weight="700" letter-spacing=".4" text-anchor="middle">カツヤマポケット</text>

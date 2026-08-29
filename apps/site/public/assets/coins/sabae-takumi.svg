@@ -2,10 +2,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-labelledby="title desc" shape-rendering="crispEdges">
   <title id="title">さばえ匠サイフ</title>
   <desc id="desc">元画像の構図と配色を保って低解像度化したドット絵アイコン</desc>
-  <defs><clipPath id="frame"><rect width="320" height="320" rx="32"/></clipPath></defs>
+  <defs>
+    <clipPath id="frame"><rect width="320" height="320" rx="32"/></clipPath>
+    <filter id="posterize" color-interpolation-filters="sRGB">
+      <feComponentTransfer>
+        <feFuncR type="discrete" tableValues="0 .2 .4 .6 .8 1"/>
+        <feFuncG type="discrete" tableValues="0 .2 .4 .6 .8 1"/>
+        <feFuncB type="discrete" tableValues="0 .2 .4 .6 .8 1"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
   <g clip-path="url(#frame)">
     <rect width="320" height="320" fill="#f5f0df"/>
-    <image width="320" height="320" image-rendering="pixelated" style="image-rendering:pixelated;image-rendering:crisp-edges" preserveAspectRatio="none" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAGKADAAQAAAABAAAAGAAAAADB/VeXAAADo0lEQVRIDbVV628UVRT/3Xnc7s5mW5e2BKUQUEOgrUATKR8qJAUJQSHGQNImhMTERBIlMSYYjH+ABBIwMSYa0A9GjXzhrfJUIxA+CBQQH9QHyCrNupTd7nR3Z2fuzFzvnWZntu6SGKjnw9xzz/nd37n3zDn3Etep8IqVh8tcEM4xFUJUFYqmIG60QbOsHLD7PcQOHAUnZCr4oegU5c/2gjxMoHm2i/j+I+BlC7X0+icfAYZx3wENIwVXJESTDL5QasmljfQugTzq/Yo6bsKFBaUhgQ5472wCe+058JHrDSHS6O3ZBvbyM/AOvn1PTF0AbWsSTUfaQVr+AEo2nL7nYfc+Af/kh3DWLgV75Vnw3y7AnrsA7t4vgRiF+8aeYM5ZpT7QWDbNra5FvPLoPG6v6uR8uC/Q5bwqla4FvDJnPmc7N3NncFmge1dPV93BKH0SUxXXLPCSmeHhCegXbaDvpsB2meEunBdeDHQ6dCkYtdffh7JxQOyaQFm4MsRJRfqkyJP533wc6PITBnDWjgZG/yoLnfzsOfD0nyA0Htl+vgbSmQrn/1b0Yx9A6d8UmsMAEJXkX3GgbZxcmk7/0/DOHwwXqBs2gw+J3rmHKPP7JnmiAMLM3ixAXR0H6RZlVBWDQG3bBW3HS4GFzO0BRPWyweVVRDDaPd0gj0WbK1++OIGXP7mpfx2IZU0smKag6dPWSYvZdhP+GRtobgb99isQMdoLu4BxP8SRriTo59+Jkj0Eb+s2lHe/BbriqYlGC1FSyfmw19yZZAonpgm2fgD01DE0ff9jYOa+D6JEiXAFeW3TBp0cEvwHhReL8I6faIxscFlqDvOAWR0glQZNImgUkTotlwfxBE5KNgt3y6vwYjF4ba31F+TsWcEJGKXiohOnK5cyHGzimuaIghDEAj4FImUXrkBb0hnMqx+t5MFPJGTxBVK3lihgrngCSmM3q5jq2ikdo78zpbQR2f8eoK6Kfvr1Joau/YLFnY9jJHsXLckE0rf/xqrlvdh3+BSorqPjkekYL5awou9JZAQmYcRwIz0CVZTrsqWLo+0Lre4Et/7KAKLchm+k8cP13zG9NSUCDoOJN1v6KNUxp2MGNFXDWGEcX5+/hNkzZyCZMKDrdfut/8nZ0RzMYhmpliSKJQvTHmqGfKozd3LIjuahqgp6uueFvrv5AlpTLciPmUgJbK3ItiClwi0OHrV8LeDBdQUKjbeLjJCwnh+cVGRYkHCRfWq04x/aYoG7KneqEQAAAABJRU5ErkJggg=="/>
+    <image width="320" height="320" filter="url(#posterize)" image-rendering="pixelated" style="image-rendering:pixelated;image-rendering:crisp-edges" preserveAspectRatio="none" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAGKADAAQAAAABAAAAGAAAAADB/VeXAAADo0lEQVRIDbVV628UVRT/3Xnc7s5mW5e2BKUQUEOgrUATKR8qJAUJQSHGQNImhMTERBIlMSYYjH+ABBIwMSYa0A9GjXzhrfJUIxA+CBQQH9QHyCrNupTd7nR3Z2fuzFzvnWZntu6SGKjnw9xzz/nd37n3zDn3Etep8IqVh8tcEM4xFUJUFYqmIG60QbOsHLD7PcQOHAUnZCr4oegU5c/2gjxMoHm2i/j+I+BlC7X0+icfAYZx3wENIwVXJESTDL5QasmljfQugTzq/Yo6bsKFBaUhgQ5472wCe+058JHrDSHS6O3ZBvbyM/AOvn1PTF0AbWsSTUfaQVr+AEo2nL7nYfc+Af/kh3DWLgV75Vnw3y7AnrsA7t4vgRiF+8aeYM5ZpT7QWDbNra5FvPLoPG6v6uR8uC/Q5bwqla4FvDJnPmc7N3NncFmge1dPV93BKH0SUxXXLPCSmeHhCegXbaDvpsB2meEunBdeDHQ6dCkYtdffh7JxQOyaQFm4MsRJRfqkyJP533wc6PITBnDWjgZG/yoLnfzsOfD0nyA0Htl+vgbSmQrn/1b0Yx9A6d8UmsMAEJXkX3GgbZxcmk7/0/DOHwwXqBs2gw+J3rmHKPP7JnmiAMLM3ixAXR0H6RZlVBWDQG3bBW3HS4GFzO0BRPWyweVVRDDaPd0gj0WbK1++OIGXP7mpfx2IZU0smKag6dPWSYvZdhP+GRtobgb99isQMdoLu4BxP8SRriTo59+Jkj0Eb+s2lHe/BbriqYlGC1FSyfmw19yZZAonpgm2fgD01DE0ff9jYOa+D6JEiXAFeW3TBp0cEvwHhReL8I6faIxscFlqDvOAWR0glQZNImgUkTotlwfxBE5KNgt3y6vwYjF4ba31F+TsWcEJGKXiohOnK5cyHGzimuaIghDEAj4FImUXrkBb0hnMqx+t5MFPJGTxBVK3lihgrngCSmM3q5jq2ikdo78zpbQR2f8eoK6Kfvr1Joau/YLFnY9jJHsXLckE0rf/xqrlvdh3+BSorqPjkekYL5awou9JZAQmYcRwIz0CVZTrsqWLo+0Lre4Et/7KAKLchm+k8cP13zG9NSUCDoOJN1v6KNUxp2MGNFXDWGEcX5+/hNkzZyCZMKDrdfut/8nZ0RzMYhmpliSKJQvTHmqGfKozd3LIjuahqgp6uueFvrv5AlpTLciPmUgJbK3ItiClwi0OHrV8LeDBdQUKjbeLjJCwnh+cVGRYkHCRfWq04x/aYoG7KneqEQAAAABJRU5ErkJggg=="/>
     <path d="M0 216h48v-8h32v8h64v-8h32v8h64v-8h32v8h48v104H0z" fill="#f5f0df"/>
   </g>
   <text x="160" y="282" fill="#1e3038" font-family="Hiragino Kaku Gothic ProN, Yu Gothic, Noto Sans JP, sans-serif" font-size="30" font-weight="700" letter-spacing=".4" text-anchor="middle">さばえ匠サイフ</text>
