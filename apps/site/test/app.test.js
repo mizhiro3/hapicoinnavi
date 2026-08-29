@@ -5,6 +5,7 @@ import {
   filterAndSortStores,
   formatDisplayText,
   formatDistance,
+  googleMapsUrl,
   normalizeText,
   nextStorePage,
   shouldShowPageTop,
@@ -103,6 +104,26 @@ test("calculates and formats approximate great-circle distance", () => {
   assert.ok(distance > 0.1 && distance < 0.2);
   assert.match(formatDistance(distance), /^約\d+m$/);
   assert.equal(formatDistance(1.24), "約1.2km");
+});
+
+test("builds a cross-platform Google Maps URL from the store name and address", () => {
+  const url = new URL(googleMapsUrl({
+    name: "さくらむすび",
+    address: {
+      postalCode: "910-0006",
+      prefecture: "福井県",
+      city: "福井市",
+      street: "中央1丁目1-25",
+      building: "くるふ福井駅内"
+    }
+  }));
+  assert.equal(url.origin, "https://www.google.com");
+  assert.equal(url.pathname, "/maps/search/");
+  assert.equal(url.searchParams.get("api"), "1");
+  assert.equal(
+    url.searchParams.get("query"),
+    "さくらむすび 〒910-0006 福井県 福井市 中央1丁目1-25 くるふ福井駅内"
+  );
 });
 
 test("shows the selected coin only when the search bar is stuck", () => {

@@ -216,6 +216,25 @@ function createIcon(name, className = "hc-icon") {
   return icon;
 }
 
+function createExternalLinkIcon() {
+  const namespace = "http://www.w3.org/2000/svg";
+  const icon = document.createElementNS(namespace, "svg");
+  icon.classList.add("hc-map-link-external");
+  icon.setAttribute("viewBox", "0 0 24 24");
+  icon.setAttribute("aria-hidden", "true");
+  icon.setAttribute("fill", "none");
+  icon.setAttribute("stroke", "currentColor");
+  icon.setAttribute("stroke-width", "2.4");
+  icon.setAttribute("stroke-linecap", "round");
+  icon.setAttribute("stroke-linejoin", "round");
+  const frame = document.createElementNS(namespace, "path");
+  frame.setAttribute("d", "M13 5H6a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2v-7");
+  const arrow = document.createElementNS(namespace, "path");
+  arrow.setAttribute("d", "M14 4h6v6M10 14 20 4");
+  icon.append(frame, arrow);
+  return icon;
+}
+
 function renderStaticIcons() {
   for (const placeholder of document.querySelectorAll("[data-icon]")) {
     placeholder.replaceChildren(createIcon(placeholder.dataset.icon));
@@ -246,6 +265,11 @@ function addressText(address) {
   return [address?.postalCode ? `〒${address.postalCode}` : "", address?.prefecture, address?.city, address?.street, address?.building]
     .filter(Boolean)
     .join(" ");
+}
+
+export function googleMapsUrl(store) {
+  const query = [store?.name, addressText(store?.address)].filter(Boolean).join(" ");
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
 }
 
 function renderCoins() {
@@ -396,6 +420,17 @@ function makeStoreCard(store) {
   if (store.notice) {
     content.append(safeTextElement("p", "hc-store-notice", formatDisplayText(store.notice)));
   }
+  const mapLink = document.createElement("a");
+  mapLink.className = "hc-map-link";
+  mapLink.href = googleMapsUrl(store);
+  mapLink.target = "_blank";
+  mapLink.rel = "noopener noreferrer";
+  mapLink.setAttribute("aria-label", `${store.name}の住所をGoogleマップで開く`);
+  mapLink.append(
+    safeTextElement("span", "", "Googleマップで見る"),
+    createExternalLinkIcon()
+  );
+  content.append(mapLink);
   const usableCoins = state.coins.filter(
     (coin) => coin.published && store.coinIds.includes(coin.id)
   );
