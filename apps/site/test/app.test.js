@@ -4,6 +4,7 @@ import {
   distanceInKilometers,
   filterAndSortStores,
   formatDisplayText,
+  formatCrawlDate,
   formatDistance,
   googleMapsUrl,
   normalizeText,
@@ -46,6 +47,11 @@ test("converts source br tags to display line breaks without rendering HTML", ()
     "平日 9:00～19:00\n土曜 10:00～17:00\n日曜休み"
   );
   assert.equal(formatDisplayText("<strong>24時間営業</strong>"), "<strong>24時間営業</strong>");
+});
+
+test("formats the crawl timestamp as a date in Japan", () => {
+  assert.equal(formatCrawlDate("2026-08-29T00:38:32.868Z"), "2026年8月29日");
+  assert.equal(formatCrawlDate("invalid"), "");
 });
 
 test("filters by coin, category, and normalized keyword", () => {

@@ -175,8 +175,23 @@ input:focus-visible {
 
 .hc-header-notes {
   display: flex;
+  flex-direction: column;
   gap: 0.55rem;
   align-items: center;
+}
+
+.hc-header-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  align-items: center;
+}
+
+.hc-data-as-of {
+  color: #d9eeea;
+  font-size: 0.72rem;
+  font-weight: 700;
+  white-space: nowrap;
 }
 
 .hc-unofficial-badge {
@@ -1423,6 +1438,16 @@ body {
 
   .hc-header-notes {
     flex: 0 0 auto;
+    gap: 0.25rem;
+    align-items: center;
+  }
+
+  .hc-header-meta {
+    gap: 0;
+  }
+
+  .hc-data-as-of {
+    font-size: 0.64rem;
   }
 
   .hc-unofficial-badge {

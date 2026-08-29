@@ -68,6 +68,17 @@ export function formatDisplayText(value) {
     .trim();
 }
 
+export function formatCrawlDate(value) {
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return "";
+  return new Intl.DateTimeFormat("ja-JP", {
+    timeZone: "Asia/Tokyo",
+    year: "numeric",
+    month: "long",
+    day: "numeric"
+  }).format(date);
+}
+
 export function distanceInKilometers(origin, destination) {
   const radians = (degrees) => (degrees * Math.PI) / 180;
   const earthRadius = 6371;
@@ -141,6 +152,7 @@ const dom = typeof document === "undefined" ? null : {
   storeView: document.querySelector("#store-view"),
   coinGrid: document.querySelector("#coin-grid"),
   coinError: document.querySelector("#coin-error"),
+  dataAsOf: document.querySelector("#data-as-of"),
   homeButton: document.querySelector("#home-button"),
   changeCoin: document.querySelector("#change-coin"),
   stickyChangeCoin: document.querySelector("#sticky-change-coin"),
@@ -653,6 +665,12 @@ async function loadData() {
     const versionData = await versionResponse.json();
     if (typeof versionData.version !== "string") throw new Error("version is invalid");
     state.assetVersion = versionData.version;
+    const crawlDate = formatCrawlDate(versionData.crawledAt);
+    if (crawlDate && dom.dataAsOf) {
+      dom.dataAsOf.dateTime = versionData.crawledAt;
+      dom.dataAsOf.textContent = `${crawlDate}時点の店舗情報`;
+      dom.dataAsOf.hidden = false;
+    }
     const coinResponse = await fetch(
       `./data/coins.json?v=${encodeURIComponent(state.assetVersion)}`,
       { cache: "force-cache" }
