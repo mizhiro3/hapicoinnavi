@@ -144,7 +144,7 @@ const dom = typeof document === "undefined" ? null : {
   homeButton: document.querySelector("#home-button"),
   changeCoin: document.querySelector("#change-coin"),
   stickyChangeCoin: document.querySelector("#sticky-change-coin"),
-  stickySearchBar: document.querySelector(".sticky-search-bar"),
+  stickySearchBar: document.querySelector(".hc-sticky-search-bar"),
   stickySearchSentinel: document.querySelector("#sticky-search-sentinel"),
   selectedCoinIcon: document.querySelector("#selected-coin-icon"),
   stickyCoinIcon: document.querySelector("#sticky-coin-icon"),
@@ -208,9 +208,9 @@ const MATERIAL_ICON_NAMES = {
   "list-filter": "filter_list"
 };
 
-function createIcon(name, className = "icon") {
+function createIcon(name, className = "hc-icon") {
   const icon = document.createElement("span");
-  icon.classList.add("material-symbols-rounded", className);
+  icon.classList.add("hc-material-symbols-rounded", className);
   icon.setAttribute("aria-hidden", "true");
   icon.textContent = MATERIAL_ICON_NAMES[name] ?? name;
   return icon;
@@ -231,7 +231,7 @@ function coinIcon(coin, className, altText = coin.name, loading = "lazy") {
     : coin.logo;
   image.alt = altText;
   image.loading = loading;
-  const fallback = safeTextElement("span", "coin-icon-fallback", coin.name.slice(0, 1));
+  const fallback = safeTextElement("span", "hc-coin-icon-fallback", coin.name.slice(0, 1));
   fallback.setAttribute("aria-hidden", "true");
   fallback.hidden = true;
   image.addEventListener("error", () => {
@@ -256,17 +256,17 @@ function renderCoins() {
       (coin) => (coin.kind ?? "digital") === kind
     );
     if (groupCoins.length === 0) continue;
-    dom.coinGrid.append(safeTextElement("h2", "coin-group-title", label));
+    dom.coinGrid.append(safeTextElement("h2", "hc-coin-group-title", label));
     for (const coin of groupCoins) {
       const button = document.createElement("button");
-      button.className = "coin-tile coin-tile--compact";
+      button.className = "hc-coin-tile hc-coin-tile--compact";
       button.type = "button";
       button.dataset.coinId = coin.id;
       button.setAttribute("aria-label", `${coin.name}でお店を探す`);
 
-      const symbol = coinIcon(coin, "coin-symbol");
+      const symbol = coinIcon(coin, "hc-coin-symbol");
       button.append(symbol, safeTextElement("strong", "", coin.name));
-      button.append(createIcon("chevron-right", "arrow"));
+      button.append(createIcon("chevron-right", "hc-arrow"));
       button.lastElementChild.setAttribute("aria-hidden", "true");
       button.addEventListener("click", () => selectCoin(coin.id));
       dom.coinGrid.append(button);
@@ -295,7 +295,7 @@ function renderCategoryMenu() {
   for (const category of categories) {
     const button = document.createElement("button");
     button.type = "button";
-    button.className = "category-button";
+    button.className = "hc-category-button";
     button.dataset.category = category.id;
     const detailSelected =
       category.id === "detail" && state.category.startsWith("category:");
@@ -303,12 +303,12 @@ function renderCategoryMenu() {
       "aria-pressed",
       String(state.category === category.id || detailSelected)
     );
-    const icon = createIcon(category.icon, "category-icon");
-    const label = safeTextElement("span", "category-label", category.label);
+    const icon = createIcon(category.icon, "hc-category-icon");
+    const label = safeTextElement("span", "hc-category-label", category.label);
     const count =
       category.count === null
         ? null
-        : safeTextElement("span", "category-count", `(${category.count})`);
+        : safeTextElement("span", "hc-category-count", `(${category.count})`);
     button.append(icon, label);
     if (count) label.append(count);
     button.addEventListener("click", () => {
@@ -352,7 +352,7 @@ function renderCategoryDetails() {
     const id = `category:${name}`;
     const button = document.createElement("button");
     button.type = "button";
-    button.className = "category-detail-button";
+    button.className = "hc-category-detail-button";
     button.setAttribute("aria-pressed", String(state.category === id));
     button.append(
       safeTextElement("span", "", name),
@@ -371,47 +371,47 @@ function renderCategoryDetails() {
 
 function makeStoreCard(store) {
   const article = document.createElement("article");
-  article.className = "store-card";
+  article.className = "hc-store-card";
   const content = document.createElement("div");
   const tags = document.createElement("div");
-  tags.className = "category-tags";
+  tags.className = "hc-category-tags";
   for (const category of store.categories) {
-    tags.append(safeTextElement("span", "category-tag", category));
+    tags.append(safeTextElement("span", "hc-category-tag", category));
   }
   if (store.sample) {
-    content.append(safeTextElement("span", "sample-label", "架空のサンプルデータ"));
+    content.append(safeTextElement("span", "hc-sample-label", "架空のサンプルデータ"));
   }
   content.append(tags, safeTextElement("h3", "", store.name));
-  content.append(safeTextElement("p", "store-address", addressText(store.address)));
+  content.append(safeTextElement("p", "hc-store-address", addressText(store.address)));
   if (store.businessHours) {
     content.append(
-      safeTextElement("p", "store-meta", `営業時間：${formatDisplayText(store.businessHours)}`)
+      safeTextElement("p", "hc-store-meta", `営業時間：${formatDisplayText(store.businessHours)}`)
     );
   }
   if (store.closedDays) {
     content.append(
-      safeTextElement("p", "store-meta", `定休日：${formatDisplayText(store.closedDays)}`)
+      safeTextElement("p", "hc-store-meta", `定休日：${formatDisplayText(store.closedDays)}`)
     );
   }
   if (store.notice) {
-    content.append(safeTextElement("p", "store-notice", formatDisplayText(store.notice)));
+    content.append(safeTextElement("p", "hc-store-notice", formatDisplayText(store.notice)));
   }
   const usableCoins = state.coins.filter(
     (coin) => coin.published && store.coinIds.includes(coin.id)
   );
   if (usableCoins.length > 0) {
     const coinSection = document.createElement("div");
-    coinSection.className = "store-coins";
+    coinSection.className = "hc-store-coins";
     coinSection.setAttribute("aria-label", "利用できるコイン");
     coinSection.append(
-      safeTextElement("span", "store-coins-label", "使えるコイン"),
-      ...usableCoins.map((coin) => coinIcon(coin, "store-coin-icon"))
+      safeTextElement("span", "hc-store-coins-label", "使えるコイン"),
+      ...usableCoins.map((coin) => coinIcon(coin, "hc-store-coin-icon"))
     );
     content.append(coinSection);
   }
   article.append(content);
   if (store.distance !== null) {
-    article.append(safeTextElement("span", "distance", formatDistance(store.distance)));
+    article.append(safeTextElement("span", "hc-distance", formatDistance(store.distance)));
   }
   return article;
 }
@@ -449,9 +449,9 @@ async function selectCoin(coinId) {
   state.category = "all";
   state.keyword = "";
   dom.keyword.value = "";
-  dom.stickySearchBar.classList.remove("is-stuck");
-  dom.selectedCoinIcon.replaceChildren(coinIcon(coin, "selected-coin-image", ""));
-  dom.stickyCoinIcon.replaceChildren(coinIcon(coin, "sticky-coin-image", "", "eager"));
+  dom.stickySearchBar.classList.remove("hc-is-stuck");
+  dom.selectedCoinIcon.replaceChildren(coinIcon(coin, "hc-selected-coin-image", ""));
+  dom.stickyCoinIcon.replaceChildren(coinIcon(coin, "hc-sticky-coin-image", "", "eager"));
   dom.stickyCoinName.textContent = coin.name;
   dom.selectedKindLabel.textContent =
     coin.kind === "paper" ? "選択中の紙商品券" : "選択中のコイン";
@@ -479,14 +479,14 @@ async function selectCoin(coinId) {
     dom.sortStatus.textContent = "読込エラー";
     dom.resultList.hidden = false;
     dom.resultList.replaceChildren(
-      safeTextElement("p", "empty-state", "店舗データを読み込めませんでした。ページを再読み込みしてください。")
+      safeTextElement("p", "hc-empty-state", "店舗データを読み込めませんでした。ページを再読み込みしてください。")
     );
   }
 }
 
 function showCoinSelection() {
   state.coinId = null;
-  dom.stickySearchBar.classList.remove("is-stuck");
+  dom.stickySearchBar.classList.remove("hc-is-stuck");
   dom.pageTop.hidden = true;
   dom.coinView.hidden = false;
   dom.storeView.hidden = true;
@@ -502,7 +502,7 @@ function syncStickySearchBar() {
     hasCoin: Boolean(state.coinId),
     storeViewHidden: dom.storeView.hidden
   });
-  dom.stickySearchBar.classList.toggle("is-stuck", isStuck);
+  dom.stickySearchBar.classList.toggle("hc-is-stuck", isStuck);
   dom.pageTop.hidden = !shouldShowPageTop({
     scrollY: window.scrollY,
     hasCoin: Boolean(state.coinId),

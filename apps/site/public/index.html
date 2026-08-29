@@ -10,80 +10,80 @@
     <meta name="theme-color" content="#157a6e" />
     <title>はぴコイン使えるお店ナビ</title>
     <link rel="icon" href="data:," />
-    <link rel="stylesheet" href="./styles.css?v=20260829-14" />
-    <script type="module" src="./app.js?v=20260829-2"></script>
+    <link rel="stylesheet" href="./styles.css?v=20260829-16" />
+    <script type="module" src="./app.js?v=20260829-3"></script>
   </head>
   <body>
-    <a class="skip-link" href="#main">本文へ移動</a>
-    <header class="site-header">
-      <button id="home-button" class="brand" type="button" aria-label="コイン選択へ戻る">
-        <span class="brand-mark" aria-hidden="true">は</span>
+    <a class="hc-skip-link" href="#main">本文へ移動</a>
+    <header class="hc-site-header">
+      <button id="home-button" class="hc-brand" type="button" aria-label="コイン選択へ戻る">
+        <span class="hc-brand-mark" aria-hidden="true">は</span>
         <span>
           <strong>はぴコイン使えるお店ナビ</strong>
           <small>ふくいはぴコインのお店探し</small>
         </span>
       </button>
-      <div class="header-notes">
-        <strong class="unofficial-badge">非公式の加盟店検索サイト</strong>
-        <span class="privacy-note">現在地は端末内だけで使用</span>
-      </div>
+      <aside class="hc-header-notes" aria-label="サイトについて">
+        <strong class="hc-unofficial-badge">非公式の加盟店検索サイト</strong>
+        <span class="hc-privacy-note">現在地は端末内だけで使用</span>
+      </aside>
     </header>
 
     <main id="main" tabindex="-1">
-      <section id="coin-view" class="view hero" aria-labelledby="coin-heading" tabindex="-1">
-        <div class="hero-copy">
-          <p class="eyebrow">どのコインで探しますか？</p>
+      <section id="coin-view" class="hc-view hc-hero" aria-labelledby="coin-heading" tabindex="-1">
+        <div class="hc-hero-copy">
+          <p class="hc-eyebrow">どのコインで探しますか？</p>
           <h1 id="coin-heading">
-            <span class="heading-line">使いたいコイン・商品券を</span><br />選んでください
+            <span class="hc-heading-line">使いたいコイン・商品券を</span><br />選んでください
           </h1>
           <p>
-            コインまたは紙商品券を選ぶと、利用できるお店をすぐに<span class="no-break"
+            コインまたは紙商品券を選ぶと、利用できるお店をすぐに<span class="hc-no-break"
               >確認できます。</span
             ><br />
-            このサイトのデータは端末上で<span class="no-break">検索します。</span>
+            このサイトのデータは端末上で<span class="hc-no-break">検索します。</span>
           </p>
         </div>
-        <div id="coin-grid" class="coin-grid" aria-live="polite"></div>
-        <p id="coin-error" class="state-message error" role="alert" hidden></p>
+        <div id="coin-grid" class="hc-coin-grid" aria-live="polite"></div>
+        <p id="coin-error" class="hc-state-message hc-error" role="alert" hidden></p>
       </section>
 
       <section
         id="store-view"
-        class="view store-view"
+        class="hc-view hc-store-view"
         aria-labelledby="store-heading"
         tabindex="-1"
         hidden
       >
-        <div class="search-hero">
-          <button id="change-coin" class="back-button" type="button">
+        <div class="hc-search-hero">
+          <button id="change-coin" class="hc-back-button" type="button">
             <span data-icon="arrow-left" aria-hidden="true"></span>
             コインを選び直す
           </button>
-          <p id="selected-kind-label" class="eyebrow">選択中のコイン</p>
-          <div class="selected-coin-title">
+          <p id="selected-kind-label" class="hc-eyebrow">選択中のコイン</p>
+          <div class="hc-selected-coin-title">
             <span id="selected-coin-icon"></span>
             <h1 id="store-heading"></h1>
           </div>
-          <p id="store-description" class="store-description"></p>
+          <p id="store-description" class="hc-store-description"></p>
         </div>
 
-        <span id="sticky-search-sentinel" class="sticky-search-sentinel" aria-hidden="true"></span>
-        <div class="sticky-search-bar" aria-label="現在の検索条件">
+        <span id="sticky-search-sentinel" class="hc-sticky-search-sentinel" aria-hidden="true"></span>
+        <div class="hc-sticky-search-bar" aria-label="現在の検索条件">
           <button
             id="sticky-change-coin"
-            class="sticky-coin-button"
+            class="hc-sticky-coin-button"
             type="button"
             aria-label="コインを選び直す"
           >
             <span id="sticky-coin-icon"></span>
-            <span class="sticky-coin-text">
+            <span class="hc-sticky-coin-text">
               <small>選択中</small>
               <strong id="sticky-coin-name"></strong>
             </span>
           </button>
-          <div class="search-box">
-            <label class="visually-hidden" for="keyword">店名・住所から探す</label>
-            <div class="search-input">
+          <div class="hc-search-box">
+            <label class="hc-visually-hidden" for="keyword">店名・住所から探す</label>
+            <div class="hc-search-input">
               <span data-icon="search" aria-hidden="true"></span>
               <input
                 id="keyword"
@@ -96,8 +96,8 @@
           </div>
         </div>
 
-        <div class="location-panel">
-          <div class="location-icon" aria-hidden="true">
+        <section class="hc-location-panel" aria-labelledby="location-title">
+          <div class="hc-location-icon" aria-hidden="true">
             <span data-icon="map-pin"></span>
           </div>
           <div>
@@ -106,27 +106,27 @@
               許可した場合だけ距離を計算します。現在地は保存・送信されません。
             </p>
           </div>
-          <button id="location-button" class="primary-button" type="button">現在地を使う</button>
-        </div>
+          <button id="location-button" class="hc-primary-button" type="button">現在地を使う</button>
+        </section>
 
-        <div class="results-heading">
+        <header class="hc-results-heading">
           <div>
-            <p class="eyebrow">検索結果</p>
+            <p class="hc-eyebrow">検索結果</p>
             <h2><span id="result-count">0</span>件のお店</h2>
-            <p id="filter-status" class="filter-status">すべてのカテゴリ</p>
+            <p id="filter-status" class="hc-filter-status">すべてのカテゴリ</p>
           </div>
-          <span id="sort-status" class="sort-status">登録順</span>
-        </div>
+          <span id="sort-status" class="hc-sort-status">登録順</span>
+        </header>
 
-        <div id="result-list" class="result-list" aria-live="polite"></div>
-        <div id="result-sentinel" class="result-sentinel" hidden>
-          <button id="load-more" class="secondary-button" type="button">さらに表示</button>
+        <div id="result-list" class="hc-result-list" aria-live="polite"></div>
+        <div id="result-sentinel" class="hc-result-sentinel" hidden>
+          <button id="load-more" class="hc-secondary-button" type="button">さらに表示</button>
         </div>
-        <div id="empty-state" class="empty-state" hidden>
+        <div id="empty-state" class="hc-empty-state" hidden>
           <span data-icon="search" aria-hidden="true"></span>
           <h2>条件に合うお店がありません</h2>
           <p>カテゴリを「すべて」に戻すか、検索語を短くしてお試しください。</p>
-          <button id="reset-filters" class="secondary-button" type="button">
+          <button id="reset-filters" class="hc-secondary-button" type="button">
             <span data-icon="rotate-ccw" aria-hidden="true"></span>
             条件をすべて戻す
           </button>
@@ -134,33 +134,33 @@
       </section>
     </main>
 
-    <nav id="category-nav" class="category-nav" aria-label="カテゴリで絞り込む" hidden>
-      <div id="category-menu" class="category-menu"></div>
+    <nav id="category-nav" class="hc-category-nav" aria-label="カテゴリで絞り込む" hidden>
+      <div id="category-menu" class="hc-category-menu"></div>
     </nav>
 
-    <button id="page-top" class="page-top" type="button" hidden>
+    <button id="page-top" class="hc-page-top" type="button" hidden>
       <span aria-hidden="true">↑</span>
       ページトップ
     </button>
 
-    <dialog id="category-dialog" class="category-dialog" aria-labelledby="category-dialog-title">
-      <div class="dialog-heading">
+    <dialog id="category-dialog" class="hc-category-dialog" aria-labelledby="category-dialog-title">
+      <div class="hc-dialog-heading">
         <div>
-          <p class="eyebrow">カテゴリで絞り込む</p>
+          <p class="hc-eyebrow">カテゴリで絞り込む</p>
           <h2 id="category-dialog-title">お店の種類を選択</h2>
         </div>
-        <button id="category-dialog-close" class="dialog-close" type="button" aria-label="閉じる">
+        <button id="category-dialog-close" class="hc-dialog-close" type="button" aria-label="閉じる">
           <span data-icon="x" aria-hidden="true"></span>
         </button>
       </div>
-      <p class="category-dialog-description">
+      <p class="hc-category-dialog-description">
         選択中のコインを利用できる店舗に登録されたカテゴリだけを表示しています。
       </p>
-      <div id="category-detail-menu" class="category-detail-menu"></div>
+      <div id="category-detail-menu" class="hc-category-detail-menu"></div>
     </dialog>
 
     <noscript>
-      <p class="noscript">このサイトの店舗検索にはJavaScriptが必要です。</p>
+      <p class="hc-noscript">このサイトの店舗検索にはJavaScriptが必要です。</p>
     </noscript>
   </body>
 </html>
