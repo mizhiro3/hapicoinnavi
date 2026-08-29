@@ -173,6 +173,24 @@ input:focus-visible {
   font-size: 0.76rem;
 }
 
+.header-notes {
+  display: flex;
+  gap: 0.55rem;
+  align-items: center;
+}
+
+.unofficial-badge {
+  padding: 0.4rem 0.7rem;
+  color: var(--white);
+  font-size: 0.74rem;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  background: var(--coral);
+  border: 1px solid #ffb09f;
+  border-radius: 999px;
+  box-shadow: 0 2px 0 rgba(7, 76, 69, 0.2);
+}
+
 .view {
   width: min(1120px, calc(100% - 2rem));
   margin: auto;
@@ -1372,6 +1390,19 @@ body {
     padding: 0.9rem 1rem;
   }
 
+  .header-notes {
+    flex: 0 0 auto;
+  }
+
+  .unofficial-badge {
+    max-width: 8.5rem;
+    padding: 0.4rem 0.55rem;
+    font-size: 0.68rem;
+    line-height: 1.35;
+    text-align: center;
+    white-space: normal;
+  }
+
   .view {
     width: min(100% - 1.25rem, 1120px);
   }
@@ -1442,6 +1473,24 @@ body {
 }
 
 @media (max-width: 430px) {
+  .site-header {
+    gap: 0.5rem;
+  }
+
+  .brand {
+    gap: 0.55rem;
+  }
+
+  .brand-mark {
+    width: 40px;
+    height: 40px;
+  }
+
+  .unofficial-badge {
+    max-width: 6.5rem;
+    font-size: 0.62rem;
+  }
+
   .coin-tile {
     min-height: 148px;
     padding: 0.8rem;
