@@ -668,7 +668,7 @@ async function loadData() {
     const crawlDate = formatCrawlDate(versionData.crawledAt);
     if (crawlDate && dom.dataAsOf) {
       dom.dataAsOf.dateTime = versionData.crawledAt;
-      dom.dataAsOf.textContent = `${crawlDate}時点の店舗情報`;
+      dom.dataAsOf.textContent = `${crawlDate}時点の情報`;
       dom.dataAsOf.hidden = false;
     }
     const coinResponse = await fetch(
