@@ -48,6 +48,8 @@ const CATEGORY_GROUPS = [
   }
 ];
 
+const STORE_PAGE_SIZE = 40;
+
 export function normalizeText(value) {
   return String(value ?? "")
     .normalize("NFKC")
@@ -130,6 +132,10 @@ export function filterAndSortStores(stores, { coinId, category, keyword, positio
     );
 }
 
+export function nextStorePage(stores, start, pageSize = STORE_PAGE_SIZE) {
+  return stores.slice(start, start + pageSize);
+}
+
 const dom = typeof document === "undefined" ? null : {
   coinView: document.querySelector("#coin-view"),
   storeView: document.querySelector("#store-view"),
@@ -154,6 +160,8 @@ const dom = typeof document === "undefined" ? null : {
   sortStatus: document.querySelector("#sort-status"),
   filterStatus: document.querySelector("#filter-status"),
   resultList: document.querySelector("#result-list"),
+  resultSentinel: document.querySelector("#result-sentinel"),
+  loadMore: document.querySelector("#load-more"),
   emptyState: document.querySelector("#empty-state"),
   resetFilters: document.querySelector("#reset-filters"),
   pageTop: document.querySelector("#page-top"),
@@ -167,6 +175,11 @@ const dom = typeof document === "undefined" ? null : {
 const state = {
   coins: [],
   stores: [],
+  assetVersion: "",
+  storesLoaded: false,
+  storesPromise: null,
+  filteredStores: [],
+  visibleStoreCount: 0,
   coinId: null,
   category: "all",
   keyword: "",
@@ -213,7 +226,9 @@ function coinIcon(coin, className, altText = coin.name, loading = "lazy") {
   const wrapper = document.createElement("span");
   wrapper.className = className;
   const image = document.createElement("img");
-  image.src = coin.logo;
+  image.src = state.assetVersion
+    ? `${coin.logo}?v=${encodeURIComponent(state.assetVersion)}`
+    : coin.logo;
   image.alt = altText;
   image.loading = loading;
   const fallback = safeTextElement("span", "coin-icon-fallback", coin.name.slice(0, 1));
@@ -403,15 +418,28 @@ function makeStoreCard(store) {
 
 function renderStores() {
   const stores = filterAndSortStores(state.stores, state);
+  state.filteredStores = stores;
+  state.visibleStoreCount = 0;
   dom.resultCount.textContent = String(stores.length);
   dom.sortStatus.textContent = state.position ? "現在地から近い順" : "登録順";
   dom.filterStatus.textContent = `カテゴリ：${categoryLabel(state.category)}`;
-  dom.resultList.replaceChildren(...stores.map(makeStoreCard));
+  dom.resultList.replaceChildren();
   dom.resultList.hidden = stores.length === 0;
   dom.emptyState.hidden = stores.length > 0;
+  showMoreStores();
 }
 
-function selectCoin(coinId) {
+function showMoreStores() {
+  const start = state.visibleStoreCount;
+  const end = Math.min(start + STORE_PAGE_SIZE, state.filteredStores.length);
+  if (end > start) {
+    dom.resultList.append(...nextStorePage(state.filteredStores, start).map(makeStoreCard));
+  }
+  state.visibleStoreCount = end;
+  dom.resultSentinel.hidden = end >= state.filteredStores.length;
+}
+
+async function selectCoin(coinId) {
   const coin = state.coins.find((item) => item.id === coinId && item.published);
   if (!coin) {
     showCoinSelection();
@@ -431,13 +459,29 @@ function selectCoin(coinId) {
   dom.storeDescription.textContent = coin.description;
   dom.coinView.hidden = true;
   dom.storeView.hidden = false;
-  dom.categoryNav.hidden = false;
-  renderCategoryMenu();
-  renderStores();
+  dom.categoryNav.hidden = true;
+  dom.resultCount.textContent = "0";
+  dom.sortStatus.textContent = "店舗情報を読み込んでいます";
+  dom.resultList.replaceChildren();
+  dom.resultSentinel.hidden = true;
+  dom.emptyState.hidden = true;
   window.history.replaceState(null, "", `#coin=${encodeURIComponent(coin.id)}`);
   dom.storeView.focus?.();
   window.scrollTo({ top: 0 });
   scheduleStickySearchSync();
+  try {
+    await ensureStoresLoaded();
+    if (state.coinId !== coin.id) return;
+    dom.categoryNav.hidden = false;
+    renderCategoryMenu();
+    renderStores();
+  } catch {
+    dom.sortStatus.textContent = "読込エラー";
+    dom.resultList.hidden = false;
+    dom.resultList.replaceChildren(
+      safeTextElement("p", "empty-state", "店舗データを読み込めませんでした。ページを再読み込みしてください。")
+    );
+  }
 }
 
 function showCoinSelection() {
@@ -531,17 +575,57 @@ function observeStickySearchBar() {
   }
 }
 
+function observeStorePagination() {
+  dom.loadMore.addEventListener("click", showMoreStores);
+  if ("IntersectionObserver" in window) {
+    const observer = new IntersectionObserver((entries) => {
+      if (entries.some((entry) => entry.isIntersecting) && !dom.resultSentinel.hidden) {
+        showMoreStores();
+      }
+    }, { rootMargin: "300px 0px" });
+    observer.observe(dom.resultSentinel);
+  }
+}
+
+async function ensureStoresLoaded() {
+  if (state.storesLoaded) return state.stores;
+  if (state.storesPromise) return state.storesPromise;
+  state.storesPromise = fetch(
+    `./data/stores.json?v=${encodeURIComponent(state.assetVersion)}`,
+    { cache: "force-cache" }
+  )
+    .then((response) => {
+      if (!response.ok) throw new Error("store response was not successful");
+      return response.json();
+    })
+    .then((stores) => {
+      if (!Array.isArray(stores)) throw new Error("store data is not an array");
+      state.stores = stores;
+      state.storesLoaded = true;
+      return stores;
+    })
+    .catch((error) => {
+      state.storesPromise = null;
+      throw error;
+    });
+  return state.storesPromise;
+}
+
 async function loadData() {
   try {
-    const [coinResponse, storeResponse] = await Promise.all([
-      fetch("./data/coins.json"),
-      fetch("./data/stores.json")
-    ]);
-    if (!coinResponse.ok || !storeResponse.ok) throw new Error("data response was not successful");
-    const [coins, stores] = await Promise.all([coinResponse.json(), storeResponse.json()]);
-    if (!Array.isArray(coins) || !Array.isArray(stores)) throw new Error("data is not an array");
+    const versionResponse = await fetch("./data/version.json", { cache: "no-store" });
+    if (!versionResponse.ok) throw new Error("version response was not successful");
+    const versionData = await versionResponse.json();
+    if (typeof versionData.version !== "string") throw new Error("version is invalid");
+    state.assetVersion = versionData.version;
+    const coinResponse = await fetch(
+      `./data/coins.json?v=${encodeURIComponent(state.assetVersion)}`,
+      { cache: "force-cache" }
+    );
+    if (!coinResponse.ok) throw new Error("coin response was not successful");
+    const coins = await coinResponse.json();
+    if (!Array.isArray(coins)) throw new Error("coin data is not an array");
     state.coins = coins;
-    state.stores = stores;
     renderCoins();
     const coinId = new URLSearchParams(window.location.hash.slice(1)).get("coin");
     if (coinId) selectCoin(coinId);
@@ -555,6 +639,7 @@ async function loadData() {
 if (dom) {
   renderStaticIcons();
   observeStickySearchBar();
+  observeStorePagination();
   dom.homeButton.addEventListener("click", showCoinSelection);
   dom.changeCoin.addEventListener("click", showCoinSelection);
   dom.stickyChangeCoin.addEventListener("click", showCoinSelection);

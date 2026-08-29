@@ -11,7 +11,7 @@
     <title>はぴコイン使えるお店ナビ</title>
     <link rel="icon" href="data:," />
     <link rel="stylesheet" href="./styles.css?v=20260728-10" />
-    <script type="module" src="./app.js?v=20260728-10"></script>
+    <script type="module" src="./app.js?v=20260829-2"></script>
   </head>
   <body>
     <a class="skip-link" href="#main">本文へ移動</a>
@@ -116,6 +116,9 @@
         </div>
 
         <div id="result-list" class="result-list" aria-live="polite"></div>
+        <div id="result-sentinel" class="result-sentinel" hidden>
+          <button id="load-more" class="secondary-button" type="button">さらに表示</button>
+        </div>
         <div id="empty-state" class="empty-state" hidden>
           <span data-icon="search" aria-hidden="true"></span>
           <h2>条件に合うお店がありません</h2>

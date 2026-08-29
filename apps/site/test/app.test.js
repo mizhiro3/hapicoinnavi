@@ -6,6 +6,7 @@ import {
   formatDisplayText,
   formatDistance,
   normalizeText,
+  nextStorePage,
   shouldShowPageTop,
   shouldShowStickyCoin,
   storeMatchesCategory
@@ -140,4 +141,17 @@ test("shows the page-top control only after scrolling the store view", () => {
     shouldShowPageTop({ scrollY: 800, hasCoin: true, storeViewHidden: true }),
     false
   );
+});
+
+test("shows stores in stable pages without changing their sorted order", () => {
+  const sorted = Array.from({ length: 95 }, (_, index) => ({ id: index }));
+  assert.deepEqual(nextStorePage(sorted, 0).map((store) => store.id), [
+    ...Array.from({ length: 40 }, (_, index) => index)
+  ]);
+  assert.deepEqual(nextStorePage(sorted, 40).map((store) => store.id), [
+    ...Array.from({ length: 40 }, (_, index) => index + 40)
+  ]);
+  assert.deepEqual(nextStorePage(sorted, 80).map((store) => store.id), [
+    ...Array.from({ length: 15 }, (_, index) => index + 80)
+  ]);
 });

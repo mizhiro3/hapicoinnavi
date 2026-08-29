@@ -10,6 +10,7 @@
     "build:data": "npm run build --workspace=@hapicoinnavi/data-builder",
     "crawl:stores": "npm run crawl:stores --workspace=@hapicoinnavi/data-builder --",
     "import:coins": "npm run import:coins --workspace=@hapicoinnavi/data-builder",
+    "process:coin-image": "node tools/data-builder/src/process-coin-image.js",
     "validate:data": "npm run validate --workspace=@hapicoinnavi/data-builder",
     "test": "npm run test --workspaces --if-present"
   },

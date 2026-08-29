@@ -719,6 +719,16 @@ h2 {
   background: var(--yellow);
 }
 
+.result-sentinel {
+  display: flex;
+  justify-content: center;
+  padding: 1.25rem 0 2rem;
+}
+
+.result-sentinel[hidden] {
+  display: none;
+}
+
 .distance {
   min-width: 76px;
   color: var(--green);
