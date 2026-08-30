@@ -147,6 +147,13 @@ export function nextStorePage(stores, start, pageSize = STORE_PAGE_SIZE) {
   return stores.slice(start, start + pageSize);
 }
 
+export function safeCoinLogoPath(value, coinId) {
+  if (typeof value !== "string" || typeof coinId !== "string") return null;
+  const safeId = /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(coinId);
+  const safePath = /^assets\/coins\/[a-z0-9]+(?:-[a-z0-9]+)*\.svg$/.test(value);
+  return safeId && safePath ? value : null;
+}
+
 const dom = typeof document === "undefined" ? null : {
   coinView: document.querySelector("#coin-view"),
   storeView: document.querySelector("#store-view"),
@@ -257,14 +264,18 @@ function coinIcon(coin, className, altText = coin.name, loading = "lazy") {
   const wrapper = document.createElement("span");
   wrapper.className = className;
   const image = document.createElement("img");
-  image.src = state.assetVersion
-    ? `${coin.logo}?v=${encodeURIComponent(state.assetVersion)}`
-    : coin.logo;
   image.alt = altText;
   image.loading = loading;
   const fallback = safeTextElement("span", "hc-coin-icon-fallback", coin.name.slice(0, 1));
   fallback.setAttribute("aria-hidden", "true");
-  fallback.hidden = true;
+  const logo = safeCoinLogoPath(coin.logo, coin.id);
+  image.hidden = !logo;
+  fallback.hidden = Boolean(logo);
+  if (logo) {
+    image.src = state.assetVersion
+      ? `${logo}?v=${encodeURIComponent(state.assetVersion)}`
+      : logo;
+  }
   image.addEventListener("error", () => {
     image.hidden = true;
     fallback.hidden = false;
