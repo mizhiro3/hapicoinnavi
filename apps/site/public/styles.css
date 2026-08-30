@@ -1167,7 +1167,7 @@ body {
   padding: 1rem max(1.25rem, calc((100% - 1120px) / 2));
   color: var(--white);
   background: var(--green);
-  border-radius: 0 0 2rem 2rem;
+  border-radius: 0;
   box-shadow: 0 4px 0 rgba(14, 87, 79, 0.16);
 }
 
