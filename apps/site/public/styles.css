@@ -369,6 +369,7 @@ h2 {
 .hc-coin-labeled-icon img {
   width: 100%;
   height: 100%;
+  border-radius: 7px;
   object-fit: contain;
 }
 
@@ -1263,8 +1264,7 @@ body {
     var(--shadow);
 }
 
-.hc-coin-labeled-icon {
-  overflow: hidden;
+.hc-coin-labeled-icon .hc-coin-icon-fallback {
   background: #f6f8f5;
   border: 1px solid #c9ded8;
   border-radius: 0.9rem;
