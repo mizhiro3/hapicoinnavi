@@ -21,8 +21,8 @@ test("allows only the expected same-origin coin logo path", () => {
     "assets/coins/main-wallet.svg"
   );
   assert.equal(
-    safeCoinLogoPath("assets/coins/paper-voucher.svg", "obama-gift-certificate"),
-    "assets/coins/paper-voucher.svg"
+    safeCoinLogoPath("assets/coins/obama-gift-certificate.svg", "obama-gift-certificate"),
+    "assets/coins/obama-gift-certificate.svg"
   );
   assert.equal(safeCoinLogoPath("https://tracker.example/logo.svg", "main-wallet"), null);
   assert.equal(safeCoinLogoPath("assets/coins/../other.svg", "main-wallet"), null);
