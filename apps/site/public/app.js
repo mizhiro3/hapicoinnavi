@@ -266,6 +266,7 @@ function coinIcon(coin, className, altText = coin.name, loading = "lazy") {
   const image = document.createElement("img");
   image.alt = altText;
   image.loading = loading;
+  image.dataset.coinId = coin.id;
   const fallback = safeTextElement("span", "hc-coin-icon-fallback", coin.name.slice(0, 1));
   fallback.setAttribute("aria-hidden", "true");
   const logo = safeCoinLogoPath(coin.logo, coin.id);

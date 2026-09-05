@@ -1081,6 +1081,14 @@ h2 {
 }
 
 @media (max-width: 430px) {
+  .hc-coin-icon-only-image img:is(
+      [data-coin-id="sabae-wallet"],
+      [data-coin-id="hapibase-wallet"],
+      [data-coin-id="fukutama-wallet"]
+    ) {
+    border-radius: 4px;
+  }
+
   .hc-page-top {
     right: max(0.65rem, env(safe-area-inset-right));
     bottom: calc(5.4rem + env(safe-area-inset-bottom));
