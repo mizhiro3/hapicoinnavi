@@ -303,20 +303,27 @@ function renderCoins() {
       (coin) => (coin.kind ?? "digital") === kind
     );
     if (groupCoins.length === 0) continue;
-    dom.coinGrid.append(safeTextElement("h2", "hc-coin-group-title", label));
+    const grid = document.createElement("div");
+    grid.className =
+      kind === "paper" ? "hc-coin-grid hc-coin-grid--paper" : "hc-coin-grid hc-coin-grid--icon";
+    dom.coinGrid.append(safeTextElement("h2", "hc-coin-group-title", label), grid);
     for (const coin of groupCoins) {
       const button = document.createElement("button");
-      button.className = "hc-coin-tile hc-coin-tile--compact";
       button.type = "button";
       button.dataset.coinId = coin.id;
       button.setAttribute("aria-label", `${coin.name}でお店を探す`);
-
-      const symbol = coinIcon(coin, "hc-coin-symbol");
-      button.append(symbol, safeTextElement("strong", "", coin.name));
-      button.append(createIcon("chevron-right", "hc-arrow"));
-      button.lastElementChild.setAttribute("aria-hidden", "true");
+      if (kind === "paper") {
+        button.className = "hc-coin-labeled";
+        button.append(
+          coinIcon(coin, "hc-coin-labeled-icon"),
+          safeTextElement("strong", "hc-coin-labeled-name", coin.name)
+        );
+      } else {
+        button.className = "hc-coin-icon-only";
+        button.append(coinIcon(coin, "hc-coin-icon-only-image"));
+      }
       button.addEventListener("click", () => selectCoin(coin.id));
-      dom.coinGrid.append(button);
+      grid.append(button);
     }
   }
 }

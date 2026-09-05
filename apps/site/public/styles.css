@@ -256,15 +256,28 @@ h2 {
   white-space: nowrap;
 }
 
+.hc-coin-groups {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
 .hc-coin-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
 }
 
+.hc-coin-grid--icon {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.hc-coin-grid--paper {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .hc-coin-group-title {
-  grid-column: 1 / -1;
-  margin: 1.25rem 0 0;
+  margin: 1.5rem 0 0.25rem;
   color: var(--green-dark);
   font-size: 1.15rem;
 }
@@ -273,17 +286,61 @@ h2 {
   margin-top: 0;
 }
 
-.hc-coin-tile {
-  position: relative;
+/* サイフ・ポイント: カードなしでアイコンを大きく表示 */
+.hc-coin-icon-only {
+  display: block;
+  padding: 0;
+  background: none;
+  border: 0;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  transition: transform 160ms ease;
+}
+
+.hc-coin-icon-only:hover {
+  transform: translateY(-2px);
+}
+
+.hc-coin-icon-only:focus-visible {
+  outline: 3px solid var(--green);
+  outline-offset: 2px;
+}
+
+.hc-coin-icon-only-image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}
+
+.hc-coin-icon-only-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 14px;
+  object-fit: contain;
+}
+
+.hc-coin-icon-only-image .hc-coin-icon-fallback {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  color: var(--green-dark);
+  font-size: 2rem;
+  font-weight: 900;
+  background: var(--yellow);
+  border-radius: 1.15rem;
+  place-items: center;
+}
+
+/* 紙商品券: アイコン + テキスト名 */
+.hc-coin-labeled {
   display: flex;
-  flex-direction: column;
-  min-height: 230px;
-  padding: 1.4rem;
-  overflow: hidden;
+  gap: 0.85rem;
+  align-items: center;
+  padding: 0.9rem 1rem;
   text-align: left;
   background: var(--white);
   border: 1px solid rgba(11, 104, 93, 0.12);
-  border-radius: 1.5rem;
+  border-radius: 1rem;
   box-shadow: var(--shadow);
   cursor: pointer;
   transition:
@@ -291,41 +348,44 @@ h2 {
     box-shadow 160ms ease;
 }
 
-.hc-coin-tile::after {
-  position: absolute;
-  right: -1.5rem;
-  bottom: -2rem;
-  width: 8rem;
-  height: 8rem;
-  background: var(--mint);
-  border-radius: 47% 53% 58% 42%;
-  content: "";
-  transform: rotate(15deg);
+.hc-coin-labeled:hover {
+  box-shadow: 0 14px 36px rgba(23, 50, 46, 0.14);
+  transform: translateY(-2px);
 }
 
-.hc-coin-tile:hover {
-  box-shadow: 0 18px 48px rgba(23, 50, 46, 0.16);
-  transform: translateY(-3px);
+.hc-coin-labeled:focus-visible {
+  outline: 3px solid var(--green);
+  outline-offset: 2px;
 }
 
-.hc-coin-symbol {
+.hc-coin-labeled-icon {
   display: grid;
-  width: 58px;
-  height: 58px;
-  margin-bottom: auto;
-  color: var(--green-dark);
-  font-size: 1.3rem;
-  font-weight: 900;
-  background: var(--yellow);
-  border-radius: 18px;
+  flex: 0 0 auto;
+  width: 52px;
+  height: 52px;
   place-items: center;
-  transform: rotate(-3deg);
 }
 
-.hc-coin-symbol img {
+.hc-coin-labeled-icon img {
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+
+.hc-coin-labeled-icon .hc-coin-icon-fallback {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  color: var(--green-dark);
+  font-weight: 900;
+  background: var(--yellow);
+  border-radius: 0.8rem;
+  place-items: center;
+}
+
+.hc-coin-labeled-name {
+  font-size: 1rem;
+  line-height: 1.4;
 }
 
 .hc-coin-icon-fallback {
@@ -333,30 +393,6 @@ h2 {
   width: 100%;
   height: 100%;
   place-items: center;
-}
-
-.hc-coin-tile strong {
-  position: relative;
-  z-index: 1;
-  margin-top: 1.5rem;
-  font-size: 1.16rem;
-}
-
-.hc-coin-tile small {
-  position: relative;
-  z-index: 1;
-  margin-top: 0.45rem;
-  color: var(--muted);
-  line-height: 1.55;
-}
-
-.hc-coin-tile .hc-arrow {
-  position: absolute;
-  z-index: 1;
-  right: 1.25rem;
-  bottom: 1.2rem;
-  font-size: 1.35rem;
-  font-weight: 900;
 }
 
 .hc-store-view {
@@ -408,20 +444,23 @@ h2 {
   flex: 0 0 auto;
   width: clamp(64px, 10vw, 96px);
   height: clamp(64px, 10vw, 96px);
-  overflow: hidden;
   color: var(--green-dark);
   font-size: 1.5rem;
   font-weight: 900;
-  background: var(--white);
-  border: 1px solid #c9ded8;
-  border-radius: 1rem;
   place-items: center;
 }
 
 .hc-selected-coin-image img {
   width: 100%;
   height: 100%;
+  border-radius: 10px;
   object-fit: contain;
+}
+
+.hc-selected-coin-image .hc-coin-icon-fallback {
+  background: var(--white);
+  border: 1px solid #c9ded8;
+  border-radius: 1rem;
 }
 
 .hc-store-description {
@@ -476,20 +515,23 @@ h2 {
   flex: 0 0 auto;
   width: 42px;
   height: 42px;
-  overflow: hidden;
   color: var(--green-dark);
   font-size: 0.8rem;
   font-weight: 900;
-  background: var(--white);
-  border: 1px solid #c9ded8;
-  border-radius: 0.7rem;
   place-items: center;
 }
 
 .hc-sticky-coin-image img {
   width: 100%;
   height: 100%;
+  border-radius: 6px;
   object-fit: contain;
+}
+
+.hc-sticky-coin-image .hc-coin-icon-fallback {
+  background: var(--white);
+  border: 1px solid #c9ded8;
+  border-radius: 0.7rem;
 }
 
 .hc-sticky-coin-text {
@@ -763,16 +805,13 @@ h2 {
   flex: 0 0 auto;
   width: 52px;
   height: 52px;
-  overflow: hidden;
-  background: var(--white);
-  border: 1px solid var(--line);
-  border-radius: 0.7rem;
   place-items: center;
 }
 
 .hc-store-coin-icon img {
   width: 100%;
   height: 100%;
+  border-radius: 7px;
   object-fit: contain;
 }
 
@@ -781,6 +820,8 @@ h2 {
   font-size: 1rem;
   font-weight: 900;
   background: var(--yellow);
+  border: 1px solid var(--line);
+  border-radius: 0.7rem;
 }
 
 .hc-result-sentinel {
@@ -1082,12 +1123,8 @@ h2 {
     align-items: flex-start;
   }
 
-  .hc-coin-grid {
+  .hc-coin-grid--paper {
     grid-template-columns: 1fr;
-  }
-
-  .hc-coin-tile {
-    min-height: 195px;
   }
 
   .hc-store-card {
@@ -1219,53 +1256,18 @@ body {
   color: var(--green);
 }
 
-.hc-coin-grid {
-  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-  gap: 1rem;
-}
-
-.hc-coin-tile {
-  min-height: 205px;
-  padding: 1.15rem;
+.hc-coin-labeled {
   border-color: #d5e4df;
-  border-radius: 1.35rem;
   box-shadow:
     0 8px 0 #e8f0ed,
     var(--shadow);
 }
 
-.hc-coin-tile--compact {
-  min-height: 175px;
-}
-
-.hc-coin-tile::after {
-  background: #dff1ec;
-}
-
-.hc-coin-symbol {
-  width: 76px;
-  height: 76px;
+.hc-coin-labeled-icon {
   overflow: hidden;
   background: #f6f8f5;
   border: 1px solid #c9ded8;
-  border-radius: 1.15rem;
-  transform: none;
-}
-
-.hc-coin-tile strong {
-  margin-top: 1.15rem;
-  font-size: 1.05rem;
-}
-
-.hc-coin-tile small {
-  padding-right: 1.5rem;
-  font-size: 0.75rem;
-}
-
-.hc-coin-tile .hc-arrow {
-  width: 1.25rem;
-  height: 1.25rem;
-  color: var(--green);
+  border-radius: 0.9rem;
 }
 
 .hc-store-view {
@@ -1471,35 +1473,23 @@ body {
     font-size: clamp(1.35rem, 7vw, 3.25rem);
   }
 
-  .hc-coin-grid {
+  .hc-coin-grid--icon {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0.6rem;
+  }
+
+  .hc-coin-grid--paper {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 0.75rem;
   }
 
-  .hc-coin-tile {
-    min-height: 160px;
-    padding: 0.9rem;
+  .hc-coin-labeled {
+    padding: 0.75rem 0.85rem;
   }
 
-  .hc-coin-tile--compact {
-    min-height: 140px;
-  }
-
-  .hc-coin-symbol {
-    width: 60px;
-    height: 60px;
-    margin-bottom: 0;
-  }
-
-  .hc-coin-tile strong {
-    margin-top: 0.65rem;
-    padding-right: 1.25rem;
+  .hc-coin-labeled-name {
     font-size: 0.9rem;
     line-height: 1.3;
-  }
-
-  .hc-coin-tile small {
-    display: none;
   }
 
   .hc-search-hero h1 {
@@ -1509,6 +1499,9 @@ body {
   .hc-selected-coin-image {
     width: 58px;
     height: 58px;
+  }
+
+  .hc-selected-coin-image .hc-coin-icon-fallback {
     border-radius: 0.8rem;
   }
 
@@ -1547,22 +1540,16 @@ body {
     font-size: 0.62rem;
   }
 
-  .hc-coin-tile {
-    min-height: 148px;
-    padding: 0.8rem;
+  .hc-coin-labeled {
+    padding: 0.65rem 0.7rem;
   }
 
-  .hc-coin-tile--compact {
-    min-height: 132px;
+  .hc-coin-labeled-icon {
+    width: 44px;
+    height: 44px;
   }
 
-  .hc-coin-symbol {
-    width: 56px;
-    height: 56px;
-  }
-
-  .hc-coin-tile strong {
-    margin-top: 0.5rem;
+  .hc-coin-labeled-name {
     font-size: 0.84rem;
   }
 
@@ -1580,7 +1567,12 @@ body {
     display: none;
   }
 
-  .hc-coin-grid {
+  .hc-coin-grid--icon {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.5rem;
+  }
+
+  .hc-coin-grid--paper {
     grid-template-columns: 1fr;
   }
 }
