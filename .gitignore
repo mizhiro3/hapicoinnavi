@@ -33,3 +33,6 @@ yarn-error.log*
 /apps/site/public/assets/coins_del_chara/
 /apps/site/public/assets/coins_original/
 /docs/
+!/docs/
+/docs/*
+!/docs/spec.md
